@@ -78,4 +78,14 @@ warning: 299 Elasticsearch-7.9.1-083627f112ba94dffc1232e8b42b73492789ef91 "[type
 
 browse to the web server  (http://localhost) and hit refresh a few times to generate some data
 
-browse to kibana and setup an index (fluentd-*) using the 
+browse to kibana and setup an index (fluentd-*) :
+
+![index pattern](images/es-index-pattern.png)
+
+using @timestamp for time:
+
+![index pattern](images/es-index-timestamp.png)
+
+
+Now  go back to the kibana discover page to see the event data.  YOu can generate more events by refreshing:
+http://localhost:80
