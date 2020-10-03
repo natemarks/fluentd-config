@@ -1,4 +1,5 @@
 .idea
 *.docker.env
-/esdata/
+!/esdata/
 /esdata/*
+!/esdata/.gitkeep

@@ -3,10 +3,10 @@
 
 docker-conpose starts 4 hosts:
 
- - web
- - fluentd
- - elasticsearch
- - kibana
+ - web (localhost:80)
+ - fluentd (localhost:24224)
+ - elasticsearch (localhost:9200)
+ - kibana (localhost:5601)
 
 
 To play with it, start the containers:
@@ -75,3 +75,7 @@ docker logs -f $(docker ps | grep fluentd-config_fluentd | awk '{print $1}')
 warning: 299 Elasticsearch-7.9.1-083627f112ba94dffc1232e8b42b73492789ef91 "[types removal] Specifying types in bulk requests is deprecated."
 
 ```
+
+browse to the web server  (http://localhost) and hit refresh a few times to generate some data
+
+browse to kibana and setup an index (fluentd-*) using the 
