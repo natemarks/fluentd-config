@@ -1,7 +1,8 @@
 # fluentd-config
 
+The purpose of this project is to test various iterations of docker/fluentd/conf/fluent.conf
 
-docker-conpose starts 4 hosts:
+docker-compose starts 4 hosts:
 
  - web (localhost:80)
  - fluentd (localhost:24224)
