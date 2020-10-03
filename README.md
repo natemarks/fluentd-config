@@ -88,5 +88,21 @@ using @timestamp for time:
 ![index pattern](images/es-index-timestamp.png)
 
 
-Now  go back to the kibana discover page to see the event data.  YOu can generate more events by refreshing:
+Now  go back to the kibana discover page to see the event data.  Yu can generate more events by refreshing:
 http://localhost:80
+
+to check logs no the fluent container:
+```shell script
+docker logs -f $(docker ps | grep fluentd-config_fluentd | awk '{print $1}')
+```
+
+To get a shell in the fluent container
+```shell script
+docker exec -it  $(docker ps | grep fluentd-config_fluentd | awk '{print $1}') /bin/bash
+```
+
+
+To tets a new configuration, just edit the file docker/fluentd/conf/fluent.conf then  run:
+```shell script
+make restart
+```

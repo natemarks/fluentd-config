@@ -17,7 +17,7 @@ services:
   fluentd:
     build: ./docker/fluentd
     volumes:
-      - ./docker/fluentd/conf:/fluentd/etc
+      - "./docker/fluentd/conf/fluent.conf:/fluentd/etc/fluent.conf:rw"
     links:
       - "elasticsearch"
     ports:
