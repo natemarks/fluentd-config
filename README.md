@@ -1,6 +1,6 @@
 # fluentd-config
 
-The purpose of this project is to test various iterations of docker/fluentd/conf/fluent.conf
+The purpose of this project is to test various iterations of docker/fluentd/conf/fluent.conf. Thne docker/fluentd/conf directory contains  some experimental config and a README that describes what each config does and how to use it.
 
 docker-compose starts 4 hosts:
 

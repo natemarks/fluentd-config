@@ -26,9 +26,9 @@ and change the docker-compose mount to point to the live syslog
       - "/var/log/syslog:/tmp/syslog:ro"
 ```
 
-now restart everything and drop some easily searchable test messages into syslog
+now restart fluentd and drop some easily searchable test messages into syslog
 ```shell script
-make restart
+docker-compose stop fluentd && docker-compose up -d fluentd
 logger "generous carrots-1"
 logger "generous carrots-2"
 logger "generous carrots-3"
