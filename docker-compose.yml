@@ -16,8 +16,12 @@ services:
 
   fluentd:
     build: ./docker/fluentd
+    environment:
+      TZ: "America/New_York" # CRITICAL!  fluentd uses localtime as default
     volumes:
       - "./docker/fluentd/conf/fluent.conf:/fluentd/etc/fluent.conf:rw"
+#      - "./docker/fluentd/sample_data/syslog:/tmp/syslog:ro"
+      - "/var/log/syslog:/tmp/syslog:ro"
     links:
       - "elasticsearch"
     ports:

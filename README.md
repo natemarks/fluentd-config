@@ -9,6 +9,10 @@ docker-compose starts 4 hosts:
  - elasticsearch (localhost:9200)
  - kibana (localhost:5601)
 
+**IMPORTANT NOTE:**
+
+my host is ubuntu 2020.4 and the syslog timezone is not in the RFC3164 syslog format so fluentd uses the local timezone as the default. The local timezone is the docker container timezone, so it's important that I configure docker compose so the container timezone is the same as my host timezone or things get confusing
+
 
 To play with it, start the containers:
 ```shell script
@@ -102,7 +106,34 @@ docker exec -it  $(docker ps | grep fluentd-config_fluentd | awk '{print $1}') /
 ```
 
 
-To tets a new configuration, just edit the file docker/fluentd/conf/fluent.conf then  run:
+To test a new fluents config and watch the logs, just edit the file docker/fluentd/conf/fluent.conf then  run:
 ```shell script
-make restart
+docker-compose restart fluentd && docker logs -f $(docker ps | grep fluentd-config_fluentd | awk '{print $1}'
+```
+
+
+## Managing Elasticsearch data
+
+
+
+
+list the indices in this example:
+
+https://www.elastic.co/guide/en/elasticsearch/reference/current/cat-indices.html
+
+```shell script
+curl -X GET "localhost:9200/_cat/indices/fluentd-*?v&s=index&pretty"
+health status index            uuid                   pri rep docs.count docs.deleted store.size pri.store.size
+yellow open   fluentd-20201003 RCcSzRvgSLWVi_46cE4zkw   1   1        406            0    112.6kb        112.6kb
+yellow open   fluentd-20201004 k5oUyzKfQsy5CnnZ2Livfw   1   1        282            0      151kb          151kb
+
+```
+
+drop an index:
+
+https://www.elastic.co/guide/en/elasticsearch/reference/current/indices-delete-index.html
+
+```shell script
+curl -X DELETE "localhost:9200/fluentd-20201003?pretty"
+
 ```

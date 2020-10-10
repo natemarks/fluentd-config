@@ -1,0 +1,1318 @@
+Oct  3 07:00:07 nate-Z170XP-SLI gnome-shell[2136]: Window manager warning: WM_TRANSIENT_FOR window 0x3600f88 for 0x3600f92 window override-redirect is an override-redirect window and this is not correct according to the standard, so we'll fallback to the first non-override-redirect window 0x360007d.
+Oct  3 07:00:07 nate-Z170XP-SLI gnome-shell[2136]: Window manager warning: WM_TRANSIENT_FOR window 0x3600f88 for 0x3600f99 window override-redirect is an override-redirect window and this is not correct according to the standard, so we'll fallback to the first non-override-redirect window 0x360007d.
+Oct  3 07:00:08 nate-Z170XP-SLI gnome-shell[2136]: Window manager warning: WM_TRANSIENT_FOR window 0x3600f99 for 0x3600fa0 window override-redirect is an override-redirect window and this is not correct according to the standard, so we'll fallback to the first non-override-redirect window 0x360007d.
+Oct  3 07:00:10 nate-Z170XP-SLI gnome-shell[2136]: Could not create selection source for X11: Format TARGETS not supported
+Oct  3 07:01:26 nate-Z170XP-SLI containerd[954]: time="2020-10-03T07:01:26.914811060-04:00" level=info msg="shim reaped" id=27e4785145da15e2de98b4ac51fc543223bd90ff17a30f1b0235df94df0e1355
+Oct  3 07:01:26 nate-Z170XP-SLI dockerd[1564]: time="2020-10-03T07:01:26.925019450-04:00" level=info msg="ignoring event" module=libcontainerd namespace=moby topic=/tasks/delete type="*events.TaskDelete"
+Oct  3 07:01:26 nate-Z170XP-SLI kernel: [41279.332845] br-f67662cc1afa: port 4(veth3671d70) entered disabled state
+Oct  3 07:01:26 nate-Z170XP-SLI kernel: [41279.332987] vethf555bc4: renamed from eth0
+Oct  3 07:01:26 nate-Z170XP-SLI NetworkManager[866]: <info>  [1601722886.9729] manager: (vethf555bc4): new Veth device (/org/freedesktop/NetworkManager/Devices/106)
+Oct  3 07:01:26 nate-Z170XP-SLI systemd-udevd[46325]: ethtool: autonegotiation is unset or enabled, the speed and duplex are not writable.
+Oct  3 07:01:26 nate-Z170XP-SLI systemd-udevd[46325]: Using default interface naming scheme 'v245'.
+Oct  3 07:01:26 nate-Z170XP-SLI kernel: [41279.379250] br-f67662cc1afa: port 4(veth3671d70) entered disabled state
+Oct  3 07:01:26 nate-Z170XP-SLI avahi-daemon[861]: Interface veth3671d70.IPv6 no longer relevant for mDNS.
+Oct  3 07:01:26 nate-Z170XP-SLI avahi-daemon[861]: Leaving mDNS multicast group on interface veth3671d70.IPv6 with address fe80::1498:edff:fe13:47a5.
+Oct  3 07:01:26 nate-Z170XP-SLI kernel: [41279.387190] device veth3671d70 left promiscuous mode
+Oct  3 07:01:26 nate-Z170XP-SLI kernel: [41279.387194] br-f67662cc1afa: port 4(veth3671d70) entered disabled state
+Oct  3 07:01:27 nate-Z170XP-SLI avahi-daemon[861]: Withdrawing address record for fe80::1498:edff:fe13:47a5 on veth3671d70.
+Oct  3 07:01:27 nate-Z170XP-SLI NetworkManager[866]: <info>  [1601722887.0143] device (veth3671d70): released from master device br-f67662cc1afa
+Oct  3 07:01:27 nate-Z170XP-SLI gnome-shell[1353]: Removing a network device that was not added
+Oct  3 07:01:27 nate-Z170XP-SLI gnome-shell[2136]: Removing a network device that was not added
+Oct  3 07:01:27 nate-Z170XP-SLI gnome-shell[1353]: Removing a network device that was not added
+Oct  3 07:01:27 nate-Z170XP-SLI gnome-shell[2136]: Removing a network device that was not added
+Oct  3 07:01:27 nate-Z170XP-SLI systemd[1]: run-docker-netns-bdca7a855510.mount: Succeeded.
+Oct  3 07:01:27 nate-Z170XP-SLI systemd[1]: var-lib-docker-containers-27e4785145da15e2de98b4ac51fc543223bd90ff17a30f1b0235df94df0e1355-mounts-shm.mount: Succeeded.
+Oct  3 07:01:27 nate-Z170XP-SLI systemd[1]: var-lib-docker-overlay2-774a8b211549b9ed6ee92646f763fa9c5a9a64d50bf1982355296529324f978b-merged.mount: Succeeded.
+Oct  3 07:01:27 nate-Z170XP-SLI systemd[1049]: run-docker-netns-bdca7a855510.mount: Succeeded.
+Oct  3 07:01:27 nate-Z170XP-SLI systemd[1049]: var-lib-docker-containers-27e4785145da15e2de98b4ac51fc543223bd90ff17a30f1b0235df94df0e1355-mounts-shm.mount: Succeeded.
+Oct  3 07:01:27 nate-Z170XP-SLI systemd[1049]: var-lib-docker-overlay2-774a8b211549b9ed6ee92646f763fa9c5a9a64d50bf1982355296529324f978b-merged.mount: Succeeded.
+Oct  3 07:01:27 nate-Z170XP-SLI systemd[1899]: run-docker-netns-bdca7a855510.mount: Succeeded.
+Oct  3 07:01:27 nate-Z170XP-SLI systemd[1899]: var-lib-docker-containers-27e4785145da15e2de98b4ac51fc543223bd90ff17a30f1b0235df94df0e1355-mounts-shm.mount: Succeeded.
+Oct  3 07:01:27 nate-Z170XP-SLI systemd[1899]: var-lib-docker-overlay2-774a8b211549b9ed6ee92646f763fa9c5a9a64d50bf1982355296529324f978b-merged.mount: Succeeded.
+Oct  3 07:01:27 nate-Z170XP-SLI containerd[954]: time="2020-10-03T07:01:27.899853405-04:00" level=info msg="shim reaped" id=0fc24efdd9eef2638576ed3f29298205f78fac4eb6bc8573eabe2782d33310bf
+Oct  3 07:01:27 nate-Z170XP-SLI dockerd[1564]: time="2020-10-03T07:01:27.910201487-04:00" level=info msg="ignoring event" module=libcontainerd namespace=moby topic=/tasks/delete type="*events.TaskDelete"
+Oct  3 07:01:27 nate-Z170XP-SLI kernel: [41280.319650] br-f67662cc1afa: port 2(veth37c0d83) entered disabled state
+Oct  3 07:01:27 nate-Z170XP-SLI kernel: [41280.320380] veth3d3e1b7: renamed from eth0
+Oct  3 07:01:27 nate-Z170XP-SLI NetworkManager[866]: <info>  [1601722887.9847] manager: (veth3d3e1b7): new Veth device (/org/freedesktop/NetworkManager/Devices/107)
+Oct  3 07:01:27 nate-Z170XP-SLI systemd-udevd[46338]: ethtool: autonegotiation is unset or enabled, the speed and duplex are not writable.
+Oct  3 07:01:27 nate-Z170XP-SLI kernel: [41280.389465] br-f67662cc1afa: port 2(veth37c0d83) entered disabled state
+Oct  3 07:01:27 nate-Z170XP-SLI avahi-daemon[861]: Interface veth37c0d83.IPv6 no longer relevant for mDNS.
+Oct  3 07:01:27 nate-Z170XP-SLI avahi-daemon[861]: Leaving mDNS multicast group on interface veth37c0d83.IPv6 with address fe80::38b1:6eff:fe64:a20d.
+Oct  3 07:01:27 nate-Z170XP-SLI kernel: [41280.394679] device veth37c0d83 left promiscuous mode
+Oct  3 07:01:27 nate-Z170XP-SLI kernel: [41280.394704] br-f67662cc1afa: port 2(veth37c0d83) entered disabled state
+Oct  3 07:01:28 nate-Z170XP-SLI systemd-udevd[46338]: ethtool: could not get ethtool features for veth3d3e1b7
+Oct  3 07:01:28 nate-Z170XP-SLI systemd-udevd[46338]: Could not set offload features of veth3d3e1b7: No such device
+Oct  3 07:01:28 nate-Z170XP-SLI avahi-daemon[861]: Withdrawing address record for fe80::38b1:6eff:fe64:a20d on veth37c0d83.
+Oct  3 07:01:28 nate-Z170XP-SLI NetworkManager[866]: <info>  [1601722888.0234] device (veth37c0d83): released from master device br-f67662cc1afa
+Oct  3 07:01:28 nate-Z170XP-SLI gnome-shell[2136]: Removing a network device that was not added
+Oct  3 07:01:28 nate-Z170XP-SLI gnome-shell[1353]: Removing a network device that was not added
+Oct  3 07:01:28 nate-Z170XP-SLI gnome-shell[2136]: Removing a network device that was not added
+Oct  3 07:01:28 nate-Z170XP-SLI gnome-shell[1353]: Removing a network device that was not added
+Oct  3 07:01:28 nate-Z170XP-SLI systemd[1]: run-docker-netns-b3c7ad0a1129.mount: Succeeded.
+Oct  3 07:01:28 nate-Z170XP-SLI systemd[1899]: run-docker-netns-b3c7ad0a1129.mount: Succeeded.
+Oct  3 07:01:28 nate-Z170XP-SLI systemd[1]: var-lib-docker-containers-0fc24efdd9eef2638576ed3f29298205f78fac4eb6bc8573eabe2782d33310bf-mounts-shm.mount: Succeeded.
+Oct  3 07:01:28 nate-Z170XP-SLI systemd[1]: var-lib-docker-overlay2-0dddb21d31a7fd1ca81ae4c7fcfa3c3c8b2b953152601d14d819f0f1e91e1909-merged.mount: Succeeded.
+Oct  3 07:01:28 nate-Z170XP-SLI systemd[1049]: run-docker-netns-b3c7ad0a1129.mount: Succeeded.
+Oct  3 07:01:28 nate-Z170XP-SLI systemd[1899]: var-lib-docker-containers-0fc24efdd9eef2638576ed3f29298205f78fac4eb6bc8573eabe2782d33310bf-mounts-shm.mount: Succeeded.
+Oct  3 07:01:28 nate-Z170XP-SLI systemd[1899]: var-lib-docker-overlay2-0dddb21d31a7fd1ca81ae4c7fcfa3c3c8b2b953152601d14d819f0f1e91e1909-merged.mount: Succeeded.
+Oct  3 07:01:28 nate-Z170XP-SLI systemd[1049]: var-lib-docker-containers-0fc24efdd9eef2638576ed3f29298205f78fac4eb6bc8573eabe2782d33310bf-mounts-shm.mount: Succeeded.
+Oct  3 07:01:28 nate-Z170XP-SLI systemd[1049]: var-lib-docker-overlay2-0dddb21d31a7fd1ca81ae4c7fcfa3c3c8b2b953152601d14d819f0f1e91e1909-merged.mount: Succeeded.
+Oct  3 07:01:29 nate-Z170XP-SLI containerd[954]: time="2020-10-03T07:01:29.223347909-04:00" level=info msg="shim reaped" id=1cc524fd2416e5e4daf52b1ec38f1d602cdb9cde382d9b771c1e040de510c137
+Oct  3 07:01:29 nate-Z170XP-SLI dockerd[1564]: time="2020-10-03T07:01:29.234010886-04:00" level=info msg="ignoring event" module=libcontainerd namespace=moby topic=/tasks/delete type="*events.TaskDelete"
+Oct  3 07:01:29 nate-Z170XP-SLI kernel: [41281.661075] br-f67662cc1afa: port 3(veth1044828) entered disabled state
+Oct  3 07:01:29 nate-Z170XP-SLI kernel: [41281.662183] vethf0d58dd: renamed from eth0
+Oct  3 07:01:29 nate-Z170XP-SLI NetworkManager[866]: <info>  [1601722889.3022] manager: (vethf0d58dd): new Veth device (/org/freedesktop/NetworkManager/Devices/108)
+Oct  3 07:01:29 nate-Z170XP-SLI systemd-udevd[46338]: ethtool: autonegotiation is unset or enabled, the speed and duplex are not writable.
+Oct  3 07:01:29 nate-Z170XP-SLI systemd-udevd[46338]: Using default interface naming scheme 'v245'.
+Oct  3 07:01:29 nate-Z170XP-SLI kernel: [41281.731542] br-f67662cc1afa: port 3(veth1044828) entered disabled state
+Oct  3 07:01:29 nate-Z170XP-SLI avahi-daemon[861]: Interface veth1044828.IPv6 no longer relevant for mDNS.
+Oct  3 07:01:29 nate-Z170XP-SLI avahi-daemon[861]: Leaving mDNS multicast group on interface veth1044828.IPv6 with address fe80::302f:ceff:fe93:4e7b.
+Oct  3 07:01:29 nate-Z170XP-SLI kernel: [41281.733691] device veth1044828 left promiscuous mode
+Oct  3 07:01:29 nate-Z170XP-SLI kernel: [41281.733695] br-f67662cc1afa: port 3(veth1044828) entered disabled state
+Oct  3 07:01:29 nate-Z170XP-SLI avahi-daemon[861]: Withdrawing address record for fe80::302f:ceff:fe93:4e7b on veth1044828.
+Oct  3 07:01:29 nate-Z170XP-SLI gnome-shell[2136]: Removing a network device that was not added
+Oct  3 07:01:29 nate-Z170XP-SLI gnome-shell[1353]: Removing a network device that was not added
+Oct  3 07:01:29 nate-Z170XP-SLI NetworkManager[866]: <info>  [1601722889.3721] device (veth1044828): released from master device br-f67662cc1afa
+Oct  3 07:01:29 nate-Z170XP-SLI gnome-shell[2136]: Removing a network device that was not added
+Oct  3 07:01:29 nate-Z170XP-SLI gnome-shell[1353]: Removing a network device that was not added
+Oct  3 07:01:29 nate-Z170XP-SLI systemd[1]: run-docker-netns-c9aff94d0ea0.mount: Succeeded.
+Oct  3 07:01:29 nate-Z170XP-SLI systemd[1]: var-lib-docker-containers-1cc524fd2416e5e4daf52b1ec38f1d602cdb9cde382d9b771c1e040de510c137-mounts-shm.mount: Succeeded.
+Oct  3 07:01:29 nate-Z170XP-SLI systemd[1]: var-lib-docker-overlay2-2a628caca5b028763badf249f25b2a94e611e428aa8c7c96aaf77da9e2dc781a-merged.mount: Succeeded.
+Oct  3 07:01:29 nate-Z170XP-SLI systemd[1899]: run-docker-netns-c9aff94d0ea0.mount: Succeeded.
+Oct  3 07:01:29 nate-Z170XP-SLI systemd[1049]: run-docker-netns-c9aff94d0ea0.mount: Succeeded.
+Oct  3 07:01:29 nate-Z170XP-SLI systemd[1899]: var-lib-docker-containers-1cc524fd2416e5e4daf52b1ec38f1d602cdb9cde382d9b771c1e040de510c137-mounts-shm.mount: Succeeded.
+Oct  3 07:01:29 nate-Z170XP-SLI systemd[1899]: var-lib-docker-overlay2-2a628caca5b028763badf249f25b2a94e611e428aa8c7c96aaf77da9e2dc781a-merged.mount: Succeeded.
+Oct  3 07:01:29 nate-Z170XP-SLI systemd[1049]: var-lib-docker-containers-1cc524fd2416e5e4daf52b1ec38f1d602cdb9cde382d9b771c1e040de510c137-mounts-shm.mount: Succeeded.
+Oct  3 07:01:29 nate-Z170XP-SLI systemd[1049]: var-lib-docker-overlay2-2a628caca5b028763badf249f25b2a94e611e428aa8c7c96aaf77da9e2dc781a-merged.mount: Succeeded.
+Oct  3 07:01:29 nate-Z170XP-SLI containerd[954]: time="2020-10-03T07:01:29.690532940-04:00" level=info msg="shim reaped" id=c4a8847a430c8e777e0bfeff37c1a32d25a6ca94868f5e7d51c35c6582959353
+Oct  3 07:01:29 nate-Z170XP-SLI dockerd[1564]: time="2020-10-03T07:01:29.700643137-04:00" level=info msg="ignoring event" module=libcontainerd namespace=moby topic=/tasks/delete type="*events.TaskDelete"
+Oct  3 07:01:29 nate-Z170XP-SLI kernel: [41282.109146] br-f67662cc1afa: port 1(veth7a183e6) entered disabled state
+Oct  3 07:01:29 nate-Z170XP-SLI kernel: [41282.109285] veth5f18f2b: renamed from eth0
+Oct  3 07:01:29 nate-Z170XP-SLI NetworkManager[866]: <info>  [1601722889.7634] manager: (veth5f18f2b): new Veth device (/org/freedesktop/NetworkManager/Devices/109)
+Oct  3 07:01:29 nate-Z170XP-SLI systemd-udevd[46338]: ethtool: autonegotiation is unset or enabled, the speed and duplex are not writable.
+Oct  3 07:01:29 nate-Z170XP-SLI avahi-daemon[861]: Interface veth7a183e6.IPv6 no longer relevant for mDNS.
+Oct  3 07:01:29 nate-Z170XP-SLI avahi-daemon[861]: Leaving mDNS multicast group on interface veth7a183e6.IPv6 with address fe80::f038:edff:fe4f:30.
+Oct  3 07:01:29 nate-Z170XP-SLI kernel: [41282.166128] br-f67662cc1afa: port 1(veth7a183e6) entered disabled state
+Oct  3 07:01:29 nate-Z170XP-SLI kernel: [41282.171147] device veth7a183e6 left promiscuous mode
+Oct  3 07:01:29 nate-Z170XP-SLI kernel: [41282.171152] br-f67662cc1afa: port 1(veth7a183e6) entered disabled state
+Oct  3 07:01:29 nate-Z170XP-SLI avahi-daemon[861]: Withdrawing address record for fe80::f038:edff:fe4f:30 on veth7a183e6.
+Oct  3 07:01:29 nate-Z170XP-SLI NetworkManager[866]: <info>  [1601722889.7995] device (veth7a183e6): released from master device br-f67662cc1afa
+Oct  3 07:01:29 nate-Z170XP-SLI gnome-shell[1353]: Removing a network device that was not added
+Oct  3 07:01:29 nate-Z170XP-SLI gnome-shell[2136]: Removing a network device that was not added
+Oct  3 07:01:29 nate-Z170XP-SLI gnome-shell[1353]: Removing a network device that was not added
+Oct  3 07:01:29 nate-Z170XP-SLI gnome-shell[2136]: Removing a network device that was not added
+Oct  3 07:01:29 nate-Z170XP-SLI systemd[1899]: run-docker-netns-d4de860066ae.mount: Succeeded.
+Oct  3 07:01:29 nate-Z170XP-SLI systemd[1]: run-docker-netns-d4de860066ae.mount: Succeeded.
+Oct  3 07:01:29 nate-Z170XP-SLI systemd[1049]: run-docker-netns-d4de860066ae.mount: Succeeded.
+Oct  3 07:01:29 nate-Z170XP-SLI systemd[1]: var-lib-docker-containers-c4a8847a430c8e777e0bfeff37c1a32d25a6ca94868f5e7d51c35c6582959353-mounts-shm.mount: Succeeded.
+Oct  3 07:01:29 nate-Z170XP-SLI systemd[1]: var-lib-docker-overlay2-a1867988087e0f5ea6a8c4a94e68a4430b7cf6c8d2f3d1650f0a095070cda404-merged.mount: Succeeded.
+Oct  3 07:01:29 nate-Z170XP-SLI systemd[1049]: var-lib-docker-containers-c4a8847a430c8e777e0bfeff37c1a32d25a6ca94868f5e7d51c35c6582959353-mounts-shm.mount: Succeeded.
+Oct  3 07:01:29 nate-Z170XP-SLI systemd[1049]: var-lib-docker-overlay2-a1867988087e0f5ea6a8c4a94e68a4430b7cf6c8d2f3d1650f0a095070cda404-merged.mount: Succeeded.
+Oct  3 07:01:29 nate-Z170XP-SLI systemd[1899]: var-lib-docker-containers-c4a8847a430c8e777e0bfeff37c1a32d25a6ca94868f5e7d51c35c6582959353-mounts-shm.mount: Succeeded.
+Oct  3 07:01:29 nate-Z170XP-SLI systemd[1899]: var-lib-docker-overlay2-a1867988087e0f5ea6a8c4a94e68a4430b7cf6c8d2f3d1650f0a095070cda404-merged.mount: Succeeded.
+Oct  3 07:02:18 nate-Z170XP-SLI kernel: [41330.446251] br-f67662cc1afa: port 1(vethe5b7c60) entered blocking state
+Oct  3 07:02:18 nate-Z170XP-SLI kernel: [41330.446253] br-f67662cc1afa: port 1(vethe5b7c60) entered disabled state
+Oct  3 07:02:18 nate-Z170XP-SLI kernel: [41330.449612] device vethe5b7c60 entered promiscuous mode
+Oct  3 07:02:18 nate-Z170XP-SLI NetworkManager[866]: <info>  [1601722938.0461] manager: (veth3f05c62): new Veth device (/org/freedesktop/NetworkManager/Devices/110)
+Oct  3 07:02:18 nate-Z170XP-SLI systemd-udevd[46524]: ethtool: autonegotiation is unset or enabled, the speed and duplex are not writable.
+Oct  3 07:02:18 nate-Z170XP-SLI NetworkManager[866]: <info>  [1601722938.0472] manager: (vethe5b7c60): new Veth device (/org/freedesktop/NetworkManager/Devices/111)
+Oct  3 07:02:18 nate-Z170XP-SLI systemd-udevd[46525]: ethtool: autonegotiation is unset or enabled, the speed and duplex are not writable.
+Oct  3 07:02:18 nate-Z170XP-SLI systemd-udevd[46524]: Using default interface naming scheme 'v245'.
+Oct  3 07:02:18 nate-Z170XP-SLI systemd-udevd[46524]: veth3f05c62: Could not generate persistent MAC: No data available
+Oct  3 07:02:18 nate-Z170XP-SLI systemd-udevd[46525]: Using default interface naming scheme 'v245'.
+Oct  3 07:02:18 nate-Z170XP-SLI systemd-udevd[46525]: vethe5b7c60: Could not generate persistent MAC: No data available
+Oct  3 07:02:18 nate-Z170XP-SLI containerd[954]: time="2020-10-03T07:02:18.113989814-04:00" level=info msg="shim containerd-shim started" address=/containerd-shim/54b9d3f33152e57fd3fbb045684ae350d6195c7c51f55f8623c0ba2154c77f7d.sock debug=false pid=46543
+Oct  3 07:02:18 nate-Z170XP-SLI systemd[1049]: run-docker-runtime\x2drunc-moby-c4a8847a430c8e777e0bfeff37c1a32d25a6ca94868f5e7d51c35c6582959353-runc.cpFwcH.mount: Succeeded.
+Oct  3 07:02:18 nate-Z170XP-SLI systemd[1]: run-docker-runtime\x2drunc-moby-c4a8847a430c8e777e0bfeff37c1a32d25a6ca94868f5e7d51c35c6582959353-runc.cpFwcH.mount: Succeeded.
+Oct  3 07:02:18 nate-Z170XP-SLI systemd[1899]: run-docker-runtime\x2drunc-moby-c4a8847a430c8e777e0bfeff37c1a32d25a6ca94868f5e7d51c35c6582959353-runc.cpFwcH.mount: Succeeded.
+Oct  3 07:02:18 nate-Z170XP-SLI kernel: [41330.688803] eth0: renamed from veth3f05c62
+Oct  3 07:02:18 nate-Z170XP-SLI NetworkManager[866]: <info>  [1601722938.3099] device (vethe5b7c60): carrier: link connected
+Oct  3 07:02:18 nate-Z170XP-SLI kernel: [41330.704726] IPv6: ADDRCONF(NETDEV_CHANGE): vethe5b7c60: link becomes ready
+Oct  3 07:02:18 nate-Z170XP-SLI kernel: [41330.704795] br-f67662cc1afa: port 1(vethe5b7c60) entered blocking state
+Oct  3 07:02:18 nate-Z170XP-SLI kernel: [41330.704796] br-f67662cc1afa: port 1(vethe5b7c60) entered forwarding state
+Oct  3 07:02:18 nate-Z170XP-SLI gnome-shell[1353]: Removing a network device that was not added
+Oct  3 07:02:18 nate-Z170XP-SLI gnome-shell[2136]: Removing a network device that was not added
+Oct  3 07:02:18 nate-Z170XP-SLI NetworkManager[866]: <info>  [1601722938.3105] device (br-f67662cc1afa): carrier: link connected
+Oct  3 07:02:18 nate-Z170XP-SLI systemd-udevd[46525]: ethtool: autonegotiation is unset or enabled, the speed and duplex are not writable.
+Oct  3 07:02:18 nate-Z170XP-SLI systemd-udevd[46525]: veth764b20f: Could not generate persistent MAC: No data available
+Oct  3 07:02:18 nate-Z170XP-SLI NetworkManager[866]: <info>  [1601722938.3728] manager: (veth764b20f): new Veth device (/org/freedesktop/NetworkManager/Devices/112)
+Oct  3 07:02:18 nate-Z170XP-SLI systemd-udevd[46563]: ethtool: autonegotiation is unset or enabled, the speed and duplex are not writable.
+Oct  3 07:02:18 nate-Z170XP-SLI NetworkManager[866]: <info>  [1601722938.3796] manager: (veth9730bb9): new Veth device (/org/freedesktop/NetworkManager/Devices/113)
+Oct  3 07:02:18 nate-Z170XP-SLI kernel: [41330.778103] br-f67662cc1afa: port 2(veth9730bb9) entered blocking state
+Oct  3 07:02:18 nate-Z170XP-SLI kernel: [41330.778104] br-f67662cc1afa: port 2(veth9730bb9) entered disabled state
+Oct  3 07:02:18 nate-Z170XP-SLI kernel: [41330.780166] device veth9730bb9 entered promiscuous mode
+Oct  3 07:02:18 nate-Z170XP-SLI kernel: [41330.781485] br-f67662cc1afa: port 2(veth9730bb9) entered blocking state
+Oct  3 07:02:18 nate-Z170XP-SLI kernel: [41330.781486] br-f67662cc1afa: port 2(veth9730bb9) entered forwarding state
+Oct  3 07:02:18 nate-Z170XP-SLI systemd-udevd[46563]: Using default interface naming scheme 'v245'.
+Oct  3 07:02:18 nate-Z170XP-SLI systemd-udevd[46563]: veth9730bb9: Could not generate persistent MAC: No data available
+Oct  3 07:02:18 nate-Z170XP-SLI NetworkManager[866]: <info>  [1601722938.4081] manager: (vethf144ef1): new Veth device (/org/freedesktop/NetworkManager/Devices/114)
+Oct  3 07:02:18 nate-Z170XP-SLI NetworkManager[866]: <info>  [1601722938.4087] manager: (vetha7fd232): new Veth device (/org/freedesktop/NetworkManager/Devices/115)
+Oct  3 07:02:18 nate-Z170XP-SLI systemd-udevd[46525]: ethtool: autonegotiation is unset or enabled, the speed and duplex are not writable.
+Oct  3 07:02:18 nate-Z170XP-SLI systemd-udevd[46525]: vethf144ef1: Could not generate persistent MAC: No data available
+Oct  3 07:02:18 nate-Z170XP-SLI kernel: [41330.806215] br-f67662cc1afa: port 3(vetha7fd232) entered blocking state
+Oct  3 07:02:18 nate-Z170XP-SLI kernel: [41330.806216] br-f67662cc1afa: port 3(vetha7fd232) entered disabled state
+Oct  3 07:02:18 nate-Z170XP-SLI kernel: [41330.808044] device vetha7fd232 entered promiscuous mode
+Oct  3 07:02:18 nate-Z170XP-SLI systemd-udevd[46563]: ethtool: autonegotiation is unset or enabled, the speed and duplex are not writable.
+Oct  3 07:02:18 nate-Z170XP-SLI systemd-udevd[46563]: vetha7fd232: Could not generate persistent MAC: No data available
+Oct  3 07:02:18 nate-Z170XP-SLI kernel: [41330.808678] br-f67662cc1afa: port 3(vetha7fd232) entered blocking state
+Oct  3 07:02:18 nate-Z170XP-SLI kernel: [41330.808679] br-f67662cc1afa: port 3(vetha7fd232) entered forwarding state
+Oct  3 07:02:18 nate-Z170XP-SLI containerd[954]: time="2020-10-03T07:02:18.516207225-04:00" level=info msg="shim containerd-shim started" address=/containerd-shim/43218e1aa2c7ab8c165e7124eba769a7ed1dac1329db1083377887d3dfc22a2b.sock debug=false pid=46727
+Oct  3 07:02:18 nate-Z170XP-SLI containerd[954]: time="2020-10-03T07:02:18.525993079-04:00" level=info msg="shim containerd-shim started" address=/containerd-shim/55a6aa6441ad72946e6768d12d0d4caad94466fa1ad61f3adcbb1b9c93353a1e.sock debug=false pid=46747
+Oct  3 07:02:18 nate-Z170XP-SLI systemd[1]: run-docker-runtime\x2drunc-moby-0fc24efdd9eef2638576ed3f29298205f78fac4eb6bc8573eabe2782d33310bf-runc.pVU30J.mount: Succeeded.
+Oct  3 07:02:18 nate-Z170XP-SLI systemd[1049]: run-docker-runtime\x2drunc-moby-0fc24efdd9eef2638576ed3f29298205f78fac4eb6bc8573eabe2782d33310bf-runc.pVU30J.mount: Succeeded.
+Oct  3 07:02:18 nate-Z170XP-SLI systemd[1899]: run-docker-runtime\x2drunc-moby-0fc24efdd9eef2638576ed3f29298205f78fac4eb6bc8573eabe2782d33310bf-runc.pVU30J.mount: Succeeded.
+Oct  3 07:02:18 nate-Z170XP-SLI systemd[1899]: run-docker-runtime\x2drunc-moby-1cc524fd2416e5e4daf52b1ec38f1d602cdb9cde382d9b771c1e040de510c137-runc.UFXath.mount: Succeeded.
+Oct  3 07:02:18 nate-Z170XP-SLI systemd[1]: run-docker-runtime\x2drunc-moby-1cc524fd2416e5e4daf52b1ec38f1d602cdb9cde382d9b771c1e040de510c137-runc.UFXath.mount: Succeeded.
+Oct  3 07:02:18 nate-Z170XP-SLI systemd[1049]: run-docker-runtime\x2drunc-moby-1cc524fd2416e5e4daf52b1ec38f1d602cdb9cde382d9b771c1e040de510c137-runc.UFXath.mount: Succeeded.
+Oct  3 07:02:18 nate-Z170XP-SLI kernel: [41331.169387] eth0: renamed from vethf144ef1
+Oct  3 07:02:18 nate-Z170XP-SLI NetworkManager[866]: <info>  [1601722938.8084] device (vetha7fd232): carrier: link connected
+Oct  3 07:02:18 nate-Z170XP-SLI kernel: [41331.204566] br-f67662cc1afa: port 2(veth9730bb9) entered disabled state
+Oct  3 07:02:18 nate-Z170XP-SLI kernel: [41331.204609] IPv6: ADDRCONF(NETDEV_CHANGE): vetha7fd232: link becomes ready
+Oct  3 07:02:18 nate-Z170XP-SLI gnome-shell[1353]: Removing a network device that was not added
+Oct  3 07:02:18 nate-Z170XP-SLI gnome-shell[2136]: Removing a network device that was not added
+Oct  3 07:02:18 nate-Z170XP-SLI gnome-shell[1353]: Removing a network device that was not added
+Oct  3 07:02:18 nate-Z170XP-SLI gnome-shell[2136]: Removing a network device that was not added
+Oct  3 07:02:18 nate-Z170XP-SLI kernel: [41331.241273] eth0: renamed from veth764b20f
+Oct  3 07:02:18 nate-Z170XP-SLI NetworkManager[866]: <info>  [1601722938.8643] device (veth9730bb9): carrier: link connected
+Oct  3 07:02:18 nate-Z170XP-SLI kernel: [41331.260687] IPv6: ADDRCONF(NETDEV_CHANGE): veth9730bb9: link becomes ready
+Oct  3 07:02:18 nate-Z170XP-SLI kernel: [41331.260750] br-f67662cc1afa: port 2(veth9730bb9) entered blocking state
+Oct  3 07:02:18 nate-Z170XP-SLI kernel: [41331.260752] br-f67662cc1afa: port 2(veth9730bb9) entered forwarding state
+Oct  3 07:02:18 nate-Z170XP-SLI NetworkManager[866]: <info>  [1601722938.8778] manager: (vethd0d57f1): new Veth device (/org/freedesktop/NetworkManager/Devices/116)
+Oct  3 07:02:18 nate-Z170XP-SLI NetworkManager[866]: <info>  [1601722938.8784] manager: (veth9e9ab6f): new Veth device (/org/freedesktop/NetworkManager/Devices/117)
+Oct  3 07:02:18 nate-Z170XP-SLI kernel: [41331.274345] br-f67662cc1afa: port 4(veth9e9ab6f) entered blocking state
+Oct  3 07:02:18 nate-Z170XP-SLI kernel: [41331.274347] br-f67662cc1afa: port 4(veth9e9ab6f) entered disabled state
+Oct  3 07:02:18 nate-Z170XP-SLI kernel: [41331.274445] device veth9e9ab6f entered promiscuous mode
+Oct  3 07:02:18 nate-Z170XP-SLI kernel: [41331.274646] br-f67662cc1afa: port 4(veth9e9ab6f) entered blocking state
+Oct  3 07:02:18 nate-Z170XP-SLI kernel: [41331.274646] br-f67662cc1afa: port 4(veth9e9ab6f) entered forwarding state
+Oct  3 07:02:18 nate-Z170XP-SLI systemd-udevd[46776]: ethtool: autonegotiation is unset or enabled, the speed and duplex are not writable.
+Oct  3 07:02:18 nate-Z170XP-SLI systemd-udevd[46776]: Using default interface naming scheme 'v245'.
+Oct  3 07:02:18 nate-Z170XP-SLI systemd-udevd[46776]: veth9e9ab6f: Could not generate persistent MAC: No data available
+Oct  3 07:02:18 nate-Z170XP-SLI systemd-udevd[46573]: ethtool: autonegotiation is unset or enabled, the speed and duplex are not writable.
+Oct  3 07:02:18 nate-Z170XP-SLI systemd-udevd[46573]: Using default interface naming scheme 'v245'.
+Oct  3 07:02:18 nate-Z170XP-SLI systemd-udevd[46573]: vethd0d57f1: Could not generate persistent MAC: No data available
+Oct  3 07:02:18 nate-Z170XP-SLI containerd[954]: time="2020-10-03T07:02:18.939469327-04:00" level=info msg="shim containerd-shim started" address=/containerd-shim/7119cde12d3e0bcf1497b8654afacafa7e05d4284741c533d52848675278a1d9.sock debug=false pid=46991
+Oct  3 07:02:18 nate-Z170XP-SLI systemd[1]: run-docker-runtime\x2drunc-moby-27e4785145da15e2de98b4ac51fc543223bd90ff17a30f1b0235df94df0e1355-runc.GdPPdX.mount: Succeeded.
+Oct  3 07:02:18 nate-Z170XP-SLI systemd[1049]: run-docker-runtime\x2drunc-moby-27e4785145da15e2de98b4ac51fc543223bd90ff17a30f1b0235df94df0e1355-runc.GdPPdX.mount: Succeeded.
+Oct  3 07:02:18 nate-Z170XP-SLI systemd[1899]: run-docker-runtime\x2drunc-moby-27e4785145da15e2de98b4ac51fc543223bd90ff17a30f1b0235df94df0e1355-runc.GdPPdX.mount: Succeeded.
+Oct  3 07:02:19 nate-Z170XP-SLI kernel: [41331.445140] br-f67662cc1afa: port 4(veth9e9ab6f) entered disabled state
+Oct  3 07:02:19 nate-Z170XP-SLI gnome-shell[2136]: Removing a network device that was not added
+Oct  3 07:02:19 nate-Z170XP-SLI gnome-shell[1353]: Removing a network device that was not added
+Oct  3 07:02:19 nate-Z170XP-SLI kernel: [41331.622605] eth0: renamed from vethd0d57f1
+Oct  3 07:02:19 nate-Z170XP-SLI NetworkManager[866]: <info>  [1601722939.2445] device (veth9e9ab6f): carrier: link connected
+Oct  3 07:02:19 nate-Z170XP-SLI kernel: [41331.640676] IPv6: ADDRCONF(NETDEV_CHANGE): veth9e9ab6f: link becomes ready
+Oct  3 07:02:19 nate-Z170XP-SLI kernel: [41331.640734] br-f67662cc1afa: port 4(veth9e9ab6f) entered blocking state
+Oct  3 07:02:19 nate-Z170XP-SLI kernel: [41331.640735] br-f67662cc1afa: port 4(veth9e9ab6f) entered forwarding state
+Oct  3 07:02:20 nate-Z170XP-SLI avahi-daemon[861]: Joining mDNS multicast group on interface veth9730bb9.IPv6 with address fe80::2c81:94ff:fe52:b4c4.
+Oct  3 07:02:20 nate-Z170XP-SLI avahi-daemon[861]: New relevant interface veth9730bb9.IPv6 for mDNS.
+Oct  3 07:02:20 nate-Z170XP-SLI avahi-daemon[861]: Registering new address record for fe80::2c81:94ff:fe52:b4c4 on veth9730bb9.*.
+Oct  3 07:02:20 nate-Z170XP-SLI avahi-daemon[861]: Joining mDNS multicast group on interface vethe5b7c60.IPv6 with address fe80::542e:66ff:fe3b:9285.
+Oct  3 07:02:20 nate-Z170XP-SLI avahi-daemon[861]: New relevant interface vethe5b7c60.IPv6 for mDNS.
+Oct  3 07:02:20 nate-Z170XP-SLI avahi-daemon[861]: Registering new address record for fe80::542e:66ff:fe3b:9285 on vethe5b7c60.*.
+Oct  3 07:02:20 nate-Z170XP-SLI avahi-daemon[861]: Joining mDNS multicast group on interface veth9e9ab6f.IPv6 with address fe80::7888:16ff:fed8:d819.
+Oct  3 07:02:20 nate-Z170XP-SLI avahi-daemon[861]: New relevant interface veth9e9ab6f.IPv6 for mDNS.
+Oct  3 07:02:20 nate-Z170XP-SLI avahi-daemon[861]: Registering new address record for fe80::7888:16ff:fed8:d819 on veth9e9ab6f.*.
+Oct  3 07:02:20 nate-Z170XP-SLI avahi-daemon[861]: Joining mDNS multicast group on interface vetha7fd232.IPv6 with address fe80::6cea:3bff:fe27:c8bf.
+Oct  3 07:02:20 nate-Z170XP-SLI avahi-daemon[861]: New relevant interface vetha7fd232.IPv6 for mDNS.
+Oct  3 07:02:20 nate-Z170XP-SLI avahi-daemon[861]: Registering new address record for fe80::6cea:3bff:fe27:c8bf on vetha7fd232.*.
+Oct  3 07:02:24 nate-Z170XP-SLI containerd[954]: time="2020-10-03T07:02:24.106920228-04:00" level=info msg="shim reaped" id=c4a8847a430c8e777e0bfeff37c1a32d25a6ca94868f5e7d51c35c6582959353
+Oct  3 07:02:24 nate-Z170XP-SLI dockerd[1564]: time="2020-10-03T07:02:24.117212907-04:00" level=info msg="ignoring event" module=libcontainerd namespace=moby topic=/tasks/delete type="*events.TaskDelete"
+Oct  3 07:02:24 nate-Z170XP-SLI kernel: [41336.524371] br-f67662cc1afa: port 1(vethe5b7c60) entered disabled state
+Oct  3 07:02:24 nate-Z170XP-SLI kernel: [41336.525557] veth3f05c62: renamed from eth0
+Oct  3 07:02:24 nate-Z170XP-SLI NetworkManager[866]: <info>  [1601722944.1719] manager: (veth3f05c62): new Veth device (/org/freedesktop/NetworkManager/Devices/118)
+Oct  3 07:02:24 nate-Z170XP-SLI systemd-udevd[46788]: ethtool: autonegotiation is unset or enabled, the speed and duplex are not writable.
+Oct  3 07:02:24 nate-Z170XP-SLI systemd-udevd[46788]: Using default interface naming scheme 'v245'.
+Oct  3 07:02:24 nate-Z170XP-SLI avahi-daemon[861]: Interface vethe5b7c60.IPv6 no longer relevant for mDNS.
+Oct  3 07:02:24 nate-Z170XP-SLI avahi-daemon[861]: Leaving mDNS multicast group on interface vethe5b7c60.IPv6 with address fe80::542e:66ff:fe3b:9285.
+Oct  3 07:02:24 nate-Z170XP-SLI kernel: [41336.577539] br-f67662cc1afa: port 1(vethe5b7c60) entered disabled state
+Oct  3 07:02:24 nate-Z170XP-SLI kernel: [41336.581620] device vethe5b7c60 left promiscuous mode
+Oct  3 07:02:24 nate-Z170XP-SLI kernel: [41336.581624] br-f67662cc1afa: port 1(vethe5b7c60) entered disabled state
+Oct  3 07:02:24 nate-Z170XP-SLI avahi-daemon[861]: Withdrawing address record for fe80::542e:66ff:fe3b:9285 on vethe5b7c60.
+Oct  3 07:02:24 nate-Z170XP-SLI NetworkManager[866]: <info>  [1601722944.2241] device (vethe5b7c60): released from master device br-f67662cc1afa
+Oct  3 07:02:24 nate-Z170XP-SLI gnome-shell[2136]: Removing a network device that was not added
+Oct  3 07:02:24 nate-Z170XP-SLI gnome-shell[1353]: Removing a network device that was not added
+Oct  3 07:02:24 nate-Z170XP-SLI gnome-shell[2136]: Removing a network device that was not added
+Oct  3 07:02:24 nate-Z170XP-SLI gnome-shell[1353]: Removing a network device that was not added
+Oct  3 07:02:24 nate-Z170XP-SLI systemd[1]: run-docker-netns-58b3c454d651.mount: Succeeded.
+Oct  3 07:02:24 nate-Z170XP-SLI systemd[1]: var-lib-docker-containers-c4a8847a430c8e777e0bfeff37c1a32d25a6ca94868f5e7d51c35c6582959353-mounts-shm.mount: Succeeded.
+Oct  3 07:02:24 nate-Z170XP-SLI systemd[1]: var-lib-docker-overlay2-a1867988087e0f5ea6a8c4a94e68a4430b7cf6c8d2f3d1650f0a095070cda404-merged.mount: Succeeded.
+Oct  3 07:02:24 nate-Z170XP-SLI systemd[1049]: run-docker-netns-58b3c454d651.mount: Succeeded.
+Oct  3 07:02:24 nate-Z170XP-SLI systemd[1049]: var-lib-docker-containers-c4a8847a430c8e777e0bfeff37c1a32d25a6ca94868f5e7d51c35c6582959353-mounts-shm.mount: Succeeded.
+Oct  3 07:02:24 nate-Z170XP-SLI systemd[1049]: var-lib-docker-overlay2-a1867988087e0f5ea6a8c4a94e68a4430b7cf6c8d2f3d1650f0a095070cda404-merged.mount: Succeeded.
+Oct  3 07:02:24 nate-Z170XP-SLI systemd[1899]: run-docker-netns-58b3c454d651.mount: Succeeded.
+Oct  3 07:02:24 nate-Z170XP-SLI systemd[1899]: var-lib-docker-containers-c4a8847a430c8e777e0bfeff37c1a32d25a6ca94868f5e7d51c35c6582959353-mounts-shm.mount: Succeeded.
+Oct  3 07:02:24 nate-Z170XP-SLI systemd[1899]: var-lib-docker-overlay2-a1867988087e0f5ea6a8c4a94e68a4430b7cf6c8d2f3d1650f0a095070cda404-merged.mount: Succeeded.
+Oct  3 07:03:43 nate-Z170XP-SLI gnome-calendar[4403]: source_credentials_required_cb: Failed to authenticate 'Holidays in United States': Failed to obtain an access token for “Holidays in United States”: Failed to refresh access token (rest-proxy-error-quark, 400): Bad Request
+Oct  3 07:03:43 nate-Z170XP-SLI gnome-calendar[4403]: source_credentials_required_cb: Failed to authenticate 'Contacts': Failed to obtain an access token for “Contacts”: Failed to refresh access token (rest-proxy-error-quark, 400): Bad Request
+Oct  3 07:03:43 nate-Z170XP-SLI gnome-calendar[4403]: source_credentials_required_cb: Failed to authenticate 'npmarks@gmail.com': Failed to obtain an access token for “npmarks@gmail.com”: Failed to refresh access token (rest-proxy-error-quark, 400): Bad Request
+Oct  3 07:03:43 nate-Z170XP-SLI gnome-calendar[4403]: source_credentials_required_cb: Failed to authenticate 'Family': Failed to obtain an access token for “Family”: Failed to refresh access token (rest-proxy-error-quark, 400): Bad Request
+Oct  3 07:04:11 nate-Z170XP-SLI gnome-shell[2136]: Window manager warning: WM_TRANSIENT_FOR window 0x36013c6 for 0x36013d1 window override-redirect is an override-redirect window and this is not correct according to the standard, so we'll fallback to the first non-override-redirect window 0x360007d.
+Oct  3 07:07:27 nate-Z170XP-SLI systemd-udevd[48229]: ethtool: autonegotiation is unset or enabled, the speed and duplex are not writable.
+Oct  3 07:07:27 nate-Z170XP-SLI NetworkManager[866]: <info>  [1601723247.4339] manager: (vethf2b61d8): new Veth device (/org/freedesktop/NetworkManager/Devices/119)
+Oct  3 07:07:27 nate-Z170XP-SLI NetworkManager[866]: <info>  [1601723247.4348] manager: (vetha9552e5): new Veth device (/org/freedesktop/NetworkManager/Devices/120)
+Oct  3 07:07:27 nate-Z170XP-SLI systemd-udevd[48230]: ethtool: autonegotiation is unset or enabled, the speed and duplex are not writable.
+Oct  3 07:07:27 nate-Z170XP-SLI systemd-udevd[48230]: Using default interface naming scheme 'v245'.
+Oct  3 07:07:27 nate-Z170XP-SLI systemd-udevd[48230]: vetha9552e5: Could not generate persistent MAC: No data available
+Oct  3 07:07:27 nate-Z170XP-SLI systemd-udevd[48229]: Using default interface naming scheme 'v245'.
+Oct  3 07:07:27 nate-Z170XP-SLI systemd-udevd[48229]: vethf2b61d8: Could not generate persistent MAC: No data available
+Oct  3 07:07:27 nate-Z170XP-SLI kernel: [41639.829536] br-f67662cc1afa: port 1(vetha9552e5) entered blocking state
+Oct  3 07:07:27 nate-Z170XP-SLI kernel: [41639.829537] br-f67662cc1afa: port 1(vetha9552e5) entered disabled state
+Oct  3 07:07:27 nate-Z170XP-SLI kernel: [41639.830704] device vetha9552e5 entered promiscuous mode
+Oct  3 07:07:27 nate-Z170XP-SLI containerd[954]: time="2020-10-03T07:07:27.497482987-04:00" level=info msg="shim containerd-shim started" address=/containerd-shim/54b9d3f33152e57fd3fbb045684ae350d6195c7c51f55f8623c0ba2154c77f7d.sock debug=false pid=48255
+Oct  3 07:07:27 nate-Z170XP-SLI systemd[1049]: run-docker-runtime\x2drunc-moby-c4a8847a430c8e777e0bfeff37c1a32d25a6ca94868f5e7d51c35c6582959353-runc.0FpAhe.mount: Succeeded.
+Oct  3 07:07:27 nate-Z170XP-SLI systemd[1]: run-docker-runtime\x2drunc-moby-c4a8847a430c8e777e0bfeff37c1a32d25a6ca94868f5e7d51c35c6582959353-runc.0FpAhe.mount: Succeeded.
+Oct  3 07:07:27 nate-Z170XP-SLI systemd[1899]: run-docker-runtime\x2drunc-moby-c4a8847a430c8e777e0bfeff37c1a32d25a6ca94868f5e7d51c35c6582959353-runc.0FpAhe.mount: Succeeded.
+Oct  3 07:07:27 nate-Z170XP-SLI kernel: [41640.074740] eth0: renamed from vethf2b61d8
+Oct  3 07:07:27 nate-Z170XP-SLI kernel: [41640.090096] IPv6: ADDRCONF(NETDEV_CHANGE): vetha9552e5: link becomes ready
+Oct  3 07:07:27 nate-Z170XP-SLI kernel: [41640.090267] br-f67662cc1afa: port 1(vetha9552e5) entered blocking state
+Oct  3 07:07:27 nate-Z170XP-SLI kernel: [41640.090270] br-f67662cc1afa: port 1(vetha9552e5) entered forwarding state
+Oct  3 07:07:27 nate-Z170XP-SLI NetworkManager[866]: <info>  [1601723247.7171] device (vetha9552e5): carrier: link connected
+Oct  3 07:07:27 nate-Z170XP-SLI gnome-shell[2136]: Removing a network device that was not added
+Oct  3 07:07:27 nate-Z170XP-SLI gnome-shell[1353]: Removing a network device that was not added
+Oct  3 07:07:28 nate-Z170XP-SLI avahi-daemon[861]: Joining mDNS multicast group on interface vetha9552e5.IPv6 with address fe80::4cc5:f0ff:fe4e:c856.
+Oct  3 07:07:28 nate-Z170XP-SLI avahi-daemon[861]: New relevant interface vetha9552e5.IPv6 for mDNS.
+Oct  3 07:07:28 nate-Z170XP-SLI avahi-daemon[861]: Registering new address record for fe80::4cc5:f0ff:fe4e:c856 on vetha9552e5.*.
+Oct  3 07:07:31 nate-Z170XP-SLI containerd[954]: time="2020-10-03T07:07:31.971156236-04:00" level=info msg="shim reaped" id=c4a8847a430c8e777e0bfeff37c1a32d25a6ca94868f5e7d51c35c6582959353
+Oct  3 07:07:31 nate-Z170XP-SLI dockerd[1564]: time="2020-10-03T07:07:31.981356879-04:00" level=info msg="ignoring event" module=libcontainerd namespace=moby topic=/tasks/delete type="*events.TaskDelete"
+Oct  3 07:07:31 nate-Z170XP-SLI kernel: [41644.378381] br-f67662cc1afa: port 1(vetha9552e5) entered disabled state
+Oct  3 07:07:31 nate-Z170XP-SLI kernel: [41644.378647] vethf2b61d8: renamed from eth0
+Oct  3 07:07:32 nate-Z170XP-SLI systemd-udevd[48291]: ethtool: autonegotiation is unset or enabled, the speed and duplex are not writable.
+Oct  3 07:07:32 nate-Z170XP-SLI NetworkManager[866]: <info>  [1601723252.0346] manager: (vethf2b61d8): new Veth device (/org/freedesktop/NetworkManager/Devices/121)
+Oct  3 07:07:32 nate-Z170XP-SLI systemd-udevd[48291]: Using default interface naming scheme 'v245'.
+Oct  3 07:07:32 nate-Z170XP-SLI kernel: [41644.426365] br-f67662cc1afa: port 1(vetha9552e5) entered disabled state
+Oct  3 07:07:32 nate-Z170XP-SLI avahi-daemon[861]: Interface vetha9552e5.IPv6 no longer relevant for mDNS.
+Oct  3 07:07:32 nate-Z170XP-SLI avahi-daemon[861]: Leaving mDNS multicast group on interface vetha9552e5.IPv6 with address fe80::4cc5:f0ff:fe4e:c856.
+Oct  3 07:07:32 nate-Z170XP-SLI kernel: [41644.437334] device vetha9552e5 left promiscuous mode
+Oct  3 07:07:32 nate-Z170XP-SLI kernel: [41644.437342] br-f67662cc1afa: port 1(vetha9552e5) entered disabled state
+Oct  3 07:07:32 nate-Z170XP-SLI avahi-daemon[861]: Withdrawing address record for fe80::4cc5:f0ff:fe4e:c856 on vetha9552e5.
+Oct  3 07:07:32 nate-Z170XP-SLI NetworkManager[866]: <info>  [1601723252.0770] device (vetha9552e5): released from master device br-f67662cc1afa
+Oct  3 07:07:32 nate-Z170XP-SLI gnome-shell[1353]: Removing a network device that was not added
+Oct  3 07:07:32 nate-Z170XP-SLI gnome-shell[1353]: Removing a network device that was not added
+Oct  3 07:07:32 nate-Z170XP-SLI systemd[1]: run-docker-netns-e8f92498d2e1.mount: Succeeded.
+Oct  3 07:07:32 nate-Z170XP-SLI systemd[1]: var-lib-docker-containers-c4a8847a430c8e777e0bfeff37c1a32d25a6ca94868f5e7d51c35c6582959353-mounts-shm.mount: Succeeded.
+Oct  3 07:07:32 nate-Z170XP-SLI systemd[1]: var-lib-docker-overlay2-a1867988087e0f5ea6a8c4a94e68a4430b7cf6c8d2f3d1650f0a095070cda404-merged.mount: Succeeded.
+Oct  3 07:07:32 nate-Z170XP-SLI systemd[1049]: run-docker-netns-e8f92498d2e1.mount: Succeeded.
+Oct  3 07:07:32 nate-Z170XP-SLI systemd[1049]: var-lib-docker-containers-c4a8847a430c8e777e0bfeff37c1a32d25a6ca94868f5e7d51c35c6582959353-mounts-shm.mount: Succeeded.
+Oct  3 07:07:32 nate-Z170XP-SLI systemd[1899]: run-docker-netns-e8f92498d2e1.mount: Succeeded.
+Oct  3 07:07:32 nate-Z170XP-SLI systemd[1049]: var-lib-docker-overlay2-a1867988087e0f5ea6a8c4a94e68a4430b7cf6c8d2f3d1650f0a095070cda404-merged.mount: Succeeded.
+Oct  3 07:07:32 nate-Z170XP-SLI systemd[1899]: var-lib-docker-containers-c4a8847a430c8e777e0bfeff37c1a32d25a6ca94868f5e7d51c35c6582959353-mounts-shm.mount: Succeeded.
+Oct  3 07:07:32 nate-Z170XP-SLI systemd[1899]: var-lib-docker-overlay2-a1867988087e0f5ea6a8c4a94e68a4430b7cf6c8d2f3d1650f0a095070cda404-merged.mount: Succeeded.
+Oct  3 07:07:32 nate-Z170XP-SLI gnome-shell[2136]: Removing a network device that was not added
+Oct  3 07:07:32 nate-Z170XP-SLI gnome-shell[2136]: Removing a network device that was not added
+Oct  3 07:07:47 nate-Z170XP-SLI containerd[954]: time="2020-10-03T07:07:47.251102608-04:00" level=info msg="shim reaped" id=27e4785145da15e2de98b4ac51fc543223bd90ff17a30f1b0235df94df0e1355
+Oct  3 07:07:47 nate-Z170XP-SLI dockerd[1564]: time="2020-10-03T07:07:47.261346764-04:00" level=info msg="ignoring event" module=libcontainerd namespace=moby topic=/tasks/delete type="*events.TaskDelete"
+Oct  3 07:07:47 nate-Z170XP-SLI kernel: [41659.749431] br-f67662cc1afa: port 4(veth9e9ab6f) entered disabled state
+Oct  3 07:07:47 nate-Z170XP-SLI kernel: [41659.750838] vethd0d57f1: renamed from eth0
+Oct  3 07:07:47 nate-Z170XP-SLI NetworkManager[866]: <info>  [1601723267.4002] manager: (vethd0d57f1): new Veth device (/org/freedesktop/NetworkManager/Devices/122)
+Oct  3 07:07:47 nate-Z170XP-SLI systemd-udevd[48644]: ethtool: autonegotiation is unset or enabled, the speed and duplex are not writable.
+Oct  3 07:07:47 nate-Z170XP-SLI systemd-udevd[48644]: Using default interface naming scheme 'v245'.
+Oct  3 07:07:47 nate-Z170XP-SLI avahi-daemon[861]: Interface veth9e9ab6f.IPv6 no longer relevant for mDNS.
+Oct  3 07:07:47 nate-Z170XP-SLI avahi-daemon[861]: Leaving mDNS multicast group on interface veth9e9ab6f.IPv6 with address fe80::7888:16ff:fed8:d819.
+Oct  3 07:07:47 nate-Z170XP-SLI kernel: [41659.790631] br-f67662cc1afa: port 4(veth9e9ab6f) entered disabled state
+Oct  3 07:07:47 nate-Z170XP-SLI kernel: [41659.793304] device veth9e9ab6f left promiscuous mode
+Oct  3 07:07:47 nate-Z170XP-SLI kernel: [41659.793308] br-f67662cc1afa: port 4(veth9e9ab6f) entered disabled state
+Oct  3 07:07:47 nate-Z170XP-SLI NetworkManager[866]: <info>  [1601723267.4300] device (veth9e9ab6f): released from master device br-f67662cc1afa
+Oct  3 07:07:47 nate-Z170XP-SLI avahi-daemon[861]: Withdrawing address record for fe80::7888:16ff:fed8:d819 on veth9e9ab6f.
+Oct  3 07:07:47 nate-Z170XP-SLI gnome-shell[2136]: Removing a network device that was not added
+Oct  3 07:07:47 nate-Z170XP-SLI gnome-shell[1353]: Removing a network device that was not added
+Oct  3 07:07:47 nate-Z170XP-SLI gnome-shell[2136]: Removing a network device that was not added
+Oct  3 07:07:47 nate-Z170XP-SLI gnome-shell[1353]: Removing a network device that was not added
+Oct  3 07:07:47 nate-Z170XP-SLI systemd[1]: run-docker-netns-b4bd04b5be55.mount: Succeeded.
+Oct  3 07:07:47 nate-Z170XP-SLI systemd[1]: var-lib-docker-containers-27e4785145da15e2de98b4ac51fc543223bd90ff17a30f1b0235df94df0e1355-mounts-shm.mount: Succeeded.
+Oct  3 07:07:47 nate-Z170XP-SLI systemd[1]: var-lib-docker-overlay2-774a8b211549b9ed6ee92646f763fa9c5a9a64d50bf1982355296529324f978b-merged.mount: Succeeded.
+Oct  3 07:07:47 nate-Z170XP-SLI systemd[1049]: run-docker-netns-b4bd04b5be55.mount: Succeeded.
+Oct  3 07:07:47 nate-Z170XP-SLI systemd[1049]: var-lib-docker-containers-27e4785145da15e2de98b4ac51fc543223bd90ff17a30f1b0235df94df0e1355-mounts-shm.mount: Succeeded.
+Oct  3 07:07:47 nate-Z170XP-SLI systemd[1049]: var-lib-docker-overlay2-774a8b211549b9ed6ee92646f763fa9c5a9a64d50bf1982355296529324f978b-merged.mount: Succeeded.
+Oct  3 07:07:47 nate-Z170XP-SLI systemd[1899]: run-docker-netns-b4bd04b5be55.mount: Succeeded.
+Oct  3 07:07:47 nate-Z170XP-SLI systemd[1899]: var-lib-docker-containers-27e4785145da15e2de98b4ac51fc543223bd90ff17a30f1b0235df94df0e1355-mounts-shm.mount: Succeeded.
+Oct  3 07:07:47 nate-Z170XP-SLI systemd[1899]: var-lib-docker-overlay2-774a8b211549b9ed6ee92646f763fa9c5a9a64d50bf1982355296529324f978b-merged.mount: Succeeded.
+Oct  3 07:07:48 nate-Z170XP-SLI containerd[954]: time="2020-10-03T07:07:48.222938082-04:00" level=info msg="shim reaped" id=0fc24efdd9eef2638576ed3f29298205f78fac4eb6bc8573eabe2782d33310bf
+Oct  3 07:07:48 nate-Z170XP-SLI dockerd[1564]: time="2020-10-03T07:07:48.233233082-04:00" level=info msg="ignoring event" module=libcontainerd namespace=moby topic=/tasks/delete type="*events.TaskDelete"
+Oct  3 07:07:48 nate-Z170XP-SLI kernel: [41660.629683] br-f67662cc1afa: port 2(veth9730bb9) entered disabled state
+Oct  3 07:07:48 nate-Z170XP-SLI kernel: [41660.629777] veth764b20f: renamed from eth0
+Oct  3 07:07:48 nate-Z170XP-SLI NetworkManager[866]: <info>  [1601723268.3106] manager: (veth764b20f): new Veth device (/org/freedesktop/NetworkManager/Devices/123)
+Oct  3 07:07:48 nate-Z170XP-SLI avahi-daemon[861]: Interface veth9730bb9.IPv6 no longer relevant for mDNS.
+Oct  3 07:07:48 nate-Z170XP-SLI avahi-daemon[861]: Leaving mDNS multicast group on interface veth9730bb9.IPv6 with address fe80::2c81:94ff:fe52:b4c4.
+Oct  3 07:07:48 nate-Z170XP-SLI kernel: [41660.698439] br-f67662cc1afa: port 2(veth9730bb9) entered disabled state
+Oct  3 07:07:48 nate-Z170XP-SLI kernel: [41660.715355] device veth9730bb9 left promiscuous mode
+Oct  3 07:07:48 nate-Z170XP-SLI kernel: [41660.715362] br-f67662cc1afa: port 2(veth9730bb9) entered disabled state
+Oct  3 07:07:48 nate-Z170XP-SLI avahi-daemon[861]: Withdrawing address record for fe80::2c81:94ff:fe52:b4c4 on veth9730bb9.
+Oct  3 07:07:48 nate-Z170XP-SLI systemd-udevd[48660]: veth764b20f: Failed to get link config: No such device
+Oct  3 07:07:48 nate-Z170XP-SLI NetworkManager[866]: <info>  [1601723268.3499] device (veth9730bb9): released from master device br-f67662cc1afa
+Oct  3 07:07:48 nate-Z170XP-SLI gnome-shell[1353]: Removing a network device that was not added
+Oct  3 07:07:48 nate-Z170XP-SLI gnome-shell[2136]: Removing a network device that was not added
+Oct  3 07:07:48 nate-Z170XP-SLI gnome-shell[1353]: Removing a network device that was not added
+Oct  3 07:07:48 nate-Z170XP-SLI gnome-shell[2136]: Removing a network device that was not added
+Oct  3 07:07:48 nate-Z170XP-SLI systemd[1]: run-docker-netns-8e4e52742259.mount: Succeeded.
+Oct  3 07:07:48 nate-Z170XP-SLI systemd[1049]: run-docker-netns-8e4e52742259.mount: Succeeded.
+Oct  3 07:07:48 nate-Z170XP-SLI systemd[1899]: run-docker-netns-8e4e52742259.mount: Succeeded.
+Oct  3 07:07:48 nate-Z170XP-SLI systemd[1]: var-lib-docker-containers-0fc24efdd9eef2638576ed3f29298205f78fac4eb6bc8573eabe2782d33310bf-mounts-shm.mount: Succeeded.
+Oct  3 07:07:48 nate-Z170XP-SLI systemd[1]: var-lib-docker-overlay2-0dddb21d31a7fd1ca81ae4c7fcfa3c3c8b2b953152601d14d819f0f1e91e1909-merged.mount: Succeeded.
+Oct  3 07:07:48 nate-Z170XP-SLI systemd[1899]: var-lib-docker-containers-0fc24efdd9eef2638576ed3f29298205f78fac4eb6bc8573eabe2782d33310bf-mounts-shm.mount: Succeeded.
+Oct  3 07:07:48 nate-Z170XP-SLI systemd[1899]: var-lib-docker-overlay2-0dddb21d31a7fd1ca81ae4c7fcfa3c3c8b2b953152601d14d819f0f1e91e1909-merged.mount: Succeeded.
+Oct  3 07:07:48 nate-Z170XP-SLI systemd[1049]: var-lib-docker-containers-0fc24efdd9eef2638576ed3f29298205f78fac4eb6bc8573eabe2782d33310bf-mounts-shm.mount: Succeeded.
+Oct  3 07:07:48 nate-Z170XP-SLI systemd[1049]: var-lib-docker-overlay2-0dddb21d31a7fd1ca81ae4c7fcfa3c3c8b2b953152601d14d819f0f1e91e1909-merged.mount: Succeeded.
+Oct  3 07:07:57 nate-Z170XP-SLI dockerd[1564]: time="2020-10-03T07:07:57.549950955-04:00" level=info msg="Container 1cc524fd2416e5e4daf52b1ec38f1d602cdb9cde382d9b771c1e040de510c137 failed to exit within 10 seconds of signal 15 - using the force"
+Oct  3 07:07:57 nate-Z170XP-SLI containerd[954]: time="2020-10-03T07:07:57.653303170-04:00" level=info msg="shim reaped" id=1cc524fd2416e5e4daf52b1ec38f1d602cdb9cde382d9b771c1e040de510c137
+Oct  3 07:07:57 nate-Z170XP-SLI dockerd[1564]: time="2020-10-03T07:07:57.663479536-04:00" level=info msg="ignoring event" module=libcontainerd namespace=moby topic=/tasks/delete type="*events.TaskDelete"
+Oct  3 07:07:57 nate-Z170XP-SLI kernel: [41670.065354] br-f67662cc1afa: port 3(vetha7fd232) entered disabled state
+Oct  3 07:07:57 nate-Z170XP-SLI kernel: [41670.066194] vethf144ef1: renamed from eth0
+Oct  3 07:07:57 nate-Z170XP-SLI NetworkManager[866]: <info>  [1601723277.7243] manager: (vethf144ef1): new Veth device (/org/freedesktop/NetworkManager/Devices/124)
+Oct  3 07:07:57 nate-Z170XP-SLI avahi-daemon[861]: Interface vetha7fd232.IPv6 no longer relevant for mDNS.
+Oct  3 07:07:57 nate-Z170XP-SLI avahi-daemon[861]: Leaving mDNS multicast group on interface vetha7fd232.IPv6 with address fe80::6cea:3bff:fe27:c8bf.
+Oct  3 07:07:57 nate-Z170XP-SLI kernel: [41670.112948] br-f67662cc1afa: port 3(vetha7fd232) entered disabled state
+Oct  3 07:07:57 nate-Z170XP-SLI kernel: [41670.117879] device vetha7fd232 left promiscuous mode
+Oct  3 07:07:57 nate-Z170XP-SLI kernel: [41670.117883] br-f67662cc1afa: port 3(vetha7fd232) entered disabled state
+Oct  3 07:07:57 nate-Z170XP-SLI avahi-daemon[861]: Withdrawing address record for fe80::6cea:3bff:fe27:c8bf on vetha7fd232.
+Oct  3 07:07:57 nate-Z170XP-SLI systemd-udevd[48748]: vethf144ef1: Failed to get link config: No such device
+Oct  3 07:07:57 nate-Z170XP-SLI NetworkManager[866]: <info>  [1601723277.7647] device (vetha7fd232): released from master device br-f67662cc1afa
+Oct  3 07:07:57 nate-Z170XP-SLI gnome-shell[2136]: Removing a network device that was not added
+Oct  3 07:07:57 nate-Z170XP-SLI gnome-shell[1353]: Removing a network device that was not added
+Oct  3 07:07:57 nate-Z170XP-SLI gnome-shell[2136]: Removing a network device that was not added
+Oct  3 07:07:57 nate-Z170XP-SLI gnome-shell[1353]: Removing a network device that was not added
+Oct  3 07:07:57 nate-Z170XP-SLI systemd[1]: run-docker-netns-93ac073598c3.mount: Succeeded.
+Oct  3 07:07:57 nate-Z170XP-SLI systemd[1899]: run-docker-netns-93ac073598c3.mount: Succeeded.
+Oct  3 07:07:57 nate-Z170XP-SLI systemd[1049]: run-docker-netns-93ac073598c3.mount: Succeeded.
+Oct  3 07:07:57 nate-Z170XP-SLI systemd[1899]: var-lib-docker-containers-1cc524fd2416e5e4daf52b1ec38f1d602cdb9cde382d9b771c1e040de510c137-mounts-shm.mount: Succeeded.
+Oct  3 07:07:57 nate-Z170XP-SLI systemd[1]: var-lib-docker-containers-1cc524fd2416e5e4daf52b1ec38f1d602cdb9cde382d9b771c1e040de510c137-mounts-shm.mount: Succeeded.
+Oct  3 07:07:57 nate-Z170XP-SLI systemd[1049]: var-lib-docker-containers-1cc524fd2416e5e4daf52b1ec38f1d602cdb9cde382d9b771c1e040de510c137-mounts-shm.mount: Succeeded.
+Oct  3 07:07:57 nate-Z170XP-SLI systemd[1899]: var-lib-docker-overlay2-2a628caca5b028763badf249f25b2a94e611e428aa8c7c96aaf77da9e2dc781a-merged.mount: Succeeded.
+Oct  3 07:07:57 nate-Z170XP-SLI systemd[1]: var-lib-docker-overlay2-2a628caca5b028763badf249f25b2a94e611e428aa8c7c96aaf77da9e2dc781a-merged.mount: Succeeded.
+Oct  3 07:07:57 nate-Z170XP-SLI systemd[1049]: var-lib-docker-overlay2-2a628caca5b028763badf249f25b2a94e611e428aa8c7c96aaf77da9e2dc781a-merged.mount: Succeeded.
+Oct  3 07:08:00 nate-Z170XP-SLI systemd-udevd[48748]: ethtool: autonegotiation is unset or enabled, the speed and duplex are not writable.
+Oct  3 07:08:00 nate-Z170XP-SLI NetworkManager[866]: <info>  [1601723280.7196] manager: (veth85faaaa): new Veth device (/org/freedesktop/NetworkManager/Devices/125)
+Oct  3 07:08:00 nate-Z170XP-SLI NetworkManager[866]: <info>  [1601723280.7202] manager: (veth4e77a04): new Veth device (/org/freedesktop/NetworkManager/Devices/126)
+Oct  3 07:08:00 nate-Z170XP-SLI systemd-udevd[48748]: Using default interface naming scheme 'v245'.
+Oct  3 07:08:00 nate-Z170XP-SLI systemd-udevd[48748]: veth85faaaa: Could not generate persistent MAC: No data available
+Oct  3 07:08:00 nate-Z170XP-SLI kernel: [41673.106368] br-f67662cc1afa: port 1(veth4e77a04) entered blocking state
+Oct  3 07:08:00 nate-Z170XP-SLI kernel: [41673.106369] br-f67662cc1afa: port 1(veth4e77a04) entered disabled state
+Oct  3 07:08:00 nate-Z170XP-SLI kernel: [41673.111418] device veth4e77a04 entered promiscuous mode
+Oct  3 07:08:00 nate-Z170XP-SLI systemd-udevd[48755]: ethtool: autonegotiation is unset or enabled, the speed and duplex are not writable.
+Oct  3 07:08:00 nate-Z170XP-SLI systemd-udevd[48755]: Using default interface naming scheme 'v245'.
+Oct  3 07:08:00 nate-Z170XP-SLI systemd-udevd[48755]: veth4e77a04: Could not generate persistent MAC: No data available
+Oct  3 07:08:00 nate-Z170XP-SLI containerd[954]: time="2020-10-03T07:08:00.773014853-04:00" level=info msg="shim containerd-shim started" address=/containerd-shim/54b9d3f33152e57fd3fbb045684ae350d6195c7c51f55f8623c0ba2154c77f7d.sock debug=false pid=48802
+Oct  3 07:08:00 nate-Z170XP-SLI systemd[1]: run-docker-runtime\x2drunc-moby-c4a8847a430c8e777e0bfeff37c1a32d25a6ca94868f5e7d51c35c6582959353-runc.TUW98v.mount: Succeeded.
+Oct  3 07:08:00 nate-Z170XP-SLI systemd[1899]: run-docker-runtime\x2drunc-moby-c4a8847a430c8e777e0bfeff37c1a32d25a6ca94868f5e7d51c35c6582959353-runc.TUW98v.mount: Succeeded.
+Oct  3 07:08:00 nate-Z170XP-SLI systemd[1049]: run-docker-runtime\x2drunc-moby-c4a8847a430c8e777e0bfeff37c1a32d25a6ca94868f5e7d51c35c6582959353-runc.TUW98v.mount: Succeeded.
+Oct  3 07:08:00 nate-Z170XP-SLI kernel: [41673.336703] eth0: renamed from veth85faaaa
+Oct  3 07:08:00 nate-Z170XP-SLI NetworkManager[866]: <info>  [1601723280.9739] device (veth4e77a04): carrier: link connected
+Oct  3 07:08:00 nate-Z170XP-SLI NetworkManager[866]: <info>  [1601723280.9744] device (br-f67662cc1afa): carrier: link connected
+Oct  3 07:08:00 nate-Z170XP-SLI kernel: [41673.356521] IPv6: ADDRCONF(NETDEV_CHANGE): veth4e77a04: link becomes ready
+Oct  3 07:08:00 nate-Z170XP-SLI kernel: [41673.356580] br-f67662cc1afa: port 1(veth4e77a04) entered blocking state
+Oct  3 07:08:00 nate-Z170XP-SLI kernel: [41673.356581] br-f67662cc1afa: port 1(veth4e77a04) entered forwarding state
+Oct  3 07:08:00 nate-Z170XP-SLI gnome-shell[1353]: Removing a network device that was not added
+Oct  3 07:08:00 nate-Z170XP-SLI gnome-shell[2136]: Removing a network device that was not added
+Oct  3 07:08:01 nate-Z170XP-SLI kernel: [41673.417884] br-f67662cc1afa: port 2(vethd5dff6d) entered blocking state
+Oct  3 07:08:01 nate-Z170XP-SLI kernel: [41673.417886] br-f67662cc1afa: port 2(vethd5dff6d) entered disabled state
+Oct  3 07:08:01 nate-Z170XP-SLI kernel: [41673.422819] device vethd5dff6d entered promiscuous mode
+Oct  3 07:08:01 nate-Z170XP-SLI kernel: [41673.422913] br-f67662cc1afa: port 2(vethd5dff6d) entered blocking state
+Oct  3 07:08:01 nate-Z170XP-SLI kernel: [41673.422914] br-f67662cc1afa: port 2(vethd5dff6d) entered forwarding state
+Oct  3 07:08:01 nate-Z170XP-SLI NetworkManager[866]: <info>  [1601723281.0389] manager: (veth49e9e61): new Veth device (/org/freedesktop/NetworkManager/Devices/127)
+Oct  3 07:08:01 nate-Z170XP-SLI NetworkManager[866]: <info>  [1601723281.0398] manager: (vethd5dff6d): new Veth device (/org/freedesktop/NetworkManager/Devices/128)
+Oct  3 07:08:01 nate-Z170XP-SLI systemd-udevd[48748]: ethtool: autonegotiation is unset or enabled, the speed and duplex are not writable.
+Oct  3 07:08:01 nate-Z170XP-SLI systemd-udevd[48748]: veth49e9e61: Could not generate persistent MAC: No data available
+Oct  3 07:08:01 nate-Z170XP-SLI systemd-udevd[48755]: ethtool: autonegotiation is unset or enabled, the speed and duplex are not writable.
+Oct  3 07:08:01 nate-Z170XP-SLI systemd-udevd[48755]: vethd5dff6d: Could not generate persistent MAC: No data available
+Oct  3 07:08:01 nate-Z170XP-SLI systemd-udevd[48755]: ethtool: autonegotiation is unset or enabled, the speed and duplex are not writable.
+Oct  3 07:08:01 nate-Z170XP-SLI systemd-udevd[48755]: vethec536cc: Could not generate persistent MAC: No data available
+Oct  3 07:08:01 nate-Z170XP-SLI systemd-udevd[48748]: ethtool: autonegotiation is unset or enabled, the speed and duplex are not writable.
+Oct  3 07:08:01 nate-Z170XP-SLI systemd-udevd[48748]: veth7d08c70: Could not generate persistent MAC: No data available
+Oct  3 07:08:01 nate-Z170XP-SLI kernel: [41673.446904] br-f67662cc1afa: port 3(vethec536cc) entered blocking state
+Oct  3 07:08:01 nate-Z170XP-SLI kernel: [41673.446905] br-f67662cc1afa: port 3(vethec536cc) entered disabled state
+Oct  3 07:08:01 nate-Z170XP-SLI kernel: [41673.446945] device vethec536cc entered promiscuous mode
+Oct  3 07:08:01 nate-Z170XP-SLI kernel: [41673.447004] br-f67662cc1afa: port 3(vethec536cc) entered blocking state
+Oct  3 07:08:01 nate-Z170XP-SLI kernel: [41673.447005] br-f67662cc1afa: port 3(vethec536cc) entered forwarding state
+Oct  3 07:08:01 nate-Z170XP-SLI NetworkManager[866]: <info>  [1601723281.0647] manager: (veth7d08c70): new Veth device (/org/freedesktop/NetworkManager/Devices/129)
+Oct  3 07:08:01 nate-Z170XP-SLI NetworkManager[866]: <info>  [1601723281.0677] manager: (vethec536cc): new Veth device (/org/freedesktop/NetworkManager/Devices/130)
+Oct  3 07:08:01 nate-Z170XP-SLI containerd[954]: time="2020-10-03T07:08:01.140364930-04:00" level=info msg="shim containerd-shim started" address=/containerd-shim/43218e1aa2c7ab8c165e7124eba769a7ed1dac1329db1083377887d3dfc22a2b.sock debug=false pid=48956
+Oct  3 07:08:01 nate-Z170XP-SLI systemd[1]: run-docker-runtime\x2drunc-moby-0fc24efdd9eef2638576ed3f29298205f78fac4eb6bc8573eabe2782d33310bf-runc.mIad99.mount: Succeeded.
+Oct  3 07:08:01 nate-Z170XP-SLI systemd[1049]: run-docker-runtime\x2drunc-moby-0fc24efdd9eef2638576ed3f29298205f78fac4eb6bc8573eabe2782d33310bf-runc.mIad99.mount: Succeeded.
+Oct  3 07:08:01 nate-Z170XP-SLI systemd[1899]: run-docker-runtime\x2drunc-moby-0fc24efdd9eef2638576ed3f29298205f78fac4eb6bc8573eabe2782d33310bf-runc.mIad99.mount: Succeeded.
+Oct  3 07:08:01 nate-Z170XP-SLI containerd[954]: time="2020-10-03T07:08:01.204761135-04:00" level=info msg="shim containerd-shim started" address=/containerd-shim/55a6aa6441ad72946e6768d12d0d4caad94466fa1ad61f3adcbb1b9c93353a1e.sock debug=false pid=49003
+Oct  3 07:08:01 nate-Z170XP-SLI systemd[1]: run-docker-runtime\x2drunc-moby-1cc524fd2416e5e4daf52b1ec38f1d602cdb9cde382d9b771c1e040de510c137-runc.xh3fDi.mount: Succeeded.
+Oct  3 07:08:01 nate-Z170XP-SLI systemd[1899]: run-docker-runtime\x2drunc-moby-1cc524fd2416e5e4daf52b1ec38f1d602cdb9cde382d9b771c1e040de510c137-runc.xh3fDi.mount: Succeeded.
+Oct  3 07:08:01 nate-Z170XP-SLI systemd[1049]: run-docker-runtime\x2drunc-moby-1cc524fd2416e5e4daf52b1ec38f1d602cdb9cde382d9b771c1e040de510c137-runc.xh3fDi.mount: Succeeded.
+Oct  3 07:08:01 nate-Z170XP-SLI kernel: [41673.801182] eth0: renamed from veth49e9e61
+Oct  3 07:08:01 nate-Z170XP-SLI NetworkManager[866]: <info>  [1601723281.4487] device (vethd5dff6d): carrier: link connected
+Oct  3 07:08:01 nate-Z170XP-SLI kernel: [41673.832527] IPv6: ADDRCONF(NETDEV_CHANGE): vethd5dff6d: link becomes ready
+Oct  3 07:08:01 nate-Z170XP-SLI kernel: [41673.832847] br-f67662cc1afa: port 3(vethec536cc) entered disabled state
+Oct  3 07:08:01 nate-Z170XP-SLI gnome-shell[1353]: Removing a network device that was not added
+Oct  3 07:08:01 nate-Z170XP-SLI gnome-shell[2136]: Removing a network device that was not added
+Oct  3 07:08:01 nate-Z170XP-SLI kernel: [41673.857881] eth0: renamed from veth7d08c70
+Oct  3 07:08:01 nate-Z170XP-SLI gnome-shell[2136]: Removing a network device that was not added
+Oct  3 07:08:01 nate-Z170XP-SLI gnome-shell[1353]: Removing a network device that was not added
+Oct  3 07:08:01 nate-Z170XP-SLI NetworkManager[866]: <info>  [1601723281.5006] device (vethec536cc): carrier: link connected
+Oct  3 07:08:01 nate-Z170XP-SLI kernel: [41673.884543] IPv6: ADDRCONF(NETDEV_CHANGE): vethec536cc: link becomes ready
+Oct  3 07:08:01 nate-Z170XP-SLI kernel: [41673.884599] br-f67662cc1afa: port 3(vethec536cc) entered blocking state
+Oct  3 07:08:01 nate-Z170XP-SLI kernel: [41673.884600] br-f67662cc1afa: port 3(vethec536cc) entered forwarding state
+Oct  3 07:08:01 nate-Z170XP-SLI kernel: [41673.924590] br-f67662cc1afa: port 4(veth3b48190) entered blocking state
+Oct  3 07:08:01 nate-Z170XP-SLI kernel: [41673.924591] br-f67662cc1afa: port 4(veth3b48190) entered disabled state
+Oct  3 07:08:01 nate-Z170XP-SLI kernel: [41673.924624] device veth3b48190 entered promiscuous mode
+Oct  3 07:08:01 nate-Z170XP-SLI kernel: [41673.924674] br-f67662cc1afa: port 4(veth3b48190) entered blocking state
+Oct  3 07:08:01 nate-Z170XP-SLI kernel: [41673.924675] br-f67662cc1afa: port 4(veth3b48190) entered forwarding state
+Oct  3 07:08:01 nate-Z170XP-SLI NetworkManager[866]: <info>  [1601723281.5438] manager: (vethaf31cd7): new Veth device (/org/freedesktop/NetworkManager/Devices/131)
+Oct  3 07:08:01 nate-Z170XP-SLI NetworkManager[866]: <info>  [1601723281.5444] manager: (veth3b48190): new Veth device (/org/freedesktop/NetworkManager/Devices/132)
+Oct  3 07:08:01 nate-Z170XP-SLI systemd-udevd[48748]: ethtool: autonegotiation is unset or enabled, the speed and duplex are not writable.
+Oct  3 07:08:01 nate-Z170XP-SLI systemd-udevd[48748]: vethaf31cd7: Could not generate persistent MAC: No data available
+Oct  3 07:08:01 nate-Z170XP-SLI systemd-udevd[48755]: ethtool: autonegotiation is unset or enabled, the speed and duplex are not writable.
+Oct  3 07:08:01 nate-Z170XP-SLI systemd-udevd[48755]: veth3b48190: Could not generate persistent MAC: No data available
+Oct  3 07:08:01 nate-Z170XP-SLI containerd[954]: time="2020-10-03T07:08:01.614566386-04:00" level=info msg="shim containerd-shim started" address=/containerd-shim/7119cde12d3e0bcf1497b8654afacafa7e05d4284741c533d52848675278a1d9.sock debug=false pid=49292
+Oct  3 07:08:01 nate-Z170XP-SLI systemd[1]: run-docker-runtime\x2drunc-moby-27e4785145da15e2de98b4ac51fc543223bd90ff17a30f1b0235df94df0e1355-runc.qzRziu.mount: Succeeded.
+Oct  3 07:08:01 nate-Z170XP-SLI systemd[1899]: run-docker-runtime\x2drunc-moby-27e4785145da15e2de98b4ac51fc543223bd90ff17a30f1b0235df94df0e1355-runc.qzRziu.mount: Succeeded.
+Oct  3 07:08:01 nate-Z170XP-SLI systemd[1049]: run-docker-runtime\x2drunc-moby-27e4785145da15e2de98b4ac51fc543223bd90ff17a30f1b0235df94df0e1355-runc.qzRziu.mount: Succeeded.
+Oct  3 07:08:01 nate-Z170XP-SLI kernel: [41674.104146] br-f67662cc1afa: port 4(veth3b48190) entered disabled state
+Oct  3 07:08:01 nate-Z170XP-SLI kernel: [41674.297800] eth0: renamed from vethaf31cd7
+Oct  3 07:08:01 nate-Z170XP-SLI gnome-shell[2136]: Removing a network device that was not added
+Oct  3 07:08:01 nate-Z170XP-SLI gnome-shell[1353]: Removing a network device that was not added
+Oct  3 07:08:01 nate-Z170XP-SLI NetworkManager[866]: <info>  [1601723281.9339] device (veth3b48190): carrier: link connected
+Oct  3 07:08:01 nate-Z170XP-SLI kernel: [41674.317523] IPv6: ADDRCONF(NETDEV_CHANGE): veth3b48190: link becomes ready
+Oct  3 07:08:01 nate-Z170XP-SLI kernel: [41674.317630] br-f67662cc1afa: port 4(veth3b48190) entered blocking state
+Oct  3 07:08:01 nate-Z170XP-SLI kernel: [41674.317631] br-f67662cc1afa: port 4(veth3b48190) entered forwarding state
+Oct  3 07:08:02 nate-Z170XP-SLI avahi-daemon[861]: Joining mDNS multicast group on interface veth4e77a04.IPv6 with address fe80::28df:8bff:fe70:d9b9.
+Oct  3 07:08:02 nate-Z170XP-SLI avahi-daemon[861]: New relevant interface veth4e77a04.IPv6 for mDNS.
+Oct  3 07:08:02 nate-Z170XP-SLI avahi-daemon[861]: Registering new address record for fe80::28df:8bff:fe70:d9b9 on veth4e77a04.*.
+Oct  3 07:08:02 nate-Z170XP-SLI avahi-daemon[861]: Joining mDNS multicast group on interface vethd5dff6d.IPv6 with address fe80::3453:60ff:fe30:bcf.
+Oct  3 07:08:02 nate-Z170XP-SLI avahi-daemon[861]: New relevant interface vethd5dff6d.IPv6 for mDNS.
+Oct  3 07:08:02 nate-Z170XP-SLI avahi-daemon[861]: Registering new address record for fe80::3453:60ff:fe30:bcf on vethd5dff6d.*.
+Oct  3 07:08:03 nate-Z170XP-SLI avahi-daemon[861]: Joining mDNS multicast group on interface vethec536cc.IPv6 with address fe80::a052:84ff:feb4:2ca2.
+Oct  3 07:08:03 nate-Z170XP-SLI avahi-daemon[861]: New relevant interface vethec536cc.IPv6 for mDNS.
+Oct  3 07:08:03 nate-Z170XP-SLI avahi-daemon[861]: Registering new address record for fe80::a052:84ff:feb4:2ca2 on vethec536cc.*.
+Oct  3 07:08:03 nate-Z170XP-SLI avahi-daemon[861]: Joining mDNS multicast group on interface veth3b48190.IPv6 with address fe80::c2f:79ff:fea9:36ca.
+Oct  3 07:08:03 nate-Z170XP-SLI avahi-daemon[861]: New relevant interface veth3b48190.IPv6 for mDNS.
+Oct  3 07:08:03 nate-Z170XP-SLI avahi-daemon[861]: Registering new address record for fe80::c2f:79ff:fea9:36ca on veth3b48190.*.
+Oct  3 07:08:06 nate-Z170XP-SLI containerd[954]: time="2020-10-03T07:08:06.991012307-04:00" level=info msg="shim reaped" id=c4a8847a430c8e777e0bfeff37c1a32d25a6ca94868f5e7d51c35c6582959353
+Oct  3 07:08:07 nate-Z170XP-SLI dockerd[1564]: time="2020-10-03T07:08:07.001303011-04:00" level=info msg="ignoring event" module=libcontainerd namespace=moby topic=/tasks/delete type="*events.TaskDelete"
+Oct  3 07:08:07 nate-Z170XP-SLI kernel: [41679.398941] br-f67662cc1afa: port 1(veth4e77a04) entered disabled state
+Oct  3 07:08:07 nate-Z170XP-SLI kernel: [41679.399691] veth85faaaa: renamed from eth0
+Oct  3 07:08:07 nate-Z170XP-SLI NetworkManager[866]: <info>  [1601723287.0605] manager: (veth85faaaa): new Veth device (/org/freedesktop/NetworkManager/Devices/133)
+Oct  3 07:08:07 nate-Z170XP-SLI systemd-udevd[50207]: ethtool: autonegotiation is unset or enabled, the speed and duplex are not writable.
+Oct  3 07:08:07 nate-Z170XP-SLI systemd-udevd[50207]: Using default interface naming scheme 'v245'.
+Oct  3 07:08:07 nate-Z170XP-SLI avahi-daemon[861]: Interface veth4e77a04.IPv6 no longer relevant for mDNS.
+Oct  3 07:08:07 nate-Z170XP-SLI avahi-daemon[861]: Leaving mDNS multicast group on interface veth4e77a04.IPv6 with address fe80::28df:8bff:fe70:d9b9.
+Oct  3 07:08:07 nate-Z170XP-SLI kernel: [41679.461668] br-f67662cc1afa: port 1(veth4e77a04) entered disabled state
+Oct  3 07:08:07 nate-Z170XP-SLI kernel: [41679.464888] device veth4e77a04 left promiscuous mode
+Oct  3 07:08:07 nate-Z170XP-SLI kernel: [41679.464893] br-f67662cc1afa: port 1(veth4e77a04) entered disabled state
+Oct  3 07:08:07 nate-Z170XP-SLI avahi-daemon[861]: Withdrawing address record for fe80::28df:8bff:fe70:d9b9 on veth4e77a04.
+Oct  3 07:08:07 nate-Z170XP-SLI NetworkManager[866]: <info>  [1601723287.1121] device (veth4e77a04): released from master device br-f67662cc1afa
+Oct  3 07:08:07 nate-Z170XP-SLI gnome-shell[2136]: Removing a network device that was not added
+Oct  3 07:08:07 nate-Z170XP-SLI gnome-shell[1353]: Removing a network device that was not added
+Oct  3 07:08:07 nate-Z170XP-SLI gnome-shell[1353]: Removing a network device that was not added
+Oct  3 07:08:07 nate-Z170XP-SLI gnome-shell[2136]: Removing a network device that was not added
+Oct  3 07:08:07 nate-Z170XP-SLI systemd[1]: run-docker-netns-ebd25e277eb6.mount: Succeeded.
+Oct  3 07:08:07 nate-Z170XP-SLI systemd[1899]: run-docker-netns-ebd25e277eb6.mount: Succeeded.
+Oct  3 07:08:07 nate-Z170XP-SLI systemd[1049]: run-docker-netns-ebd25e277eb6.mount: Succeeded.
+Oct  3 07:08:07 nate-Z170XP-SLI systemd[1]: var-lib-docker-containers-c4a8847a430c8e777e0bfeff37c1a32d25a6ca94868f5e7d51c35c6582959353-mounts-shm.mount: Succeeded.
+Oct  3 07:08:07 nate-Z170XP-SLI systemd[1]: var-lib-docker-overlay2-a1867988087e0f5ea6a8c4a94e68a4430b7cf6c8d2f3d1650f0a095070cda404-merged.mount: Succeeded.
+Oct  3 07:08:07 nate-Z170XP-SLI systemd[1899]: var-lib-docker-containers-c4a8847a430c8e777e0bfeff37c1a32d25a6ca94868f5e7d51c35c6582959353-mounts-shm.mount: Succeeded.
+Oct  3 07:08:07 nate-Z170XP-SLI systemd[1899]: var-lib-docker-overlay2-a1867988087e0f5ea6a8c4a94e68a4430b7cf6c8d2f3d1650f0a095070cda404-merged.mount: Succeeded.
+Oct  3 07:08:07 nate-Z170XP-SLI systemd[1049]: var-lib-docker-containers-c4a8847a430c8e777e0bfeff37c1a32d25a6ca94868f5e7d51c35c6582959353-mounts-shm.mount: Succeeded.
+Oct  3 07:08:07 nate-Z170XP-SLI systemd[1049]: var-lib-docker-overlay2-a1867988087e0f5ea6a8c4a94e68a4430b7cf6c8d2f3d1650f0a095070cda404-merged.mount: Succeeded.
+Oct  3 07:08:43 nate-Z170XP-SLI gnome-shell[2136]: ../clutter/clutter/clutter-actor.c:10556: The clutter_actor_set_allocation() function can only be called from within the implementation of the ClutterActor::allocate() virtual function.
+Oct  3 07:10:07 nate-Z170XP-SLI gnome-shell[2136]: Window manager warning: WM_TRANSIENT_FOR window 0x36017a6 for 0x36017b1 window override-redirect is an override-redirect window and this is not correct according to the standard, so we'll fallback to the first non-override-redirect window 0x360007d.
+Oct  3 07:11:06 nate-Z170XP-SLI containerd[954]: time="2020-10-03T07:11:06.010869511-04:00" level=info msg="shim reaped" id=27e4785145da15e2de98b4ac51fc543223bd90ff17a30f1b0235df94df0e1355
+Oct  3 07:11:06 nate-Z170XP-SLI dockerd[1564]: time="2020-10-03T07:11:06.021089315-04:00" level=info msg="ignoring event" module=libcontainerd namespace=moby topic=/tasks/delete type="*events.TaskDelete"
+Oct  3 07:11:06 nate-Z170XP-SLI kernel: [41858.486439] br-f67662cc1afa: port 4(veth3b48190) entered disabled state
+Oct  3 07:11:06 nate-Z170XP-SLI kernel: [41858.487009] vethaf31cd7: renamed from eth0
+Oct  3 07:11:06 nate-Z170XP-SLI NetworkManager[866]: <info>  [1601723466.1560] manager: (vethaf31cd7): new Veth device (/org/freedesktop/NetworkManager/Devices/134)
+Oct  3 07:11:06 nate-Z170XP-SLI systemd-udevd[50373]: ethtool: autonegotiation is unset or enabled, the speed and duplex are not writable.
+Oct  3 07:11:06 nate-Z170XP-SLI systemd-udevd[50373]: Using default interface naming scheme 'v245'.
+Oct  3 07:11:06 nate-Z170XP-SLI avahi-daemon[861]: Interface veth3b48190.IPv6 no longer relevant for mDNS.
+Oct  3 07:11:06 nate-Z170XP-SLI avahi-daemon[861]: Leaving mDNS multicast group on interface veth3b48190.IPv6 with address fe80::c2f:79ff:fea9:36ca.
+Oct  3 07:11:06 nate-Z170XP-SLI kernel: [41858.538375] br-f67662cc1afa: port 4(veth3b48190) entered disabled state
+Oct  3 07:11:06 nate-Z170XP-SLI kernel: [41858.543359] device veth3b48190 left promiscuous mode
+Oct  3 07:11:06 nate-Z170XP-SLI kernel: [41858.543363] br-f67662cc1afa: port 4(veth3b48190) entered disabled state
+Oct  3 07:11:06 nate-Z170XP-SLI avahi-daemon[861]: Withdrawing address record for fe80::c2f:79ff:fea9:36ca on veth3b48190.
+Oct  3 07:11:06 nate-Z170XP-SLI NetworkManager[866]: <info>  [1601723466.1876] device (veth3b48190): released from master device br-f67662cc1afa
+Oct  3 07:11:06 nate-Z170XP-SLI gnome-shell[2136]: Removing a network device that was not added
+Oct  3 07:11:06 nate-Z170XP-SLI gnome-shell[1353]: Removing a network device that was not added
+Oct  3 07:11:06 nate-Z170XP-SLI gnome-shell[1353]: Removing a network device that was not added
+Oct  3 07:11:06 nate-Z170XP-SLI gnome-shell[2136]: Removing a network device that was not added
+Oct  3 07:11:06 nate-Z170XP-SLI systemd[1]: run-docker-netns-b0b5550720d9.mount: Succeeded.
+Oct  3 07:11:06 nate-Z170XP-SLI systemd[1]: var-lib-docker-containers-27e4785145da15e2de98b4ac51fc543223bd90ff17a30f1b0235df94df0e1355-mounts-shm.mount: Succeeded.
+Oct  3 07:11:06 nate-Z170XP-SLI systemd[1]: var-lib-docker-overlay2-774a8b211549b9ed6ee92646f763fa9c5a9a64d50bf1982355296529324f978b-merged.mount: Succeeded.
+Oct  3 07:11:06 nate-Z170XP-SLI systemd[1899]: run-docker-netns-b0b5550720d9.mount: Succeeded.
+Oct  3 07:11:06 nate-Z170XP-SLI systemd[1899]: var-lib-docker-containers-27e4785145da15e2de98b4ac51fc543223bd90ff17a30f1b0235df94df0e1355-mounts-shm.mount: Succeeded.
+Oct  3 07:11:06 nate-Z170XP-SLI systemd[1899]: var-lib-docker-overlay2-774a8b211549b9ed6ee92646f763fa9c5a9a64d50bf1982355296529324f978b-merged.mount: Succeeded.
+Oct  3 07:11:06 nate-Z170XP-SLI systemd[1049]: run-docker-netns-b0b5550720d9.mount: Succeeded.
+Oct  3 07:11:06 nate-Z170XP-SLI systemd[1049]: var-lib-docker-containers-27e4785145da15e2de98b4ac51fc543223bd90ff17a30f1b0235df94df0e1355-mounts-shm.mount: Succeeded.
+Oct  3 07:11:06 nate-Z170XP-SLI systemd[1049]: var-lib-docker-overlay2-774a8b211549b9ed6ee92646f763fa9c5a9a64d50bf1982355296529324f978b-merged.mount: Succeeded.
+Oct  3 07:11:06 nate-Z170XP-SLI containerd[954]: time="2020-10-03T07:11:06.990594700-04:00" level=info msg="shim reaped" id=0fc24efdd9eef2638576ed3f29298205f78fac4eb6bc8573eabe2782d33310bf
+Oct  3 07:11:07 nate-Z170XP-SLI dockerd[1564]: time="2020-10-03T07:11:07.001090021-04:00" level=info msg="ignoring event" module=libcontainerd namespace=moby topic=/tasks/delete type="*events.TaskDelete"
+Oct  3 07:11:07 nate-Z170XP-SLI kernel: [41859.388533] br-f67662cc1afa: port 2(vethd5dff6d) entered disabled state
+Oct  3 07:11:07 nate-Z170XP-SLI kernel: [41859.388719] veth49e9e61: renamed from eth0
+Oct  3 07:11:07 nate-Z170XP-SLI NetworkManager[866]: <info>  [1601723467.0461] manager: (veth49e9e61): new Veth device (/org/freedesktop/NetworkManager/Devices/135)
+Oct  3 07:11:07 nate-Z170XP-SLI systemd-udevd[50372]: ethtool: autonegotiation is unset or enabled, the speed and duplex are not writable.
+Oct  3 07:11:07 nate-Z170XP-SLI avahi-daemon[861]: Interface vethd5dff6d.IPv6 no longer relevant for mDNS.
+Oct  3 07:11:07 nate-Z170XP-SLI avahi-daemon[861]: Leaving mDNS multicast group on interface vethd5dff6d.IPv6 with address fe80::3453:60ff:fe30:bcf.
+Oct  3 07:11:07 nate-Z170XP-SLI kernel: [41859.429677] br-f67662cc1afa: port 2(vethd5dff6d) entered disabled state
+Oct  3 07:11:07 nate-Z170XP-SLI systemd-udevd[50372]: Using default interface naming scheme 'v245'.
+Oct  3 07:11:07 nate-Z170XP-SLI kernel: [41859.432314] device vethd5dff6d left promiscuous mode
+Oct  3 07:11:07 nate-Z170XP-SLI kernel: [41859.432318] br-f67662cc1afa: port 2(vethd5dff6d) entered disabled state
+Oct  3 07:11:07 nate-Z170XP-SLI avahi-daemon[861]: Withdrawing address record for fe80::3453:60ff:fe30:bcf on vethd5dff6d.
+Oct  3 07:11:07 nate-Z170XP-SLI NetworkManager[866]: <info>  [1601723467.0618] device (vethd5dff6d): released from master device br-f67662cc1afa
+Oct  3 07:11:07 nate-Z170XP-SLI gnome-shell[1353]: Removing a network device that was not added
+Oct  3 07:11:07 nate-Z170XP-SLI gnome-shell[2136]: Removing a network device that was not added
+Oct  3 07:11:07 nate-Z170XP-SLI gnome-shell[1353]: Removing a network device that was not added
+Oct  3 07:11:07 nate-Z170XP-SLI gnome-shell[2136]: Removing a network device that was not added
+Oct  3 07:11:07 nate-Z170XP-SLI systemd[1899]: run-docker-netns-7d59b834fe20.mount: Succeeded.
+Oct  3 07:11:07 nate-Z170XP-SLI systemd[1]: run-docker-netns-7d59b834fe20.mount: Succeeded.
+Oct  3 07:11:07 nate-Z170XP-SLI systemd[1049]: run-docker-netns-7d59b834fe20.mount: Succeeded.
+Oct  3 07:11:07 nate-Z170XP-SLI systemd[1899]: var-lib-docker-containers-0fc24efdd9eef2638576ed3f29298205f78fac4eb6bc8573eabe2782d33310bf-mounts-shm.mount: Succeeded.
+Oct  3 07:11:07 nate-Z170XP-SLI systemd[1]: var-lib-docker-containers-0fc24efdd9eef2638576ed3f29298205f78fac4eb6bc8573eabe2782d33310bf-mounts-shm.mount: Succeeded.
+Oct  3 07:11:07 nate-Z170XP-SLI systemd[1899]: var-lib-docker-overlay2-0dddb21d31a7fd1ca81ae4c7fcfa3c3c8b2b953152601d14d819f0f1e91e1909-merged.mount: Succeeded.
+Oct  3 07:11:07 nate-Z170XP-SLI systemd[1]: var-lib-docker-overlay2-0dddb21d31a7fd1ca81ae4c7fcfa3c3c8b2b953152601d14d819f0f1e91e1909-merged.mount: Succeeded.
+Oct  3 07:11:07 nate-Z170XP-SLI systemd[1049]: var-lib-docker-containers-0fc24efdd9eef2638576ed3f29298205f78fac4eb6bc8573eabe2782d33310bf-mounts-shm.mount: Succeeded.
+Oct  3 07:11:07 nate-Z170XP-SLI systemd[1049]: var-lib-docker-overlay2-0dddb21d31a7fd1ca81ae4c7fcfa3c3c8b2b953152601d14d819f0f1e91e1909-merged.mount: Succeeded.
+Oct  3 07:11:16 nate-Z170XP-SLI dockerd[1564]: time="2020-10-03T07:11:16.301695236-04:00" level=info msg="Container 1cc524fd2416e5e4daf52b1ec38f1d602cdb9cde382d9b771c1e040de510c137 failed to exit within 10 seconds of signal 15 - using the force"
+Oct  3 07:11:16 nate-Z170XP-SLI containerd[954]: time="2020-10-03T07:11:16.436059306-04:00" level=info msg="shim reaped" id=1cc524fd2416e5e4daf52b1ec38f1d602cdb9cde382d9b771c1e040de510c137
+Oct  3 07:11:16 nate-Z170XP-SLI dockerd[1564]: time="2020-10-03T07:11:16.446340282-04:00" level=info msg="ignoring event" module=libcontainerd namespace=moby topic=/tasks/delete type="*events.TaskDelete"
+Oct  3 07:11:16 nate-Z170XP-SLI kernel: [41868.841213] br-f67662cc1afa: port 3(vethec536cc) entered disabled state
+Oct  3 07:11:16 nate-Z170XP-SLI kernel: [41868.841957] veth7d08c70: renamed from eth0
+Oct  3 07:11:16 nate-Z170XP-SLI NetworkManager[866]: <info>  [1601723476.5248] manager: (veth7d08c70): new Veth device (/org/freedesktop/NetworkManager/Devices/136)
+Oct  3 07:11:16 nate-Z170XP-SLI systemd-udevd[50470]: ethtool: autonegotiation is unset or enabled, the speed and duplex are not writable.
+Oct  3 07:11:16 nate-Z170XP-SLI systemd-udevd[50470]: Using default interface naming scheme 'v245'.
+Oct  3 07:11:16 nate-Z170XP-SLI avahi-daemon[861]: Interface vethec536cc.IPv6 no longer relevant for mDNS.
+Oct  3 07:11:16 nate-Z170XP-SLI avahi-daemon[861]: Leaving mDNS multicast group on interface vethec536cc.IPv6 with address fe80::a052:84ff:feb4:2ca2.
+Oct  3 07:11:16 nate-Z170XP-SLI kernel: [41868.909625] br-f67662cc1afa: port 3(vethec536cc) entered disabled state
+Oct  3 07:11:16 nate-Z170XP-SLI kernel: [41868.912872] device vethec536cc left promiscuous mode
+Oct  3 07:11:16 nate-Z170XP-SLI kernel: [41868.912876] br-f67662cc1afa: port 3(vethec536cc) entered disabled state
+Oct  3 07:11:16 nate-Z170XP-SLI avahi-daemon[861]: Withdrawing address record for fe80::a052:84ff:feb4:2ca2 on vethec536cc.
+Oct  3 07:11:16 nate-Z170XP-SLI NetworkManager[866]: <info>  [1601723476.5496] device (vethec536cc): released from master device br-f67662cc1afa
+Oct  3 07:11:16 nate-Z170XP-SLI gnome-shell[2136]: Removing a network device that was not added
+Oct  3 07:11:16 nate-Z170XP-SLI gnome-shell[1353]: Removing a network device that was not added
+Oct  3 07:11:16 nate-Z170XP-SLI gnome-shell[1353]: Removing a network device that was not added
+Oct  3 07:11:16 nate-Z170XP-SLI gnome-shell[2136]: Removing a network device that was not added
+Oct  3 07:11:16 nate-Z170XP-SLI systemd[1]: run-docker-netns-8371099f2e97.mount: Succeeded.
+Oct  3 07:11:16 nate-Z170XP-SLI systemd[1899]: run-docker-netns-8371099f2e97.mount: Succeeded.
+Oct  3 07:11:16 nate-Z170XP-SLI systemd[1049]: run-docker-netns-8371099f2e97.mount: Succeeded.
+Oct  3 07:11:16 nate-Z170XP-SLI systemd[1899]: var-lib-docker-containers-1cc524fd2416e5e4daf52b1ec38f1d602cdb9cde382d9b771c1e040de510c137-mounts-shm.mount: Succeeded.
+Oct  3 07:11:16 nate-Z170XP-SLI systemd[1]: var-lib-docker-containers-1cc524fd2416e5e4daf52b1ec38f1d602cdb9cde382d9b771c1e040de510c137-mounts-shm.mount: Succeeded.
+Oct  3 07:11:16 nate-Z170XP-SLI systemd[1049]: var-lib-docker-containers-1cc524fd2416e5e4daf52b1ec38f1d602cdb9cde382d9b771c1e040de510c137-mounts-shm.mount: Succeeded.
+Oct  3 07:11:16 nate-Z170XP-SLI systemd[1899]: var-lib-docker-overlay2-2a628caca5b028763badf249f25b2a94e611e428aa8c7c96aaf77da9e2dc781a-merged.mount: Succeeded.
+Oct  3 07:11:16 nate-Z170XP-SLI systemd[1]: var-lib-docker-overlay2-2a628caca5b028763badf249f25b2a94e611e428aa8c7c96aaf77da9e2dc781a-merged.mount: Succeeded.
+Oct  3 07:11:16 nate-Z170XP-SLI systemd[1049]: var-lib-docker-overlay2-2a628caca5b028763badf249f25b2a94e611e428aa8c7c96aaf77da9e2dc781a-merged.mount: Succeeded.
+Oct  3 07:12:38 nate-Z170XP-SLI NetworkManager[866]: <info>  [1601723558.1127] manager: (veth2705c58): new Veth device (/org/freedesktop/NetworkManager/Devices/137)
+Oct  3 07:12:38 nate-Z170XP-SLI kernel: [41950.486746] br-f67662cc1afa: port 1(veth8a753c6) entered blocking state
+Oct  3 07:12:38 nate-Z170XP-SLI kernel: [41950.486748] br-f67662cc1afa: port 1(veth8a753c6) entered disabled state
+Oct  3 07:12:38 nate-Z170XP-SLI kernel: [41950.486794] device veth8a753c6 entered promiscuous mode
+Oct  3 07:12:38 nate-Z170XP-SLI kernel: [41950.486866] br-f67662cc1afa: port 1(veth8a753c6) entered blocking state
+Oct  3 07:12:38 nate-Z170XP-SLI kernel: [41950.486867] br-f67662cc1afa: port 1(veth8a753c6) entered forwarding state
+Oct  3 07:12:38 nate-Z170XP-SLI kernel: [41950.487091] br-f67662cc1afa: port 1(veth8a753c6) entered disabled state
+Oct  3 07:12:38 nate-Z170XP-SLI NetworkManager[866]: <info>  [1601723558.1135] manager: (veth8a753c6): new Veth device (/org/freedesktop/NetworkManager/Devices/138)
+Oct  3 07:12:38 nate-Z170XP-SLI systemd-udevd[50607]: ethtool: autonegotiation is unset or enabled, the speed and duplex are not writable.
+Oct  3 07:12:38 nate-Z170XP-SLI systemd-udevd[50604]: ethtool: autonegotiation is unset or enabled, the speed and duplex are not writable.
+Oct  3 07:12:38 nate-Z170XP-SLI systemd-udevd[50607]: Using default interface naming scheme 'v245'.
+Oct  3 07:12:38 nate-Z170XP-SLI systemd-udevd[50607]: veth8a753c6: Could not generate persistent MAC: No data available
+Oct  3 07:12:38 nate-Z170XP-SLI systemd-udevd[50604]: Using default interface naming scheme 'v245'.
+Oct  3 07:12:38 nate-Z170XP-SLI systemd-udevd[50604]: veth2705c58: Could not generate persistent MAC: No data available
+Oct  3 07:12:38 nate-Z170XP-SLI containerd[954]: time="2020-10-03T07:12:38.159729289-04:00" level=info msg="shim containerd-shim started" address=/containerd-shim/54b9d3f33152e57fd3fbb045684ae350d6195c7c51f55f8623c0ba2154c77f7d.sock debug=false pid=50627
+Oct  3 07:12:38 nate-Z170XP-SLI systemd[1]: run-docker-runtime\x2drunc-moby-c4a8847a430c8e777e0bfeff37c1a32d25a6ca94868f5e7d51c35c6582959353-runc.EBnqKp.mount: Succeeded.
+Oct  3 07:12:38 nate-Z170XP-SLI systemd[1899]: run-docker-runtime\x2drunc-moby-c4a8847a430c8e777e0bfeff37c1a32d25a6ca94868f5e7d51c35c6582959353-runc.EBnqKp.mount: Succeeded.
+Oct  3 07:12:38 nate-Z170XP-SLI systemd[1049]: run-docker-runtime\x2drunc-moby-c4a8847a430c8e777e0bfeff37c1a32d25a6ca94868f5e7d51c35c6582959353-runc.EBnqKp.mount: Succeeded.
+Oct  3 07:12:38 nate-Z170XP-SLI kernel: [41950.714811] eth0: renamed from veth2705c58
+Oct  3 07:12:38 nate-Z170XP-SLI kernel: [41950.735221] IPv6: ADDRCONF(NETDEV_CHANGE): veth8a753c6: link becomes ready
+Oct  3 07:12:38 nate-Z170XP-SLI kernel: [41950.735400] br-f67662cc1afa: port 1(veth8a753c6) entered blocking state
+Oct  3 07:12:38 nate-Z170XP-SLI kernel: [41950.735403] br-f67662cc1afa: port 1(veth8a753c6) entered forwarding state
+Oct  3 07:12:38 nate-Z170XP-SLI NetworkManager[866]: <info>  [1601723558.3641] device (veth8a753c6): carrier: link connected
+Oct  3 07:12:38 nate-Z170XP-SLI NetworkManager[866]: <info>  [1601723558.3655] device (br-f67662cc1afa): carrier: link connected
+Oct  3 07:12:38 nate-Z170XP-SLI gnome-shell[2136]: Removing a network device that was not added
+Oct  3 07:12:38 nate-Z170XP-SLI gnome-shell[1353]: Removing a network device that was not added
+Oct  3 07:12:38 nate-Z170XP-SLI kernel: [41950.808641] br-f67662cc1afa: port 2(veth14dba60) entered blocking state
+Oct  3 07:12:38 nate-Z170XP-SLI kernel: [41950.808642] br-f67662cc1afa: port 2(veth14dba60) entered disabled state
+Oct  3 07:12:38 nate-Z170XP-SLI kernel: [41950.810857] device veth14dba60 entered promiscuous mode
+Oct  3 07:12:38 nate-Z170XP-SLI kernel: [41950.817995] br-f67662cc1afa: port 2(veth14dba60) entered blocking state
+Oct  3 07:12:38 nate-Z170XP-SLI kernel: [41950.817997] br-f67662cc1afa: port 2(veth14dba60) entered forwarding state
+Oct  3 07:12:38 nate-Z170XP-SLI NetworkManager[866]: <info>  [1601723558.4366] manager: (vethc509c00): new Veth device (/org/freedesktop/NetworkManager/Devices/139)
+Oct  3 07:12:38 nate-Z170XP-SLI NetworkManager[866]: <info>  [1601723558.4375] manager: (veth14dba60): new Veth device (/org/freedesktop/NetworkManager/Devices/140)
+Oct  3 07:12:38 nate-Z170XP-SLI systemd-udevd[50665]: ethtool: autonegotiation is unset or enabled, the speed and duplex are not writable.
+Oct  3 07:12:38 nate-Z170XP-SLI systemd-udevd[50657]: ethtool: autonegotiation is unset or enabled, the speed and duplex are not writable.
+Oct  3 07:12:38 nate-Z170XP-SLI systemd-udevd[50665]: Using default interface naming scheme 'v245'.
+Oct  3 07:12:38 nate-Z170XP-SLI systemd-udevd[50665]: vethc509c00: Could not generate persistent MAC: No data available
+Oct  3 07:12:38 nate-Z170XP-SLI systemd-udevd[50657]: Using default interface naming scheme 'v245'.
+Oct  3 07:12:38 nate-Z170XP-SLI systemd-udevd[50657]: veth14dba60: Could not generate persistent MAC: No data available
+Oct  3 07:12:38 nate-Z170XP-SLI NetworkManager[866]: <info>  [1601723558.4648] manager: (vethb7892b0): new Veth device (/org/freedesktop/NetworkManager/Devices/141)
+Oct  3 07:12:38 nate-Z170XP-SLI NetworkManager[866]: <info>  [1601723558.4658] manager: (veth6e3011b): new Veth device (/org/freedesktop/NetworkManager/Devices/142)
+Oct  3 07:12:38 nate-Z170XP-SLI kernel: [41950.839284] br-f67662cc1afa: port 3(veth6e3011b) entered blocking state
+Oct  3 07:12:38 nate-Z170XP-SLI kernel: [41950.839285] br-f67662cc1afa: port 3(veth6e3011b) entered disabled state
+Oct  3 07:12:38 nate-Z170XP-SLI kernel: [41950.839358] device veth6e3011b entered promiscuous mode
+Oct  3 07:12:38 nate-Z170XP-SLI kernel: [41950.839519] br-f67662cc1afa: port 3(veth6e3011b) entered blocking state
+Oct  3 07:12:38 nate-Z170XP-SLI kernel: [41950.839520] br-f67662cc1afa: port 3(veth6e3011b) entered forwarding state
+Oct  3 07:12:38 nate-Z170XP-SLI systemd-udevd[50658]: ethtool: autonegotiation is unset or enabled, the speed and duplex are not writable.
+Oct  3 07:12:38 nate-Z170XP-SLI systemd-udevd[50658]: Using default interface naming scheme 'v245'.
+Oct  3 07:12:38 nate-Z170XP-SLI systemd-udevd[50658]: veth6e3011b: Could not generate persistent MAC: No data available
+Oct  3 07:12:38 nate-Z170XP-SLI systemd-udevd[50645]: ethtool: autonegotiation is unset or enabled, the speed and duplex are not writable.
+Oct  3 07:12:38 nate-Z170XP-SLI systemd-udevd[50645]: Using default interface naming scheme 'v245'.
+Oct  3 07:12:38 nate-Z170XP-SLI systemd-udevd[50645]: vethb7892b0: Could not generate persistent MAC: No data available
+Oct  3 07:12:38 nate-Z170XP-SLI containerd[954]: time="2020-10-03T07:12:38.547831610-04:00" level=info msg="shim containerd-shim started" address=/containerd-shim/55a6aa6441ad72946e6768d12d0d4caad94466fa1ad61f3adcbb1b9c93353a1e.sock debug=false pid=50811
+Oct  3 07:12:38 nate-Z170XP-SLI containerd[954]: time="2020-10-03T07:12:38.548328237-04:00" level=info msg="shim containerd-shim started" address=/containerd-shim/43218e1aa2c7ab8c165e7124eba769a7ed1dac1329db1083377887d3dfc22a2b.sock debug=false pid=50812
+Oct  3 07:12:38 nate-Z170XP-SLI systemd[1]: run-docker-runtime\x2drunc-moby-1cc524fd2416e5e4daf52b1ec38f1d602cdb9cde382d9b771c1e040de510c137-runc.8RzlHv.mount: Succeeded.
+Oct  3 07:12:38 nate-Z170XP-SLI systemd[1899]: run-docker-runtime\x2drunc-moby-1cc524fd2416e5e4daf52b1ec38f1d602cdb9cde382d9b771c1e040de510c137-runc.8RzlHv.mount: Succeeded.
+Oct  3 07:12:38 nate-Z170XP-SLI systemd[1049]: run-docker-runtime\x2drunc-moby-1cc524fd2416e5e4daf52b1ec38f1d602cdb9cde382d9b771c1e040de510c137-runc.8RzlHv.mount: Succeeded.
+Oct  3 07:12:38 nate-Z170XP-SLI systemd[1]: run-docker-runtime\x2drunc-moby-0fc24efdd9eef2638576ed3f29298205f78fac4eb6bc8573eabe2782d33310bf-runc.sGkjAx.mount: Succeeded.
+Oct  3 07:12:38 nate-Z170XP-SLI systemd[1899]: run-docker-runtime\x2drunc-moby-0fc24efdd9eef2638576ed3f29298205f78fac4eb6bc8573eabe2782d33310bf-runc.sGkjAx.mount: Succeeded.
+Oct  3 07:12:38 nate-Z170XP-SLI systemd[1049]: run-docker-runtime\x2drunc-moby-0fc24efdd9eef2638576ed3f29298205f78fac4eb6bc8573eabe2782d33310bf-runc.sGkjAx.mount: Succeeded.
+Oct  3 07:12:38 nate-Z170XP-SLI kernel: [41951.219282] eth0: renamed from vethc509c00
+Oct  3 07:12:38 nate-Z170XP-SLI gnome-shell[1353]: Removing a network device that was not added
+Oct  3 07:12:38 nate-Z170XP-SLI gnome-shell[2136]: Removing a network device that was not added
+Oct  3 07:12:38 nate-Z170XP-SLI kernel: [41951.262691] eth0: renamed from vethb7892b0
+Oct  3 07:12:38 nate-Z170XP-SLI kernel: [41951.288568] IPv6: ADDRCONF(NETDEV_CHANGE): veth14dba60: link becomes ready
+Oct  3 07:12:38 nate-Z170XP-SLI kernel: [41951.288645] IPv6: ADDRCONF(NETDEV_CHANGE): veth6e3011b: link becomes ready
+Oct  3 07:12:38 nate-Z170XP-SLI NetworkManager[866]: <info>  [1601723558.9152] device (veth14dba60): carrier: link connected
+Oct  3 07:12:38 nate-Z170XP-SLI NetworkManager[866]: <info>  [1601723558.9156] device (veth6e3011b): carrier: link connected
+Oct  3 07:12:38 nate-Z170XP-SLI gnome-shell[1353]: Removing a network device that was not added
+Oct  3 07:12:38 nate-Z170XP-SLI gnome-shell[2136]: Removing a network device that was not added
+Oct  3 07:12:38 nate-Z170XP-SLI systemd-udevd[50648]: ethtool: autonegotiation is unset or enabled, the speed and duplex are not writable.
+Oct  3 07:12:38 nate-Z170XP-SLI NetworkManager[866]: <info>  [1601723558.9856] manager: (veth9de1812): new Veth device (/org/freedesktop/NetworkManager/Devices/143)
+Oct  3 07:12:38 nate-Z170XP-SLI NetworkManager[866]: <info>  [1601723558.9865] manager: (vethf8ba3da): new Veth device (/org/freedesktop/NetworkManager/Devices/144)
+Oct  3 07:12:38 nate-Z170XP-SLI systemd-udevd[50859]: ethtool: autonegotiation is unset or enabled, the speed and duplex are not writable.
+Oct  3 07:12:38 nate-Z170XP-SLI kernel: [41951.362830] br-f67662cc1afa: port 4(vethf8ba3da) entered blocking state
+Oct  3 07:12:38 nate-Z170XP-SLI kernel: [41951.362831] br-f67662cc1afa: port 4(vethf8ba3da) entered disabled state
+Oct  3 07:12:38 nate-Z170XP-SLI kernel: [41951.362977] device vethf8ba3da entered promiscuous mode
+Oct  3 07:12:38 nate-Z170XP-SLI kernel: [41951.363684] br-f67662cc1afa: port 4(vethf8ba3da) entered blocking state
+Oct  3 07:12:38 nate-Z170XP-SLI kernel: [41951.363685] br-f67662cc1afa: port 4(vethf8ba3da) entered forwarding state
+Oct  3 07:12:38 nate-Z170XP-SLI systemd-udevd[50648]: Using default interface naming scheme 'v245'.
+Oct  3 07:12:38 nate-Z170XP-SLI systemd-udevd[50648]: vethf8ba3da: Could not generate persistent MAC: No data available
+Oct  3 07:12:38 nate-Z170XP-SLI systemd-udevd[50859]: Using default interface naming scheme 'v245'.
+Oct  3 07:12:38 nate-Z170XP-SLI systemd-udevd[50859]: veth9de1812: Could not generate persistent MAC: No data available
+Oct  3 07:12:39 nate-Z170XP-SLI containerd[954]: time="2020-10-03T07:12:39.057239488-04:00" level=info msg="shim containerd-shim started" address=/containerd-shim/7119cde12d3e0bcf1497b8654afacafa7e05d4284741c533d52848675278a1d9.sock debug=false pid=51114
+Oct  3 07:12:39 nate-Z170XP-SLI systemd[1049]: run-docker-runtime\x2drunc-moby-27e4785145da15e2de98b4ac51fc543223bd90ff17a30f1b0235df94df0e1355-runc.R9mBvM.mount: Succeeded.
+Oct  3 07:12:39 nate-Z170XP-SLI systemd[1]: run-docker-runtime\x2drunc-moby-27e4785145da15e2de98b4ac51fc543223bd90ff17a30f1b0235df94df0e1355-runc.R9mBvM.mount: Succeeded.
+Oct  3 07:12:39 nate-Z170XP-SLI systemd[1899]: run-docker-runtime\x2drunc-moby-27e4785145da15e2de98b4ac51fc543223bd90ff17a30f1b0235df94df0e1355-runc.R9mBvM.mount: Succeeded.
+Oct  3 07:12:39 nate-Z170XP-SLI kernel: [41951.490296] br-f67662cc1afa: port 4(vethf8ba3da) entered disabled state
+Oct  3 07:12:39 nate-Z170XP-SLI gnome-shell[1353]: Removing a network device that was not added
+Oct  3 07:12:39 nate-Z170XP-SLI gnome-shell[2136]: Removing a network device that was not added
+Oct  3 07:12:39 nate-Z170XP-SLI kernel: [41951.739406] eth0: renamed from veth9de1812
+Oct  3 07:12:39 nate-Z170XP-SLI NetworkManager[866]: <info>  [1601723559.3890] device (vethf8ba3da): carrier: link connected
+Oct  3 07:12:39 nate-Z170XP-SLI kernel: [41951.762568] IPv6: ADDRCONF(NETDEV_CHANGE): vethf8ba3da: link becomes ready
+Oct  3 07:12:39 nate-Z170XP-SLI kernel: [41951.762630] br-f67662cc1afa: port 4(vethf8ba3da) entered blocking state
+Oct  3 07:12:39 nate-Z170XP-SLI kernel: [41951.762631] br-f67662cc1afa: port 4(vethf8ba3da) entered forwarding state
+Oct  3 07:12:39 nate-Z170XP-SLI avahi-daemon[861]: Joining mDNS multicast group on interface veth8a753c6.IPv6 with address fe80::7421:35ff:fe59:940e.
+Oct  3 07:12:39 nate-Z170XP-SLI avahi-daemon[861]: New relevant interface veth8a753c6.IPv6 for mDNS.
+Oct  3 07:12:39 nate-Z170XP-SLI avahi-daemon[861]: Registering new address record for fe80::7421:35ff:fe59:940e on veth8a753c6.*.
+Oct  3 07:12:40 nate-Z170XP-SLI avahi-daemon[861]: Joining mDNS multicast group on interface veth6e3011b.IPv6 with address fe80::c9a:5aff:fef7:4e13.
+Oct  3 07:12:40 nate-Z170XP-SLI avahi-daemon[861]: New relevant interface veth6e3011b.IPv6 for mDNS.
+Oct  3 07:12:40 nate-Z170XP-SLI avahi-daemon[861]: Registering new address record for fe80::c9a:5aff:fef7:4e13 on veth6e3011b.*.
+Oct  3 07:12:40 nate-Z170XP-SLI avahi-daemon[861]: Joining mDNS multicast group on interface veth14dba60.IPv6 with address fe80::64eb:fcff:fea8:c6bf.
+Oct  3 07:12:40 nate-Z170XP-SLI avahi-daemon[861]: New relevant interface veth14dba60.IPv6 for mDNS.
+Oct  3 07:12:40 nate-Z170XP-SLI avahi-daemon[861]: Registering new address record for fe80::64eb:fcff:fea8:c6bf on veth14dba60.*.
+Oct  3 07:12:41 nate-Z170XP-SLI avahi-daemon[861]: Joining mDNS multicast group on interface vethf8ba3da.IPv6 with address fe80::478:62ff:fefc:8684.
+Oct  3 07:12:41 nate-Z170XP-SLI avahi-daemon[861]: New relevant interface vethf8ba3da.IPv6 for mDNS.
+Oct  3 07:12:41 nate-Z170XP-SLI avahi-daemon[861]: Registering new address record for fe80::478:62ff:fefc:8684 on vethf8ba3da.*.
+Oct  3 07:12:43 nate-Z170XP-SLI containerd[954]: time="2020-10-03T07:12:43.791244837-04:00" level=info msg="shim reaped" id=c4a8847a430c8e777e0bfeff37c1a32d25a6ca94868f5e7d51c35c6582959353
+Oct  3 07:12:43 nate-Z170XP-SLI dockerd[1564]: time="2020-10-03T07:12:43.801612374-04:00" level=info msg="ignoring event" module=libcontainerd namespace=moby topic=/tasks/delete type="*events.TaskDelete"
+Oct  3 07:12:43 nate-Z170XP-SLI kernel: [41956.187187] br-f67662cc1afa: port 1(veth8a753c6) entered disabled state
+Oct  3 07:12:43 nate-Z170XP-SLI kernel: [41956.189107] veth2705c58: renamed from eth0
+Oct  3 07:12:43 nate-Z170XP-SLI NetworkManager[866]: <info>  [1601723563.8761] manager: (veth2705c58): new Veth device (/org/freedesktop/NetworkManager/Devices/145)
+Oct  3 07:12:43 nate-Z170XP-SLI avahi-daemon[861]: Interface veth8a753c6.IPv6 no longer relevant for mDNS.
+Oct  3 07:12:43 nate-Z170XP-SLI avahi-daemon[861]: Leaving mDNS multicast group on interface veth8a753c6.IPv6 with address fe80::7421:35ff:fe59:940e.
+Oct  3 07:12:43 nate-Z170XP-SLI kernel: [41956.256338] br-f67662cc1afa: port 1(veth8a753c6) entered disabled state
+Oct  3 07:12:43 nate-Z170XP-SLI kernel: [41956.259066] device veth8a753c6 left promiscuous mode
+Oct  3 07:12:43 nate-Z170XP-SLI kernel: [41956.259070] br-f67662cc1afa: port 1(veth8a753c6) entered disabled state
+Oct  3 07:12:43 nate-Z170XP-SLI avahi-daemon[861]: Withdrawing address record for fe80::7421:35ff:fe59:940e on veth8a753c6.
+Oct  3 07:12:43 nate-Z170XP-SLI NetworkManager[866]: <info>  [1601723563.9101] device (veth8a753c6): released from master device br-f67662cc1afa
+Oct  3 07:12:43 nate-Z170XP-SLI gnome-shell[2136]: Removing a network device that was not added
+Oct  3 07:12:43 nate-Z170XP-SLI gnome-shell[1353]: Removing a network device that was not added
+Oct  3 07:12:43 nate-Z170XP-SLI gnome-shell[2136]: Removing a network device that was not added
+Oct  3 07:12:43 nate-Z170XP-SLI gnome-shell[1353]: Removing a network device that was not added
+Oct  3 07:12:43 nate-Z170XP-SLI systemd-udevd[50859]: veth2705c58: Failed to get link config: No such device
+Oct  3 07:12:43 nate-Z170XP-SLI systemd[1]: run-docker-netns-804150f8574c.mount: Succeeded.
+Oct  3 07:12:43 nate-Z170XP-SLI systemd[1049]: run-docker-netns-804150f8574c.mount: Succeeded.
+Oct  3 07:12:43 nate-Z170XP-SLI systemd[1899]: run-docker-netns-804150f8574c.mount: Succeeded.
+Oct  3 07:12:43 nate-Z170XP-SLI systemd[1]: var-lib-docker-containers-c4a8847a430c8e777e0bfeff37c1a32d25a6ca94868f5e7d51c35c6582959353-mounts-shm.mount: Succeeded.
+Oct  3 07:12:43 nate-Z170XP-SLI systemd[1]: var-lib-docker-overlay2-a1867988087e0f5ea6a8c4a94e68a4430b7cf6c8d2f3d1650f0a095070cda404-merged.mount: Succeeded.
+Oct  3 07:12:43 nate-Z170XP-SLI systemd[1899]: var-lib-docker-containers-c4a8847a430c8e777e0bfeff37c1a32d25a6ca94868f5e7d51c35c6582959353-mounts-shm.mount: Succeeded.
+Oct  3 07:12:43 nate-Z170XP-SLI systemd[1899]: var-lib-docker-overlay2-a1867988087e0f5ea6a8c4a94e68a4430b7cf6c8d2f3d1650f0a095070cda404-merged.mount: Succeeded.
+Oct  3 07:12:43 nate-Z170XP-SLI systemd[1049]: var-lib-docker-containers-c4a8847a430c8e777e0bfeff37c1a32d25a6ca94868f5e7d51c35c6582959353-mounts-shm.mount: Succeeded.
+Oct  3 07:12:43 nate-Z170XP-SLI systemd[1049]: var-lib-docker-overlay2-a1867988087e0f5ea6a8c4a94e68a4430b7cf6c8d2f3d1650f0a095070cda404-merged.mount: Succeeded.
+Oct  3 07:14:16 nate-Z170XP-SLI NetworkManager[866]: <info>  [1601723656.3119] manager: (veth4216ebd): new Veth device (/org/freedesktop/NetworkManager/Devices/146)
+Oct  3 07:14:16 nate-Z170XP-SLI NetworkManager[866]: <info>  [1601723656.3128] manager: (vethff587ed): new Veth device (/org/freedesktop/NetworkManager/Devices/147)
+Oct  3 07:14:16 nate-Z170XP-SLI systemd-udevd[52140]: ethtool: autonegotiation is unset or enabled, the speed and duplex are not writable.
+Oct  3 07:14:16 nate-Z170XP-SLI systemd-udevd[52140]: Using default interface naming scheme 'v245'.
+Oct  3 07:14:16 nate-Z170XP-SLI systemd-udevd[52140]: veth4216ebd: Could not generate persistent MAC: No data available
+Oct  3 07:14:16 nate-Z170XP-SLI kernel: [42048.686844] br-f67662cc1afa: port 1(vethff587ed) entered blocking state
+Oct  3 07:14:16 nate-Z170XP-SLI kernel: [42048.686846] br-f67662cc1afa: port 1(vethff587ed) entered disabled state
+Oct  3 07:14:16 nate-Z170XP-SLI kernel: [42048.691088] device vethff587ed entered promiscuous mode
+Oct  3 07:14:16 nate-Z170XP-SLI systemd-udevd[52141]: ethtool: autonegotiation is unset or enabled, the speed and duplex are not writable.
+Oct  3 07:14:16 nate-Z170XP-SLI systemd-udevd[52141]: Using default interface naming scheme 'v245'.
+Oct  3 07:14:16 nate-Z170XP-SLI systemd-udevd[52141]: vethff587ed: Could not generate persistent MAC: No data available
+Oct  3 07:14:16 nate-Z170XP-SLI containerd[954]: time="2020-10-03T07:14:16.363489373-04:00" level=info msg="shim containerd-shim started" address=/containerd-shim/54b9d3f33152e57fd3fbb045684ae350d6195c7c51f55f8623c0ba2154c77f7d.sock debug=false pid=52163
+Oct  3 07:14:16 nate-Z170XP-SLI kernel: [42048.911266] eth0: renamed from veth4216ebd
+Oct  3 07:14:16 nate-Z170XP-SLI kernel: [42048.931681] IPv6: ADDRCONF(NETDEV_CHANGE): vethff587ed: link becomes ready
+Oct  3 07:14:16 nate-Z170XP-SLI kernel: [42048.931858] br-f67662cc1afa: port 1(vethff587ed) entered blocking state
+Oct  3 07:14:16 nate-Z170XP-SLI kernel: [42048.931862] br-f67662cc1afa: port 1(vethff587ed) entered forwarding state
+Oct  3 07:14:16 nate-Z170XP-SLI NetworkManager[866]: <info>  [1601723656.5671] device (vethff587ed): carrier: link connected
+Oct  3 07:14:16 nate-Z170XP-SLI gnome-shell[2136]: Removing a network device that was not added
+Oct  3 07:14:16 nate-Z170XP-SLI gnome-shell[1353]: Removing a network device that was not added
+Oct  3 07:14:17 nate-Z170XP-SLI avahi-daemon[861]: Joining mDNS multicast group on interface vethff587ed.IPv6 with address fe80::7b:31ff:fed3:139b.
+Oct  3 07:14:17 nate-Z170XP-SLI avahi-daemon[861]: New relevant interface vethff587ed.IPv6 for mDNS.
+Oct  3 07:14:17 nate-Z170XP-SLI avahi-daemon[861]: Registering new address record for fe80::7b:31ff:fed3:139b on vethff587ed.*.
+Oct  3 07:14:20 nate-Z170XP-SLI containerd[954]: time="2020-10-03T07:14:20.787939669-04:00" level=info msg="shim reaped" id=c4a8847a430c8e777e0bfeff37c1a32d25a6ca94868f5e7d51c35c6582959353
+Oct  3 07:14:20 nate-Z170XP-SLI dockerd[1564]: time="2020-10-03T07:14:20.798152203-04:00" level=info msg="ignoring event" module=libcontainerd namespace=moby topic=/tasks/delete type="*events.TaskDelete"
+Oct  3 07:14:20 nate-Z170XP-SLI kernel: [42053.186300] br-f67662cc1afa: port 1(vethff587ed) entered disabled state
+Oct  3 07:14:20 nate-Z170XP-SLI kernel: [42053.186408] veth4216ebd: renamed from eth0
+Oct  3 07:14:20 nate-Z170XP-SLI NetworkManager[866]: <info>  [1601723660.8544] manager: (veth4216ebd): new Veth device (/org/freedesktop/NetworkManager/Devices/148)
+Oct  3 07:14:20 nate-Z170XP-SLI avahi-daemon[861]: Interface vethff587ed.IPv6 no longer relevant for mDNS.
+Oct  3 07:14:20 nate-Z170XP-SLI avahi-daemon[861]: Leaving mDNS multicast group on interface vethff587ed.IPv6 with address fe80::7b:31ff:fed3:139b.
+Oct  3 07:14:20 nate-Z170XP-SLI kernel: [42053.232376] br-f67662cc1afa: port 1(vethff587ed) entered disabled state
+Oct  3 07:14:20 nate-Z170XP-SLI kernel: [42053.241780] device vethff587ed left promiscuous mode
+Oct  3 07:14:20 nate-Z170XP-SLI kernel: [42053.241787] br-f67662cc1afa: port 1(vethff587ed) entered disabled state
+Oct  3 07:14:20 nate-Z170XP-SLI avahi-daemon[861]: Withdrawing address record for fe80::7b:31ff:fed3:139b on vethff587ed.
+Oct  3 07:14:20 nate-Z170XP-SLI NetworkManager[866]: <info>  [1601723660.9002] device (vethff587ed): released from master device br-f67662cc1afa
+Oct  3 07:14:20 nate-Z170XP-SLI systemd-udevd[52140]: veth4216ebd: Failed to get link config: No such device
+Oct  3 07:14:20 nate-Z170XP-SLI gnome-shell[1353]: Removing a network device that was not added
+Oct  3 07:14:20 nate-Z170XP-SLI gnome-shell[2136]: Removing a network device that was not added
+Oct  3 07:14:20 nate-Z170XP-SLI gnome-shell[1353]: Removing a network device that was not added
+Oct  3 07:14:20 nate-Z170XP-SLI gnome-shell[2136]: Removing a network device that was not added
+Oct  3 07:14:20 nate-Z170XP-SLI systemd[1]: run-docker-netns-4753e670e8de.mount: Succeeded.
+Oct  3 07:14:20 nate-Z170XP-SLI systemd[1899]: run-docker-netns-4753e670e8de.mount: Succeeded.
+Oct  3 07:14:20 nate-Z170XP-SLI systemd[1049]: run-docker-netns-4753e670e8de.mount: Succeeded.
+Oct  3 07:14:20 nate-Z170XP-SLI systemd[1]: var-lib-docker-containers-c4a8847a430c8e777e0bfeff37c1a32d25a6ca94868f5e7d51c35c6582959353-mounts-shm.mount: Succeeded.
+Oct  3 07:14:20 nate-Z170XP-SLI systemd[1]: var-lib-docker-overlay2-a1867988087e0f5ea6a8c4a94e68a4430b7cf6c8d2f3d1650f0a095070cda404-merged.mount: Succeeded.
+Oct  3 07:14:20 nate-Z170XP-SLI systemd[1049]: var-lib-docker-containers-c4a8847a430c8e777e0bfeff37c1a32d25a6ca94868f5e7d51c35c6582959353-mounts-shm.mount: Succeeded.
+Oct  3 07:14:20 nate-Z170XP-SLI systemd[1049]: var-lib-docker-overlay2-a1867988087e0f5ea6a8c4a94e68a4430b7cf6c8d2f3d1650f0a095070cda404-merged.mount: Succeeded.
+Oct  3 07:14:20 nate-Z170XP-SLI systemd[1899]: var-lib-docker-containers-c4a8847a430c8e777e0bfeff37c1a32d25a6ca94868f5e7d51c35c6582959353-mounts-shm.mount: Succeeded.
+Oct  3 07:14:20 nate-Z170XP-SLI systemd[1899]: var-lib-docker-overlay2-a1867988087e0f5ea6a8c4a94e68a4430b7cf6c8d2f3d1650f0a095070cda404-merged.mount: Succeeded.
+Oct  3 07:15:26 nate-Z170XP-SLI gnome-shell[2136]: Window manager warning: WM_TRANSIENT_FOR window 0x36017db for 0x36017ee window override-redirect is an override-redirect window and this is not correct according to the standard, so we'll fallback to the first non-override-redirect window 0x360007d.
+Oct  3 07:15:35 nate-Z170XP-SLI gnome-shell[2136]: Window manager warning: WM_TRANSIENT_FOR window 0x3601852 for 0x3601859 window override-redirect is an override-redirect window and this is not correct according to the standard, so we'll fallback to the first non-override-redirect window 0x360007d.
+Oct  3 07:15:38 nate-Z170XP-SLI gnome-shell[2136]: Window manager warning: WM_TRANSIENT_FOR window 0x3601852 for 0x3601860 window override-redirect is an override-redirect window and this is not correct according to the standard, so we'll fallback to the first non-override-redirect window 0x360007d.
+Oct  3 07:15:48 nate-Z170XP-SLI gnome-shell[2136]: Window manager warning: WM_TRANSIENT_FOR window 0x360188c for 0x3601893 window override-redirect is an override-redirect window and this is not correct according to the standard, so we'll fallback to the first non-override-redirect window 0x360007d.
+Oct  3 07:15:51 nate-Z170XP-SLI gnome-shell[2136]: Window manager warning: WM_TRANSIENT_FOR window 0x360189a for 0x36018a1 window override-redirect is an override-redirect window and this is not correct according to the standard, so we'll fallback to the first non-override-redirect window 0x360007d.
+Oct  3 07:16:23 nate-Z170XP-SLI rtkit-daemon[1069]: Supervising 14 threads of 5 processes of 2 users.
+Oct  3 07:16:23 nate-Z170XP-SLI rtkit-daemon[1069]: message repeated 3 times: [ Supervising 14 threads of 5 processes of 2 users.]
+Oct  3 07:16:23 nate-Z170XP-SLI rtkit-daemon[1069]: Successfully made thread 52594 of process 2770 owned by '1000' RT at priority 10.
+Oct  3 07:16:23 nate-Z170XP-SLI rtkit-daemon[1069]: Supervising 15 threads of 6 processes of 2 users.
+Oct  3 07:16:51 nate-Z170XP-SLI gnome-shell[2136]: Window manager warning: WM_TRANSIENT_FOR window 0x36019a2 for 0x36019c6 window override-redirect is an override-redirect window and this is not correct according to the standard, so we'll fallback to the first non-override-redirect window 0x360007d.
+Oct  3 07:16:52 nate-Z170XP-SLI gnome-shell[2136]: Window manager warning: WM_TRANSIENT_FOR window 0x36019a2 for 0x36019cd window override-redirect is an override-redirect window and this is not correct according to the standard, so we'll fallback to the first non-override-redirect window 0x360007d.
+Oct  3 07:17:01 nate-Z170XP-SLI CRON[52632]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Oct  3 07:17:08 nate-Z170XP-SLI containerd[954]: time="2020-10-03T07:17:08.755562481-04:00" level=info msg="shim reaped" id=27e4785145da15e2de98b4ac51fc543223bd90ff17a30f1b0235df94df0e1355
+Oct  3 07:17:08 nate-Z170XP-SLI dockerd[1564]: time="2020-10-03T07:17:08.765727063-04:00" level=info msg="ignoring event" module=libcontainerd namespace=moby topic=/tasks/delete type="*events.TaskDelete"
+Oct  3 07:17:08 nate-Z170XP-SLI kernel: [42221.141659] br-f67662cc1afa: port 4(vethf8ba3da) entered disabled state
+Oct  3 07:17:08 nate-Z170XP-SLI kernel: [42221.142611] veth9de1812: renamed from eth0
+Oct  3 07:17:08 nate-Z170XP-SLI NetworkManager[866]: <info>  [1601723828.8201] manager: (veth9de1812): new Veth device (/org/freedesktop/NetworkManager/Devices/149)
+Oct  3 07:17:08 nate-Z170XP-SLI systemd-udevd[52681]: ethtool: autonegotiation is unset or enabled, the speed and duplex are not writable.
+Oct  3 07:17:08 nate-Z170XP-SLI avahi-daemon[861]: Interface vethf8ba3da.IPv6 no longer relevant for mDNS.
+Oct  3 07:17:08 nate-Z170XP-SLI avahi-daemon[861]: Leaving mDNS multicast group on interface vethf8ba3da.IPv6 with address fe80::478:62ff:fefc:8684.
+Oct  3 07:17:08 nate-Z170XP-SLI kernel: [42221.190036] br-f67662cc1afa: port 4(vethf8ba3da) entered disabled state
+Oct  3 07:17:08 nate-Z170XP-SLI systemd-udevd[52681]: Using default interface naming scheme 'v245'.
+Oct  3 07:17:08 nate-Z170XP-SLI kernel: [42221.195095] device vethf8ba3da left promiscuous mode
+Oct  3 07:17:08 nate-Z170XP-SLI kernel: [42221.195098] br-f67662cc1afa: port 4(vethf8ba3da) entered disabled state
+Oct  3 07:17:08 nate-Z170XP-SLI avahi-daemon[861]: Withdrawing address record for fe80::478:62ff:fefc:8684 on vethf8ba3da.
+Oct  3 07:17:08 nate-Z170XP-SLI NetworkManager[866]: <info>  [1601723828.8616] device (vethf8ba3da): released from master device br-f67662cc1afa
+Oct  3 07:17:08 nate-Z170XP-SLI gnome-shell[2136]: Removing a network device that was not added
+Oct  3 07:17:08 nate-Z170XP-SLI gnome-shell[1353]: Removing a network device that was not added
+Oct  3 07:17:08 nate-Z170XP-SLI gnome-shell[2136]: Removing a network device that was not added
+Oct  3 07:17:08 nate-Z170XP-SLI gnome-shell[1353]: Removing a network device that was not added
+Oct  3 07:17:08 nate-Z170XP-SLI systemd[1]: run-docker-netns-53a8bafc4560.mount: Succeeded.
+Oct  3 07:17:08 nate-Z170XP-SLI systemd[1049]: run-docker-netns-53a8bafc4560.mount: Succeeded.
+Oct  3 07:17:08 nate-Z170XP-SLI systemd[1049]: var-lib-docker-containers-27e4785145da15e2de98b4ac51fc543223bd90ff17a30f1b0235df94df0e1355-mounts-shm.mount: Succeeded.
+Oct  3 07:17:08 nate-Z170XP-SLI systemd[1049]: var-lib-docker-overlay2-774a8b211549b9ed6ee92646f763fa9c5a9a64d50bf1982355296529324f978b-merged.mount: Succeeded.
+Oct  3 07:17:08 nate-Z170XP-SLI systemd[1]: var-lib-docker-containers-27e4785145da15e2de98b4ac51fc543223bd90ff17a30f1b0235df94df0e1355-mounts-shm.mount: Succeeded.
+Oct  3 07:17:08 nate-Z170XP-SLI systemd[1]: var-lib-docker-overlay2-774a8b211549b9ed6ee92646f763fa9c5a9a64d50bf1982355296529324f978b-merged.mount: Succeeded.
+Oct  3 07:17:08 nate-Z170XP-SLI systemd[1899]: run-docker-netns-53a8bafc4560.mount: Succeeded.
+Oct  3 07:17:08 nate-Z170XP-SLI systemd[1899]: var-lib-docker-containers-27e4785145da15e2de98b4ac51fc543223bd90ff17a30f1b0235df94df0e1355-mounts-shm.mount: Succeeded.
+Oct  3 07:17:08 nate-Z170XP-SLI systemd[1899]: var-lib-docker-overlay2-774a8b211549b9ed6ee92646f763fa9c5a9a64d50bf1982355296529324f978b-merged.mount: Succeeded.
+Oct  3 07:17:09 nate-Z170XP-SLI containerd[954]: time="2020-10-03T07:17:09.779920285-04:00" level=info msg="shim reaped" id=0fc24efdd9eef2638576ed3f29298205f78fac4eb6bc8573eabe2782d33310bf
+Oct  3 07:17:09 nate-Z170XP-SLI dockerd[1564]: time="2020-10-03T07:17:09.790312881-04:00" level=info msg="ignoring event" module=libcontainerd namespace=moby topic=/tasks/delete type="*events.TaskDelete"
+Oct  3 07:17:09 nate-Z170XP-SLI kernel: [42222.165737] br-f67662cc1afa: port 3(veth6e3011b) entered disabled state
+Oct  3 07:17:09 nate-Z170XP-SLI kernel: [42222.166411] vethb7892b0: renamed from eth0
+Oct  3 07:17:09 nate-Z170XP-SLI systemd-udevd[52681]: ethtool: autonegotiation is unset or enabled, the speed and duplex are not writable.
+Oct  3 07:17:09 nate-Z170XP-SLI NetworkManager[866]: <info>  [1601723829.8530] manager: (vethb7892b0): new Veth device (/org/freedesktop/NetworkManager/Devices/150)
+Oct  3 07:17:09 nate-Z170XP-SLI kernel: [42222.222600] br-f67662cc1afa: port 3(veth6e3011b) entered disabled state
+Oct  3 07:17:09 nate-Z170XP-SLI avahi-daemon[861]: Interface veth6e3011b.IPv6 no longer relevant for mDNS.
+Oct  3 07:17:09 nate-Z170XP-SLI avahi-daemon[861]: Leaving mDNS multicast group on interface veth6e3011b.IPv6 with address fe80::c9a:5aff:fef7:4e13.
+Oct  3 07:17:09 nate-Z170XP-SLI kernel: [42222.226739] device veth6e3011b left promiscuous mode
+Oct  3 07:17:09 nate-Z170XP-SLI kernel: [42222.226743] br-f67662cc1afa: port 3(veth6e3011b) entered disabled state
+Oct  3 07:17:09 nate-Z170XP-SLI avahi-daemon[861]: Withdrawing address record for fe80::c9a:5aff:fef7:4e13 on veth6e3011b.
+Oct  3 07:17:09 nate-Z170XP-SLI NetworkManager[866]: <info>  [1601723829.8778] device (veth6e3011b): released from master device br-f67662cc1afa
+Oct  3 07:17:09 nate-Z170XP-SLI gnome-shell[2136]: Removing a network device that was not added
+Oct  3 07:17:09 nate-Z170XP-SLI gnome-shell[1353]: Removing a network device that was not added
+Oct  3 07:17:09 nate-Z170XP-SLI gnome-shell[2136]: Removing a network device that was not added
+Oct  3 07:17:09 nate-Z170XP-SLI gnome-shell[1353]: Removing a network device that was not added
+Oct  3 07:17:09 nate-Z170XP-SLI systemd[1]: run-docker-netns-5d33e74933ce.mount: Succeeded.
+Oct  3 07:17:09 nate-Z170XP-SLI systemd[1]: var-lib-docker-containers-0fc24efdd9eef2638576ed3f29298205f78fac4eb6bc8573eabe2782d33310bf-mounts-shm.mount: Succeeded.
+Oct  3 07:17:09 nate-Z170XP-SLI systemd[1]: var-lib-docker-overlay2-0dddb21d31a7fd1ca81ae4c7fcfa3c3c8b2b953152601d14d819f0f1e91e1909-merged.mount: Succeeded.
+Oct  3 07:17:09 nate-Z170XP-SLI systemd[1049]: run-docker-netns-5d33e74933ce.mount: Succeeded.
+Oct  3 07:17:09 nate-Z170XP-SLI systemd[1899]: run-docker-netns-5d33e74933ce.mount: Succeeded.
+Oct  3 07:17:09 nate-Z170XP-SLI systemd[1049]: var-lib-docker-containers-0fc24efdd9eef2638576ed3f29298205f78fac4eb6bc8573eabe2782d33310bf-mounts-shm.mount: Succeeded.
+Oct  3 07:17:09 nate-Z170XP-SLI systemd[1899]: var-lib-docker-containers-0fc24efdd9eef2638576ed3f29298205f78fac4eb6bc8573eabe2782d33310bf-mounts-shm.mount: Succeeded.
+Oct  3 07:17:09 nate-Z170XP-SLI systemd[1899]: var-lib-docker-overlay2-0dddb21d31a7fd1ca81ae4c7fcfa3c3c8b2b953152601d14d819f0f1e91e1909-merged.mount: Succeeded.
+Oct  3 07:17:09 nate-Z170XP-SLI systemd[1049]: var-lib-docker-overlay2-0dddb21d31a7fd1ca81ae4c7fcfa3c3c8b2b953152601d14d819f0f1e91e1909-merged.mount: Succeeded.
+Oct  3 07:17:19 nate-Z170XP-SLI dockerd[1564]: time="2020-10-03T07:17:19.009082660-04:00" level=info msg="Container 1cc524fd2416e5e4daf52b1ec38f1d602cdb9cde382d9b771c1e040de510c137 failed to exit within 10 seconds of signal 15 - using the force"
+Oct  3 07:17:19 nate-Z170XP-SLI containerd[954]: time="2020-10-03T07:17:19.129328790-04:00" level=info msg="shim reaped" id=1cc524fd2416e5e4daf52b1ec38f1d602cdb9cde382d9b771c1e040de510c137
+Oct  3 07:17:19 nate-Z170XP-SLI dockerd[1564]: time="2020-10-03T07:17:19.139636910-04:00" level=info msg="ignoring event" module=libcontainerd namespace=moby topic=/tasks/delete type="*events.TaskDelete"
+Oct  3 07:17:19 nate-Z170XP-SLI kernel: [42231.521111] br-f67662cc1afa: port 2(veth14dba60) entered disabled state
+Oct  3 07:17:19 nate-Z170XP-SLI kernel: [42231.521869] vethc509c00: renamed from eth0
+Oct  3 07:17:19 nate-Z170XP-SLI NetworkManager[866]: <info>  [1601723839.2124] manager: (vethc509c00): new Veth device (/org/freedesktop/NetworkManager/Devices/151)
+Oct  3 07:17:19 nate-Z170XP-SLI systemd-udevd[52790]: ethtool: autonegotiation is unset or enabled, the speed and duplex are not writable.
+Oct  3 07:17:19 nate-Z170XP-SLI systemd-udevd[52790]: Using default interface naming scheme 'v245'.
+Oct  3 07:17:19 nate-Z170XP-SLI avahi-daemon[861]: Interface veth14dba60.IPv6 no longer relevant for mDNS.
+Oct  3 07:17:19 nate-Z170XP-SLI avahi-daemon[861]: Leaving mDNS multicast group on interface veth14dba60.IPv6 with address fe80::64eb:fcff:fea8:c6bf.
+Oct  3 07:17:19 nate-Z170XP-SLI kernel: [42231.582503] br-f67662cc1afa: port 2(veth14dba60) entered disabled state
+Oct  3 07:17:19 nate-Z170XP-SLI kernel: [42231.587537] device veth14dba60 left promiscuous mode
+Oct  3 07:17:19 nate-Z170XP-SLI kernel: [42231.587541] br-f67662cc1afa: port 2(veth14dba60) entered disabled state
+Oct  3 07:17:19 nate-Z170XP-SLI avahi-daemon[861]: Withdrawing address record for fe80::64eb:fcff:fea8:c6bf on veth14dba60.
+Oct  3 07:17:19 nate-Z170XP-SLI NetworkManager[866]: <info>  [1601723839.2473] device (veth14dba60): released from master device br-f67662cc1afa
+Oct  3 07:17:19 nate-Z170XP-SLI gnome-shell[1353]: Removing a network device that was not added
+Oct  3 07:17:19 nate-Z170XP-SLI gnome-shell[2136]: Removing a network device that was not added
+Oct  3 07:17:19 nate-Z170XP-SLI gnome-shell[1353]: Removing a network device that was not added
+Oct  3 07:17:19 nate-Z170XP-SLI gnome-shell[2136]: Removing a network device that was not added
+Oct  3 07:17:19 nate-Z170XP-SLI systemd[1]: run-docker-netns-7207a51b8f51.mount: Succeeded.
+Oct  3 07:17:19 nate-Z170XP-SLI systemd[1]: var-lib-docker-containers-1cc524fd2416e5e4daf52b1ec38f1d602cdb9cde382d9b771c1e040de510c137-mounts-shm.mount: Succeeded.
+Oct  3 07:17:19 nate-Z170XP-SLI systemd[1]: var-lib-docker-overlay2-2a628caca5b028763badf249f25b2a94e611e428aa8c7c96aaf77da9e2dc781a-merged.mount: Succeeded.
+Oct  3 07:17:19 nate-Z170XP-SLI systemd[1899]: run-docker-netns-7207a51b8f51.mount: Succeeded.
+Oct  3 07:17:19 nate-Z170XP-SLI systemd[1049]: run-docker-netns-7207a51b8f51.mount: Succeeded.
+Oct  3 07:17:19 nate-Z170XP-SLI systemd[1049]: var-lib-docker-containers-1cc524fd2416e5e4daf52b1ec38f1d602cdb9cde382d9b771c1e040de510c137-mounts-shm.mount: Succeeded.
+Oct  3 07:17:19 nate-Z170XP-SLI systemd[1049]: var-lib-docker-overlay2-2a628caca5b028763badf249f25b2a94e611e428aa8c7c96aaf77da9e2dc781a-merged.mount: Succeeded.
+Oct  3 07:17:19 nate-Z170XP-SLI systemd[1899]: var-lib-docker-containers-1cc524fd2416e5e4daf52b1ec38f1d602cdb9cde382d9b771c1e040de510c137-mounts-shm.mount: Succeeded.
+Oct  3 07:17:19 nate-Z170XP-SLI systemd[1899]: var-lib-docker-overlay2-2a628caca5b028763badf249f25b2a94e611e428aa8c7c96aaf77da9e2dc781a-merged.mount: Succeeded.
+Oct  3 07:17:26 nate-Z170XP-SLI kernel: [42238.555298] br-f67662cc1afa: port 1(vethd73f689) entered blocking state
+Oct  3 07:17:26 nate-Z170XP-SLI kernel: [42238.555299] br-f67662cc1afa: port 1(vethd73f689) entered disabled state
+Oct  3 07:17:26 nate-Z170XP-SLI kernel: [42238.555342] device vethd73f689 entered promiscuous mode
+Oct  3 07:17:26 nate-Z170XP-SLI kernel: [42238.555426] br-f67662cc1afa: port 1(vethd73f689) entered blocking state
+Oct  3 07:17:26 nate-Z170XP-SLI kernel: [42238.555427] br-f67662cc1afa: port 1(vethd73f689) entered forwarding state
+Oct  3 07:17:26 nate-Z170XP-SLI systemd-udevd[52821]: ethtool: autonegotiation is unset or enabled, the speed and duplex are not writable.
+Oct  3 07:17:26 nate-Z170XP-SLI systemd-udevd[52821]: Using default interface naming scheme 'v245'.
+Oct  3 07:17:26 nate-Z170XP-SLI systemd-udevd[52821]: veth4c10f42: Could not generate persistent MAC: No data available
+Oct  3 07:17:26 nate-Z170XP-SLI kernel: [42238.556602] br-f67662cc1afa: port 1(vethd73f689) entered disabled state
+Oct  3 07:17:26 nate-Z170XP-SLI NetworkManager[866]: <info>  [1601723846.1942] manager: (veth4c10f42): new Veth device (/org/freedesktop/NetworkManager/Devices/152)
+Oct  3 07:17:26 nate-Z170XP-SLI NetworkManager[866]: <info>  [1601723846.1950] manager: (vethd73f689): new Veth device (/org/freedesktop/NetworkManager/Devices/153)
+Oct  3 07:17:26 nate-Z170XP-SLI systemd-udevd[52822]: ethtool: autonegotiation is unset or enabled, the speed and duplex are not writable.
+Oct  3 07:17:26 nate-Z170XP-SLI systemd-udevd[52822]: Using default interface naming scheme 'v245'.
+Oct  3 07:17:26 nate-Z170XP-SLI systemd-udevd[52822]: vethd73f689: Could not generate persistent MAC: No data available
+Oct  3 07:17:26 nate-Z170XP-SLI containerd[954]: time="2020-10-03T07:17:26.256749588-04:00" level=info msg="shim containerd-shim started" address=/containerd-shim/54b9d3f33152e57fd3fbb045684ae350d6195c7c51f55f8623c0ba2154c77f7d.sock debug=false pid=52838
+Oct  3 07:17:26 nate-Z170XP-SLI systemd[1]: run-docker-runtime\x2drunc-moby-c4a8847a430c8e777e0bfeff37c1a32d25a6ca94868f5e7d51c35c6582959353-runc.gsjmAI.mount: Succeeded.
+Oct  3 07:17:26 nate-Z170XP-SLI systemd[1049]: run-docker-runtime\x2drunc-moby-c4a8847a430c8e777e0bfeff37c1a32d25a6ca94868f5e7d51c35c6582959353-runc.gsjmAI.mount: Succeeded.
+Oct  3 07:17:26 nate-Z170XP-SLI systemd[1899]: run-docker-runtime\x2drunc-moby-c4a8847a430c8e777e0bfeff37c1a32d25a6ca94868f5e7d51c35c6582959353-runc.gsjmAI.mount: Succeeded.
+Oct  3 07:17:26 nate-Z170XP-SLI kernel: [42238.804836] eth0: renamed from veth4c10f42
+Oct  3 07:17:26 nate-Z170XP-SLI kernel: [42238.820756] IPv6: ADDRCONF(NETDEV_CHANGE): vethd73f689: link becomes ready
+Oct  3 07:17:26 nate-Z170XP-SLI kernel: [42238.820905] br-f67662cc1afa: port 1(vethd73f689) entered blocking state
+Oct  3 07:17:26 nate-Z170XP-SLI kernel: [42238.820909] br-f67662cc1afa: port 1(vethd73f689) entered forwarding state
+Oct  3 07:17:26 nate-Z170XP-SLI NetworkManager[866]: <info>  [1601723846.4607] device (vethd73f689): carrier: link connected
+Oct  3 07:17:26 nate-Z170XP-SLI NetworkManager[866]: <info>  [1601723846.4617] device (br-f67662cc1afa): carrier: link connected
+Oct  3 07:17:26 nate-Z170XP-SLI gnome-shell[2136]: Removing a network device that was not added
+Oct  3 07:17:26 nate-Z170XP-SLI gnome-shell[1353]: Removing a network device that was not added
+Oct  3 07:17:26 nate-Z170XP-SLI NetworkManager[866]: <info>  [1601723846.5278] manager: (veth4053e3c): new Veth device (/org/freedesktop/NetworkManager/Devices/154)
+Oct  3 07:17:26 nate-Z170XP-SLI systemd-udevd[52821]: ethtool: autonegotiation is unset or enabled, the speed and duplex are not writable.
+Oct  3 07:17:26 nate-Z170XP-SLI systemd-udevd[52821]: veth4053e3c: Could not generate persistent MAC: No data available
+Oct  3 07:17:26 nate-Z170XP-SLI systemd-udevd[52857]: ethtool: autonegotiation is unset or enabled, the speed and duplex are not writable.
+Oct  3 07:17:26 nate-Z170XP-SLI NetworkManager[866]: <info>  [1601723846.5284] manager: (vethb9c8af9): new Veth device (/org/freedesktop/NetworkManager/Devices/155)
+Oct  3 07:17:26 nate-Z170XP-SLI systemd-udevd[52857]: Using default interface naming scheme 'v245'.
+Oct  3 07:17:26 nate-Z170XP-SLI systemd-udevd[52857]: vethb9c8af9: Could not generate persistent MAC: No data available
+Oct  3 07:17:26 nate-Z170XP-SLI kernel: [42238.897828] br-f67662cc1afa: port 2(vethb9c8af9) entered blocking state
+Oct  3 07:17:26 nate-Z170XP-SLI kernel: [42238.897829] br-f67662cc1afa: port 2(vethb9c8af9) entered disabled state
+Oct  3 07:17:26 nate-Z170XP-SLI kernel: [42238.898017] device vethb9c8af9 entered promiscuous mode
+Oct  3 07:17:26 nate-Z170XP-SLI kernel: [42238.898387] br-f67662cc1afa: port 2(vethb9c8af9) entered blocking state
+Oct  3 07:17:26 nate-Z170XP-SLI kernel: [42238.898388] br-f67662cc1afa: port 2(vethb9c8af9) entered forwarding state
+Oct  3 07:17:26 nate-Z170XP-SLI NetworkManager[866]: <info>  [1601723846.5564] manager: (veth1b349ce): new Veth device (/org/freedesktop/NetworkManager/Devices/156)
+Oct  3 07:17:26 nate-Z170XP-SLI systemd-udevd[52858]: ethtool: autonegotiation is unset or enabled, the speed and duplex are not writable.
+Oct  3 07:17:26 nate-Z170XP-SLI NetworkManager[866]: <info>  [1601723846.5586] manager: (vethabf2b89): new Veth device (/org/freedesktop/NetworkManager/Devices/157)
+Oct  3 07:17:26 nate-Z170XP-SLI systemd-udevd[52858]: Using default interface naming scheme 'v245'.
+Oct  3 07:17:26 nate-Z170XP-SLI systemd-udevd[52858]: vethabf2b89: Could not generate persistent MAC: No data available
+Oct  3 07:17:26 nate-Z170XP-SLI kernel: [42238.920426] br-f67662cc1afa: port 3(vethabf2b89) entered blocking state
+Oct  3 07:17:26 nate-Z170XP-SLI kernel: [42238.920427] br-f67662cc1afa: port 3(vethabf2b89) entered disabled state
+Oct  3 07:17:26 nate-Z170XP-SLI kernel: [42238.920459] device vethabf2b89 entered promiscuous mode
+Oct  3 07:17:26 nate-Z170XP-SLI kernel: [42238.920501] br-f67662cc1afa: port 3(vethabf2b89) entered blocking state
+Oct  3 07:17:26 nate-Z170XP-SLI kernel: [42238.920501] br-f67662cc1afa: port 3(vethabf2b89) entered forwarding state
+Oct  3 07:17:26 nate-Z170XP-SLI systemd-udevd[52825]: ethtool: autonegotiation is unset or enabled, the speed and duplex are not writable.
+Oct  3 07:17:26 nate-Z170XP-SLI systemd-udevd[52825]: Using default interface naming scheme 'v245'.
+Oct  3 07:17:26 nate-Z170XP-SLI systemd-udevd[52825]: veth1b349ce: Could not generate persistent MAC: No data available
+Oct  3 07:17:26 nate-Z170XP-SLI containerd[954]: time="2020-10-03T07:17:26.621334682-04:00" level=info msg="shim containerd-shim started" address=/containerd-shim/43218e1aa2c7ab8c165e7124eba769a7ed1dac1329db1083377887d3dfc22a2b.sock debug=false pid=52997
+Oct  3 07:17:26 nate-Z170XP-SLI systemd[1]: run-docker-runtime\x2drunc-moby-0fc24efdd9eef2638576ed3f29298205f78fac4eb6bc8573eabe2782d33310bf-runc.Jm4bpC.mount: Succeeded.
+Oct  3 07:17:26 nate-Z170XP-SLI systemd[1049]: run-docker-runtime\x2drunc-moby-0fc24efdd9eef2638576ed3f29298205f78fac4eb6bc8573eabe2782d33310bf-runc.Jm4bpC.mount: Succeeded.
+Oct  3 07:17:26 nate-Z170XP-SLI systemd[1899]: run-docker-runtime\x2drunc-moby-0fc24efdd9eef2638576ed3f29298205f78fac4eb6bc8573eabe2782d33310bf-runc.Jm4bpC.mount: Succeeded.
+Oct  3 07:17:26 nate-Z170XP-SLI containerd[954]: time="2020-10-03T07:17:26.678563301-04:00" level=info msg="shim containerd-shim started" address=/containerd-shim/55a6aa6441ad72946e6768d12d0d4caad94466fa1ad61f3adcbb1b9c93353a1e.sock debug=false pid=53044
+Oct  3 07:17:26 nate-Z170XP-SLI systemd[1]: run-docker-runtime\x2drunc-moby-1cc524fd2416e5e4daf52b1ec38f1d602cdb9cde382d9b771c1e040de510c137-runc.eECh3z.mount: Succeeded.
+Oct  3 07:17:26 nate-Z170XP-SLI systemd[1899]: run-docker-runtime\x2drunc-moby-1cc524fd2416e5e4daf52b1ec38f1d602cdb9cde382d9b771c1e040de510c137-runc.eECh3z.mount: Succeeded.
+Oct  3 07:17:26 nate-Z170XP-SLI kernel: [42239.292452] eth0: renamed from veth4053e3c
+Oct  3 07:17:26 nate-Z170XP-SLI NetworkManager[866]: <info>  [1601723846.9449] device (vethb9c8af9): carrier: link connected
+Oct  3 07:17:26 nate-Z170XP-SLI gnome-shell[2136]: Removing a network device that was not added
+Oct  3 07:17:26 nate-Z170XP-SLI kernel: [42239.308420] IPv6: ADDRCONF(NETDEV_CHANGE): vethb9c8af9: link becomes ready
+Oct  3 07:17:26 nate-Z170XP-SLI kernel: [42239.308832] br-f67662cc1afa: port 3(vethabf2b89) entered disabled state
+Oct  3 07:17:26 nate-Z170XP-SLI gnome-shell[1353]: Removing a network device that was not added
+Oct  3 07:17:26 nate-Z170XP-SLI kernel: [42239.348611] eth0: renamed from veth1b349ce
+Oct  3 07:17:27 nate-Z170XP-SLI NetworkManager[866]: <info>  [1601723847.0002] device (vethabf2b89): carrier: link connected
+Oct  3 07:17:27 nate-Z170XP-SLI gnome-shell[1353]: Removing a network device that was not added
+Oct  3 07:17:27 nate-Z170XP-SLI gnome-shell[2136]: Removing a network device that was not added
+Oct  3 07:17:27 nate-Z170XP-SLI kernel: [42239.364396] IPv6: ADDRCONF(NETDEV_CHANGE): vethabf2b89: link becomes ready
+Oct  3 07:17:27 nate-Z170XP-SLI kernel: [42239.364446] br-f67662cc1afa: port 3(vethabf2b89) entered blocking state
+Oct  3 07:17:27 nate-Z170XP-SLI kernel: [42239.364447] br-f67662cc1afa: port 3(vethabf2b89) entered forwarding state
+Oct  3 07:17:27 nate-Z170XP-SLI kernel: [42239.418556] br-f67662cc1afa: port 4(veth4fb9782) entered blocking state
+Oct  3 07:17:27 nate-Z170XP-SLI kernel: [42239.418557] br-f67662cc1afa: port 4(veth4fb9782) entered disabled state
+Oct  3 07:17:27 nate-Z170XP-SLI systemd-udevd[52821]: ethtool: autonegotiation is unset or enabled, the speed and duplex are not writable.
+Oct  3 07:17:27 nate-Z170XP-SLI systemd-udevd[53035]: ethtool: autonegotiation is unset or enabled, the speed and duplex are not writable.
+Oct  3 07:17:27 nate-Z170XP-SLI systemd-udevd[52821]: veth4fb9782: Could not generate persistent MAC: No data available
+Oct  3 07:17:27 nate-Z170XP-SLI NetworkManager[866]: <info>  [1601723847.0601] manager: (veth6750318): new Veth device (/org/freedesktop/NetworkManager/Devices/158)
+Oct  3 07:17:27 nate-Z170XP-SLI NetworkManager[866]: <info>  [1601723847.0610] manager: (veth4fb9782): new Veth device (/org/freedesktop/NetworkManager/Devices/159)
+Oct  3 07:17:27 nate-Z170XP-SLI kernel: [42239.424078] device veth4fb9782 entered promiscuous mode
+Oct  3 07:17:27 nate-Z170XP-SLI kernel: [42239.424169] br-f67662cc1afa: port 4(veth4fb9782) entered blocking state
+Oct  3 07:17:27 nate-Z170XP-SLI kernel: [42239.424171] br-f67662cc1afa: port 4(veth4fb9782) entered forwarding state
+Oct  3 07:17:27 nate-Z170XP-SLI systemd-udevd[53035]: Using default interface naming scheme 'v245'.
+Oct  3 07:17:27 nate-Z170XP-SLI systemd-udevd[53035]: veth6750318: Could not generate persistent MAC: No data available
+Oct  3 07:17:27 nate-Z170XP-SLI containerd[954]: time="2020-10-03T07:17:27.123514260-04:00" level=info msg="shim containerd-shim started" address=/containerd-shim/7119cde12d3e0bcf1497b8654afacafa7e05d4284741c533d52848675278a1d9.sock debug=false pid=53387
+Oct  3 07:17:27 nate-Z170XP-SLI systemd[1]: run-docker-runtime\x2drunc-moby-27e4785145da15e2de98b4ac51fc543223bd90ff17a30f1b0235df94df0e1355-runc.UAN5k0.mount: Succeeded.
+Oct  3 07:17:27 nate-Z170XP-SLI systemd[1049]: run-docker-runtime\x2drunc-moby-27e4785145da15e2de98b4ac51fc543223bd90ff17a30f1b0235df94df0e1355-runc.UAN5k0.mount: Succeeded.
+Oct  3 07:17:27 nate-Z170XP-SLI systemd[1899]: run-docker-runtime\x2drunc-moby-27e4785145da15e2de98b4ac51fc543223bd90ff17a30f1b0235df94df0e1355-runc.UAN5k0.mount: Succeeded.
+Oct  3 07:17:27 nate-Z170XP-SLI kernel: [42239.560055] br-f67662cc1afa: port 4(veth4fb9782) entered disabled state
+Oct  3 07:17:27 nate-Z170XP-SLI kernel: [42239.823542] eth0: renamed from veth6750318
+Oct  3 07:17:27 nate-Z170XP-SLI gnome-shell[1353]: Removing a network device that was not added
+Oct  3 07:17:27 nate-Z170XP-SLI gnome-shell[2136]: Removing a network device that was not added
+Oct  3 07:17:27 nate-Z170XP-SLI NetworkManager[866]: <info>  [1601723847.4771] device (veth4fb9782): carrier: link connected
+Oct  3 07:17:27 nate-Z170XP-SLI kernel: [42239.840372] IPv6: ADDRCONF(NETDEV_CHANGE): veth4fb9782: link becomes ready
+Oct  3 07:17:27 nate-Z170XP-SLI kernel: [42239.840426] br-f67662cc1afa: port 4(veth4fb9782) entered blocking state
+Oct  3 07:17:27 nate-Z170XP-SLI kernel: [42239.840427] br-f67662cc1afa: port 4(veth4fb9782) entered forwarding state
+Oct  3 07:17:27 nate-Z170XP-SLI avahi-daemon[861]: Joining mDNS multicast group on interface vethd73f689.IPv6 with address fe80::7481:a7ff:fe49:d7dd.
+Oct  3 07:17:27 nate-Z170XP-SLI avahi-daemon[861]: New relevant interface vethd73f689.IPv6 for mDNS.
+Oct  3 07:17:27 nate-Z170XP-SLI avahi-daemon[861]: Registering new address record for fe80::7481:a7ff:fe49:d7dd on vethd73f689.*.
+Oct  3 07:17:28 nate-Z170XP-SLI avahi-daemon[861]: Joining mDNS multicast group on interface vethb9c8af9.IPv6 with address fe80::3cac:91ff:fe83:b40a.
+Oct  3 07:17:28 nate-Z170XP-SLI avahi-daemon[861]: New relevant interface vethb9c8af9.IPv6 for mDNS.
+Oct  3 07:17:28 nate-Z170XP-SLI avahi-daemon[861]: Registering new address record for fe80::3cac:91ff:fe83:b40a on vethb9c8af9.*.
+Oct  3 07:17:28 nate-Z170XP-SLI avahi-daemon[861]: Joining mDNS multicast group on interface vethabf2b89.IPv6 with address fe80::6c11:44ff:fed5:f249.
+Oct  3 07:17:28 nate-Z170XP-SLI avahi-daemon[861]: New relevant interface vethabf2b89.IPv6 for mDNS.
+Oct  3 07:17:28 nate-Z170XP-SLI avahi-daemon[861]: Registering new address record for fe80::6c11:44ff:fed5:f249 on vethabf2b89.*.
+Oct  3 07:17:29 nate-Z170XP-SLI avahi-daemon[861]: Joining mDNS multicast group on interface veth4fb9782.IPv6 with address fe80::c09:3bff:fe43:4f74.
+Oct  3 07:17:29 nate-Z170XP-SLI avahi-daemon[861]: New relevant interface veth4fb9782.IPv6 for mDNS.
+Oct  3 07:17:29 nate-Z170XP-SLI avahi-daemon[861]: Registering new address record for fe80::c09:3bff:fe43:4f74 on veth4fb9782.*.
+Oct  3 07:19:20 nate-Z170XP-SLI dbus-daemon[1911]: [session uid=1000 pid=1911] Activating via systemd: service name='org.freedesktop.Tracker1' unit='tracker-store.service' requested by ':1.2' (uid=1000 pid=1908 comm="/usr/libexec/tracker-miner-fs " label="unconfined")
+Oct  3 07:19:20 nate-Z170XP-SLI systemd[1899]: Starting Tracker metadata database store and lookup manager...
+Oct  3 07:19:20 nate-Z170XP-SLI dbus-daemon[1911]: [session uid=1000 pid=1911] Successfully activated service 'org.freedesktop.Tracker1'
+Oct  3 07:19:20 nate-Z170XP-SLI systemd[1899]: Started Tracker metadata database store and lookup manager.
+Oct  3 07:19:20 nate-Z170XP-SLI dbus-daemon[1911]: [session uid=1000 pid=1911] Activating via systemd: service name='org.freedesktop.Tracker1.Miner.Extract' unit='tracker-extract.service' requested by ':1.2' (uid=1000 pid=1908 comm="/usr/libexec/tracker-miner-fs " label="unconfined")
+Oct  3 07:19:20 nate-Z170XP-SLI systemd[1899]: Starting Tracker metadata extractor...
+Oct  3 07:19:20 nate-Z170XP-SLI tracker-extract[54422]: Set scheduler policy to SCHED_IDLE
+Oct  3 07:19:20 nate-Z170XP-SLI tracker-extract[54422]: Setting priority nice level to 19
+Oct  3 07:19:21 nate-Z170XP-SLI dbus-daemon[1911]: [session uid=1000 pid=1911] Successfully activated service 'org.freedesktop.Tracker1.Miner.Extract'
+Oct  3 07:19:21 nate-Z170XP-SLI systemd[1899]: Started Tracker metadata extractor.
+Oct  3 07:19:31 nate-Z170XP-SLI systemd[1899]: tracker-extract.service: Succeeded.
+Oct  3 07:19:36 nate-Z170XP-SLI dbus-daemon[1911]: [session uid=1000 pid=1911] Activating service name='org.gnome.ControlCenter.SearchProvider' requested by ':1.38' (uid=1000 pid=2136 comm="/usr/bin/gnome-shell " label="unconfined")
+Oct  3 07:19:36 nate-Z170XP-SLI dbus-daemon[1911]: [session uid=1000 pid=1911] Activating service name='org.gnome.Nautilus' requested by ':1.38' (uid=1000 pid=2136 comm="/usr/bin/gnome-shell " label="unconfined")
+Oct  3 07:19:36 nate-Z170XP-SLI dbus-daemon[1911]: [session uid=1000 pid=1911] Activating service name='org.gnome.Calculator.SearchProvider' requested by ':1.38' (uid=1000 pid=2136 comm="/usr/bin/gnome-shell " label="unconfined")
+Oct  3 07:19:36 nate-Z170XP-SLI dbus-daemon[1911]: [session uid=1000 pid=1911] Activating service name='org.gnome.Characters.BackgroundService' requested by ':1.38' (uid=1000 pid=2136 comm="/usr/bin/gnome-shell " label="unconfined")
+Oct  3 07:19:36 nate-Z170XP-SLI dbus-daemon[1911]: [session uid=1000 pid=1911] Activating service name='org.gnome.seahorse.Application' requested by ':1.38' (uid=1000 pid=2136 comm="/usr/bin/gnome-shell " label="unconfined")
+Oct  3 07:19:36 nate-Z170XP-SLI dbus-daemon[1911]: [session uid=1000 pid=1911] Successfully activated service 'org.gnome.ControlCenter.SearchProvider'
+Oct  3 07:19:36 nate-Z170XP-SLI dbus-daemon[1911]: [session uid=1000 pid=1911] Successfully activated service 'org.gnome.seahorse.Application'
+Oct  3 07:19:36 nate-Z170XP-SLI dbus-daemon[1911]: [session uid=1000 pid=1911] Successfully activated service 'org.gnome.Characters.BackgroundService'
+Oct  3 07:19:36 nate-Z170XP-SLI dbus-daemon[1911]: [session uid=1000 pid=1911] Successfully activated service 'org.gnome.Nautilus'
+Oct  3 07:19:36 nate-Z170XP-SLI dbus-daemon[1911]: [session uid=1000 pid=1911] Successfully activated service 'org.gnome.Calculator.SearchProvider'
+Oct  3 07:19:36 nate-Z170XP-SLI gnome-calculato[54451]: search-provider.vala:140: Failed to spawn Calculator: Child process killed by signal 9
+Oct  3 07:19:37 nate-Z170XP-SLI dbus-daemon[1911]: [session uid=1000 pid=1911] Activating service name='org.gnome.Screenshot' requested by ':1.38' (uid=1000 pid=2136 comm="/usr/bin/gnome-shell " label="unconfined")
+Oct  3 07:19:37 nate-Z170XP-SLI dbus-daemon[1911]: [session uid=1000 pid=1911] Successfully activated service 'org.gnome.Screenshot'
+Oct  3 07:19:50 nate-Z170XP-SLI dbus-daemon[864]: [system] Activating via systemd: service name='org.freedesktop.hostname1' unit='dbus-org.freedesktop.hostname1.service' requested by ':1.329' (uid=1000 pid=54519 comm="/usr/bin/gnome-screenshot --gapplication-service " label="unconfined")
+Oct  3 07:19:50 nate-Z170XP-SLI systemd[1]: Starting Hostname Service...
+Oct  3 07:19:50 nate-Z170XP-SLI dbus-daemon[864]: [system] Successfully activated service 'org.freedesktop.hostname1'
+Oct  3 07:19:50 nate-Z170XP-SLI systemd[1]: Started Hostname Service.
+Oct  3 07:19:51 nate-Z170XP-SLI tracker-store[54415]: OK
+Oct  3 07:19:51 nate-Z170XP-SLI systemd[1899]: tracker-store.service: Succeeded.
+Oct  3 07:20:10 nate-Z170XP-SLI dbus-daemon[1911]: [session uid=1000 pid=1911] Activating via systemd: service name='org.freedesktop.Tracker1' unit='tracker-store.service' requested by ':1.2' (uid=1000 pid=1908 comm="/usr/libexec/tracker-miner-fs " label="unconfined")
+Oct  3 07:20:10 nate-Z170XP-SLI systemd[1899]: Starting Tracker metadata database store and lookup manager...
+Oct  3 07:20:10 nate-Z170XP-SLI dbus-daemon[1911]: [session uid=1000 pid=1911] Successfully activated service 'org.freedesktop.Tracker1'
+Oct  3 07:20:10 nate-Z170XP-SLI systemd[1899]: Started Tracker metadata database store and lookup manager.
+Oct  3 07:20:10 nate-Z170XP-SLI dbus-daemon[1911]: [session uid=1000 pid=1911] Activating via systemd: service name='org.freedesktop.Tracker1.Miner.Extract' unit='tracker-extract.service' requested by ':1.2' (uid=1000 pid=1908 comm="/usr/libexec/tracker-miner-fs " label="unconfined")
+Oct  3 07:20:10 nate-Z170XP-SLI systemd[1899]: Starting Tracker metadata extractor...
+Oct  3 07:20:10 nate-Z170XP-SLI tracker-extract[54560]: Set scheduler policy to SCHED_IDLE
+Oct  3 07:20:10 nate-Z170XP-SLI tracker-extract[54560]: Setting priority nice level to 19
+Oct  3 07:20:10 nate-Z170XP-SLI dbus-daemon[1911]: [session uid=1000 pid=1911] Successfully activated service 'org.freedesktop.Tracker1.Miner.Extract'
+Oct  3 07:20:10 nate-Z170XP-SLI systemd[1899]: Started Tracker metadata extractor.
+Oct  3 07:20:19 nate-Z170XP-SLI dbus-daemon[1911]: [session uid=1000 pid=1911] Activating service name='org.gnome.Nautilus' requested by ':1.38' (uid=1000 pid=2136 comm="/usr/bin/gnome-shell " label="unconfined")
+Oct  3 07:20:19 nate-Z170XP-SLI dbus-daemon[1911]: [session uid=1000 pid=1911] Activating service name='org.gnome.Calculator.SearchProvider' requested by ':1.38' (uid=1000 pid=2136 comm="/usr/bin/gnome-shell " label="unconfined")
+Oct  3 07:20:19 nate-Z170XP-SLI dbus-daemon[1911]: [session uid=1000 pid=1911] Activating service name='org.gnome.Characters.BackgroundService' requested by ':1.38' (uid=1000 pid=2136 comm="/usr/bin/gnome-shell " label="unconfined")
+Oct  3 07:20:19 nate-Z170XP-SLI dbus-daemon[1911]: [session uid=1000 pid=1911] Successfully activated service 'org.gnome.Characters.BackgroundService'
+Oct  3 07:20:19 nate-Z170XP-SLI dbus-daemon[1911]: [session uid=1000 pid=1911] Successfully activated service 'org.gnome.Nautilus'
+Oct  3 07:20:19 nate-Z170XP-SLI dbus-daemon[1911]: [session uid=1000 pid=1911] Successfully activated service 'org.gnome.Calculator.SearchProvider'
+Oct  3 07:20:19 nate-Z170XP-SLI dbus-daemon[1911]: [session uid=1000 pid=1911] Activating service name='org.gnome.Screenshot' requested by ':1.38' (uid=1000 pid=2136 comm="/usr/bin/gnome-shell " label="unconfined")
+Oct  3 07:20:19 nate-Z170XP-SLI dbus-daemon[1911]: [session uid=1000 pid=1911] Successfully activated service 'org.gnome.Screenshot'
+Oct  3 07:20:20 nate-Z170XP-SLI systemd[1]: systemd-hostnamed.service: Succeeded.
+Oct  3 07:20:20 nate-Z170XP-SLI systemd[1899]: tracker-extract.service: Succeeded.
+Oct  3 07:20:27 nate-Z170XP-SLI dbus-daemon[864]: [system] Activating via systemd: service name='org.freedesktop.hostname1' unit='dbus-org.freedesktop.hostname1.service' requested by ':1.331' (uid=1000 pid=54628 comm="/usr/bin/gnome-screenshot --gapplication-service " label="unconfined")
+Oct  3 07:20:27 nate-Z170XP-SLI systemd[1]: Starting Hostname Service...
+Oct  3 07:20:27 nate-Z170XP-SLI dbus-daemon[864]: [system] Successfully activated service 'org.freedesktop.hostname1'
+Oct  3 07:20:27 nate-Z170XP-SLI systemd[1]: Started Hostname Service.
+Oct  3 07:20:36 nate-Z170XP-SLI dbus-daemon[1911]: [session uid=1000 pid=1911] Activating via systemd: service name='org.freedesktop.Tracker1.Miner.Extract' unit='tracker-extract.service' requested by ':1.2' (uid=1000 pid=1908 comm="/usr/libexec/tracker-miner-fs " label="unconfined")
+Oct  3 07:20:36 nate-Z170XP-SLI systemd[1899]: Starting Tracker metadata extractor...
+Oct  3 07:20:36 nate-Z170XP-SLI tracker-extract[54677]: Set scheduler policy to SCHED_IDLE
+Oct  3 07:20:36 nate-Z170XP-SLI tracker-extract[54677]: Setting priority nice level to 19
+Oct  3 07:20:36 nate-Z170XP-SLI dbus-daemon[1911]: [session uid=1000 pid=1911] Successfully activated service 'org.freedesktop.Tracker1.Miner.Extract'
+Oct  3 07:20:36 nate-Z170XP-SLI systemd[1899]: Started Tracker metadata extractor.
+Oct  3 07:20:47 nate-Z170XP-SLI systemd[1899]: tracker-extract.service: Succeeded.
+Oct  3 07:20:57 nate-Z170XP-SLI systemd[1]: systemd-hostnamed.service: Succeeded.
+Oct  3 07:21:07 nate-Z170XP-SLI tracker-store[54553]: OK
+Oct  3 07:21:07 nate-Z170XP-SLI systemd[1899]: tracker-store.service: Succeeded.
+Oct  3 07:22:01 nate-Z170XP-SLI systemd[1899]: Started VTE child process 54771 launched by gnome-terminal-server process 2501.
+Oct  3 07:22:17 nate-Z170XP-SLI dbus-daemon[1911]: [session uid=1000 pid=1911] Activating via systemd: service name='org.freedesktop.Tracker1' unit='tracker-store.service' requested by ':1.2' (uid=1000 pid=1908 comm="/usr/libexec/tracker-miner-fs " label="unconfined")
+Oct  3 07:22:17 nate-Z170XP-SLI systemd[1899]: Starting Tracker metadata database store and lookup manager...
+Oct  3 07:22:17 nate-Z170XP-SLI dbus-daemon[1911]: [session uid=1000 pid=1911] Successfully activated service 'org.freedesktop.Tracker1'
+Oct  3 07:22:17 nate-Z170XP-SLI systemd[1899]: Started Tracker metadata database store and lookup manager.
+Oct  3 07:22:35 nate-Z170XP-SLI gnome-shell[2136]: Window manager warning: WM_TRANSIENT_FOR window 0x3601b8b for 0x3601b96 window override-redirect is an override-redirect window and this is not correct according to the standard, so we'll fallback to the first non-override-redirect window 0x360007d.
+Oct  3 07:22:48 nate-Z170XP-SLI tracker-store[54915]: OK
+Oct  3 07:22:48 nate-Z170XP-SLI systemd[1899]: tracker-store.service: Succeeded.
+Oct  3 07:23:00 nate-Z170XP-SLI gnome-shell[2136]: Window manager warning: WM_TRANSIENT_FOR window 0x3601bfd for 0x3601c08 window override-redirect is an override-redirect window and this is not correct according to the standard, so we'll fallback to the first non-override-redirect window 0x360007d.
+Oct  3 07:23:10 nate-Z170XP-SLI gnome-shell[2136]: Could not create selection source for X11: Format TARGETS not supported
+Oct  3 07:23:10 nate-Z170XP-SLI gnome-shell[2136]: message repeated 6 times: [ Could not create selection source for X11: Format TARGETS not supported]
+Oct  3 07:23:26 nate-Z170XP-SLI gnome-shell[2136]: Window manager warning: WM_TRANSIENT_FOR window 0x3601c46 for 0x3601c67 window override-redirect is an override-redirect window and this is not correct according to the standard, so we'll fallback to the first non-override-redirect window 0x360007d.
+Oct  3 07:23:42 nate-Z170XP-SLI gnome-shell[2136]: Window manager warning: WM_TRANSIENT_FOR window 0x3601caf for 0x3601cc7 window override-redirect is an override-redirect window and this is not correct according to the standard, so we'll fallback to the first non-override-redirect window 0x360007d.
+Oct  3 07:30:01 nate-Z170XP-SLI CRON[55037]: (root) CMD ([ -x /etc/init.d/anacron ] && if [ ! -d /run/systemd/system ]; then /usr/sbin/invoke-rc.d anacron start >/dev/null; fi)
+Oct  3 07:33:34 nate-Z170XP-SLI salt-minion[55050]: [WARNING ] /usr/lib/python3/dist-packages/salt/utils/process.py:65: DeprecationWarning: PY_SSIZE_T_CLEAN will be required for '#' formats
+Oct  3 07:33:34 nate-Z170XP-SLI salt-minion[55050]:   setproctitle.setproctitle(setproctitle.getproctitle() + " " + name)
+Oct  3 07:33:44 nate-Z170XP-SLI gnome-calendar[4403]: source_credentials_required_cb: Failed to authenticate 'Family': Failed to obtain an access token for “Family”: Failed to refresh access token (rest-proxy-error-quark, 400): Bad Request
+Oct  3 07:33:44 nate-Z170XP-SLI gnome-calendar[4403]: source_credentials_required_cb: Failed to authenticate 'npmarks@gmail.com': Failed to obtain an access token for “npmarks@gmail.com”: Failed to refresh access token (rest-proxy-error-quark, 400): Bad Request
+Oct  3 07:33:44 nate-Z170XP-SLI gnome-calendar[4403]: source_credentials_required_cb: Failed to authenticate 'Holidays in United States': Failed to obtain an access token for “Holidays in United States”: Failed to refresh access token (rest-proxy-error-quark, 400): Bad Request
+Oct  3 07:33:44 nate-Z170XP-SLI gnome-calendar[4403]: source_credentials_required_cb: Failed to authenticate 'Contacts': Failed to obtain an access token for “Contacts”: Failed to refresh access token (rest-proxy-error-quark, 400): Bad Request
+Oct  3 07:33:57 nate-Z170XP-SLI jetbrains-toolbox.desktop[3614]: [1003/073357.408326:INFO:CONSOLE(2)] "Updated model size: 229188", source: qrc://ui/index.js (2)
+Oct  3 07:33:57 nate-Z170XP-SLI jetbrains-toolbox.desktop[3614]: [1003/073357.420198:INFO:CONSOLE(2)] "Updated model size: 229188", source: qrc://ui/index.js (2)
+Oct  3 07:33:59 nate-Z170XP-SLI jetbrains-toolbox.desktop[3614]: [1003/073359.696076:INFO:CONSOLE(2)] "Updated model size: 229188", source: qrc://ui/index.js (2)
+Oct  3 07:33:59 nate-Z170XP-SLI jetbrains-toolbox.desktop[3614]: [1003/073359.708052:INFO:CONSOLE(2)] "Updated model size: 229188", source: qrc://ui/index.js (2)
+Oct  3 07:34:45 nate-Z170XP-SLI systemd[1]: Started Run anacron jobs.
+Oct  3 07:34:45 nate-Z170XP-SLI anacron[55101]: Anacron 2.3 started on 2020-10-03
+Oct  3 07:34:45 nate-Z170XP-SLI anacron[55101]: Will run job `cron.daily' in 5 min.
+Oct  3 07:34:45 nate-Z170XP-SLI anacron[55101]: Will run job `cron.weekly' in 10 min.
+Oct  3 07:34:45 nate-Z170XP-SLI anacron[55101]: Jobs will be executed sequentially
+Oct  3 07:39:45 nate-Z170XP-SLI anacron[55101]: Job `cron.daily' started
+Oct  3 07:39:45 nate-Z170XP-SLI anacron[55155]: Updated timestamp for job `cron.daily' to 2020-10-03
+Oct  3 07:39:45 nate-Z170XP-SLI cracklib: no dictionary update necessary.
+Oct  3 07:39:45 nate-Z170XP-SLI anacron[55101]: Job `cron.daily' terminated
+Oct  3 07:40:09 nate-Z170XP-SLI NetworkManager[866]: <info>  [1601725209.0478] dhcp4 (enp0s31f6): option dhcp_lease_time      => '14400'
+Oct  3 07:40:09 nate-Z170XP-SLI NetworkManager[866]: <info>  [1601725209.0479] dhcp4 (enp0s31f6): option domain_name_servers  => '71.10.216.1 71.10.216.2'
+Oct  3 07:40:09 nate-Z170XP-SLI NetworkManager[866]: <info>  [1601725209.0479] dhcp4 (enp0s31f6): option expiry               => '1601739609'
+Oct  3 07:40:09 nate-Z170XP-SLI NetworkManager[866]: <info>  [1601725209.0479] dhcp4 (enp0s31f6): option ip_address           => '192.168.7.109'
+Oct  3 07:40:09 nate-Z170XP-SLI NetworkManager[866]: <info>  [1601725209.0480] dhcp4 (enp0s31f6): option ntp_servers          => '192.168.7.1'
+Oct  3 07:40:09 nate-Z170XP-SLI NetworkManager[866]: <info>  [1601725209.0480] dhcp4 (enp0s31f6): option requested_broadcast_address => '1'
+Oct  3 07:40:09 nate-Z170XP-SLI NetworkManager[866]: <info>  [1601725209.0480] dhcp4 (enp0s31f6): option requested_domain_name => '1'
+Oct  3 07:40:09 nate-Z170XP-SLI NetworkManager[866]: <info>  [1601725209.0480] dhcp4 (enp0s31f6): option requested_domain_name_servers => '1'
+Oct  3 07:40:09 nate-Z170XP-SLI NetworkManager[866]: <info>  [1601725209.0481] dhcp4 (enp0s31f6): option requested_domain_search => '1'
+Oct  3 07:40:09 nate-Z170XP-SLI NetworkManager[866]: <info>  [1601725209.0481] dhcp4 (enp0s31f6): option requested_host_name  => '1'
+Oct  3 07:40:09 nate-Z170XP-SLI NetworkManager[866]: <info>  [1601725209.0481] dhcp4 (enp0s31f6): option requested_interface_mtu => '1'
+Oct  3 07:40:09 nate-Z170XP-SLI NetworkManager[866]: <info>  [1601725209.0481] dhcp4 (enp0s31f6): option requested_ms_classless_static_routes => '1'
+Oct  3 07:40:09 nate-Z170XP-SLI NetworkManager[866]: <info>  [1601725209.0482] dhcp4 (enp0s31f6): option requested_nis_domain => '1'
+Oct  3 07:40:09 nate-Z170XP-SLI NetworkManager[866]: <info>  [1601725209.0482] dhcp4 (enp0s31f6): option requested_nis_servers => '1'
+Oct  3 07:40:09 nate-Z170XP-SLI NetworkManager[866]: <info>  [1601725209.0482] dhcp4 (enp0s31f6): option requested_ntp_servers => '1'
+Oct  3 07:40:09 nate-Z170XP-SLI NetworkManager[866]: <info>  [1601725209.0482] dhcp4 (enp0s31f6): option requested_rfc3442_classless_static_routes => '1'
+Oct  3 07:40:09 nate-Z170XP-SLI NetworkManager[866]: <info>  [1601725209.0483] dhcp4 (enp0s31f6): option requested_root_path  => '1'
+Oct  3 07:40:09 nate-Z170XP-SLI NetworkManager[866]: <info>  [1601725209.0483] dhcp4 (enp0s31f6): option requested_routers    => '1'
+Oct  3 07:40:09 nate-Z170XP-SLI NetworkManager[866]: <info>  [1601725209.0483] dhcp4 (enp0s31f6): option requested_static_routes => '1'
+Oct  3 07:40:09 nate-Z170XP-SLI NetworkManager[866]: <info>  [1601725209.0483] dhcp4 (enp0s31f6): option requested_subnet_mask => '1'
+Oct  3 07:40:09 nate-Z170XP-SLI NetworkManager[866]: <info>  [1601725209.0484] dhcp4 (enp0s31f6): option requested_time_offset => '1'
+Oct  3 07:40:09 nate-Z170XP-SLI NetworkManager[866]: <info>  [1601725209.0484] dhcp4 (enp0s31f6): option requested_wpad       => '1'
+Oct  3 07:40:09 nate-Z170XP-SLI NetworkManager[866]: <info>  [1601725209.0484] dhcp4 (enp0s31f6): option routers              => '192.168.7.1'
+Oct  3 07:40:09 nate-Z170XP-SLI NetworkManager[866]: <info>  [1601725209.0484] dhcp4 (enp0s31f6): option subnet_mask          => '255.255.255.0'
+Oct  3 07:40:09 nate-Z170XP-SLI NetworkManager[866]: <info>  [1601725209.0484] dhcp4 (enp0s31f6): state changed extended -> extended
+Oct  3 07:40:09 nate-Z170XP-SLI dbus-daemon[864]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service' requested by ':1.11' (uid=0 pid=866 comm="/usr/sbin/NetworkManager --no-daemon " label="unconfined")
+Oct  3 07:40:09 nate-Z170XP-SLI systemd[1]: Starting Network Manager Script Dispatcher Service...
+Oct  3 07:40:09 nate-Z170XP-SLI dbus-daemon[864]: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+Oct  3 07:40:09 nate-Z170XP-SLI systemd[1]: Started Network Manager Script Dispatcher Service.
+Oct  3 07:40:19 nate-Z170XP-SLI systemd[1]: NetworkManager-dispatcher.service: Succeeded.
+Oct  3 07:44:45 nate-Z170XP-SLI anacron[55101]: Job `cron.weekly' started
+Oct  3 07:44:45 nate-Z170XP-SLI anacron[55316]: Updated timestamp for job `cron.weekly' to 2020-10-03
+Oct  3 07:44:45 nate-Z170XP-SLI anacron[55101]: Job `cron.weekly' terminated
+Oct  3 07:44:45 nate-Z170XP-SLI anacron[55101]: Normal exit (2 jobs run)
+Oct  3 07:44:45 nate-Z170XP-SLI systemd[1]: anacron.service: Killing process 55323 (check-new-relea) with signal SIGKILL.
+Oct  3 07:44:45 nate-Z170XP-SLI systemd[1]: anacron.service: Killing process 55323 (check-new-relea) with signal SIGKILL.
+Oct  3 07:44:45 nate-Z170XP-SLI systemd[1]: anacron.service: Succeeded.
+Oct  3 07:44:45 nate-Z170XP-SLI systemd[1899]: Starting Notification regarding a new release of Ubuntu...
+Oct  3 07:45:06 nate-Z170XP-SLI check-new-release-gtk[55324]: /usr/lib/ubuntu-release-upgrader/check-new-release-gtk:30: PyGIWarning: Gtk was imported without specifying a version first. Use gi.require_version('Gtk', '3.0') before import to ensure that the right version gets loaded.
+Oct  3 07:45:06 nate-Z170XP-SLI check-new-release-gtk[55324]:   from gi.repository import Gtk
+Oct  3 07:45:06 nate-Z170XP-SLI check-new-release-gtk[55324]: WARNING:root:timeout reached, exiting
+Oct  3 07:45:06 nate-Z170XP-SLI systemd[1899]: update-notifier-release.service: Succeeded.
+Oct  3 07:45:06 nate-Z170XP-SLI systemd[1899]: Finished Notification regarding a new release of Ubuntu.
+Oct  3 07:45:26 nate-Z170XP-SLI kernel: [43918.773385] nvidia-modeset: WARNING: GPU:0: Ancor Communications Inc ROG PG279Q (DP-4): Failed to initialize G-SYNC
+Oct  3 07:45:29 nate-Z170XP-SLI /usr/lib/gdm3/gdm-x-session[2002]: (--) NVIDIA(GPU-0): DFP-6: disconnected
+Oct  3 07:45:29 nate-Z170XP-SLI /usr/lib/gdm3/gdm-x-session[2002]: (--) NVIDIA(GPU-0): DFP-6: Internal DisplayPort
+Oct  3 07:45:29 nate-Z170XP-SLI /usr/lib/gdm3/gdm-x-session[2002]: (--) NVIDIA(GPU-0): DFP-6: 1440.0 MHz maximum pixel clock
+Oct  3 07:45:29 nate-Z170XP-SLI /usr/lib/gdm3/gdm-x-session[2002]: (--) NVIDIA(GPU-0):
+Oct  3 07:45:29 nate-Z170XP-SLI /usr/lib/gdm3/gdm-x-session[2002]: (--) NVIDIA(GPU-0): DFP-0: disconnected
+Oct  3 07:45:29 nate-Z170XP-SLI /usr/lib/gdm3/gdm-x-session[2002]: (--) NVIDIA(GPU-0): DFP-0: Internal TMDS
+Oct  3 07:45:29 nate-Z170XP-SLI /usr/lib/gdm3/gdm-x-session[2002]: (--) NVIDIA(GPU-0): DFP-0: 330.0 MHz maximum pixel clock
+Oct  3 07:45:29 nate-Z170XP-SLI /usr/lib/gdm3/gdm-x-session[2002]: (--) NVIDIA(GPU-0):
+Oct  3 07:45:29 nate-Z170XP-SLI /usr/lib/gdm3/gdm-x-session[2002]: (--) NVIDIA(GPU-0): DFP-1: disconnected
+Oct  3 07:45:29 nate-Z170XP-SLI /usr/lib/gdm3/gdm-x-session[2002]: (--) NVIDIA(GPU-0): DFP-1: Internal TMDS
+Oct  3 07:45:29 nate-Z170XP-SLI /usr/lib/gdm3/gdm-x-session[2002]: (--) NVIDIA(GPU-0): DFP-1: 165.0 MHz maximum pixel clock
+Oct  3 07:45:29 nate-Z170XP-SLI /usr/lib/gdm3/gdm-x-session[2002]: (--) NVIDIA(GPU-0):
+Oct  3 07:45:29 nate-Z170XP-SLI /usr/lib/gdm3/gdm-x-session[2002]: (--) NVIDIA(GPU-0): DFP-2: disconnected
+Oct  3 07:45:29 nate-Z170XP-SLI /usr/lib/gdm3/gdm-x-session[2002]: (--) NVIDIA(GPU-0): DFP-2: Internal DisplayPort
+Oct  3 07:45:29 nate-Z170XP-SLI /usr/lib/gdm3/gdm-x-session[2002]: (--) NVIDIA(GPU-0): DFP-2: 1440.0 MHz maximum pixel clock
+Oct  3 07:45:29 nate-Z170XP-SLI /usr/lib/gdm3/gdm-x-session[2002]: (--) NVIDIA(GPU-0):
+Oct  3 07:45:29 nate-Z170XP-SLI /usr/lib/gdm3/gdm-x-session[2002]: (--) NVIDIA(GPU-0): DFP-3: disconnected
+Oct  3 07:45:29 nate-Z170XP-SLI /usr/lib/gdm3/gdm-x-session[2002]: (--) NVIDIA(GPU-0): DFP-3: Internal TMDS
+Oct  3 07:45:29 nate-Z170XP-SLI /usr/lib/gdm3/gdm-x-session[2002]: (--) NVIDIA(GPU-0): DFP-3: 165.0 MHz maximum pixel clock
+Oct  3 07:45:29 nate-Z170XP-SLI /usr/lib/gdm3/gdm-x-session[2002]: (--) NVIDIA(GPU-0):
+Oct  3 07:45:29 nate-Z170XP-SLI /usr/lib/gdm3/gdm-x-session[2002]: (--) NVIDIA(GPU-0): DFP-4: disconnected
+Oct  3 07:45:29 nate-Z170XP-SLI /usr/lib/gdm3/gdm-x-session[2002]: (--) NVIDIA(GPU-0): DFP-4: Internal DisplayPort
+Oct  3 07:45:29 nate-Z170XP-SLI /usr/lib/gdm3/gdm-x-session[2002]: (--) NVIDIA(GPU-0): DFP-4: 1440.0 MHz maximum pixel clock
+Oct  3 07:45:29 nate-Z170XP-SLI /usr/lib/gdm3/gdm-x-session[2002]: (--) NVIDIA(GPU-0):
+Oct  3 07:45:29 nate-Z170XP-SLI /usr/lib/gdm3/gdm-x-session[2002]: (--) NVIDIA(GPU-0): DFP-5: disconnected
+Oct  3 07:45:29 nate-Z170XP-SLI /usr/lib/gdm3/gdm-x-session[2002]: (--) NVIDIA(GPU-0): DFP-5: Internal TMDS
+Oct  3 07:45:29 nate-Z170XP-SLI /usr/lib/gdm3/gdm-x-session[2002]: (--) NVIDIA(GPU-0): DFP-5: 165.0 MHz maximum pixel clock
+Oct  3 07:45:29 nate-Z170XP-SLI /usr/lib/gdm3/gdm-x-session[2002]: (--) NVIDIA(GPU-0):
+Oct  3 07:45:29 nate-Z170XP-SLI /usr/lib/gdm3/gdm-x-session[2002]: (--) NVIDIA(GPU-0): DFP-6: disconnected
+Oct  3 07:45:29 nate-Z170XP-SLI /usr/lib/gdm3/gdm-x-session[2002]: (--) NVIDIA(GPU-0): DFP-6: Internal DisplayPort
+Oct  3 07:45:29 nate-Z170XP-SLI /usr/lib/gdm3/gdm-x-session[2002]: (--) NVIDIA(GPU-0): DFP-6: 1440.0 MHz maximum pixel clock
+Oct  3 07:45:29 nate-Z170XP-SLI /usr/lib/gdm3/gdm-x-session[2002]: (--) NVIDIA(GPU-0):
+Oct  3 07:45:29 nate-Z170XP-SLI /usr/lib/gdm3/gdm-x-session[2002]: (--) NVIDIA(GPU-0): DFP-7: disconnected
+Oct  3 07:45:29 nate-Z170XP-SLI /usr/lib/gdm3/gdm-x-session[2002]: (--) NVIDIA(GPU-0): DFP-7: Internal TMDS
+Oct  3 07:45:29 nate-Z170XP-SLI /usr/lib/gdm3/gdm-x-session[2002]: (--) NVIDIA(GPU-0): DFP-7: 165.0 MHz maximum pixel clock
+Oct  3 07:45:29 nate-Z170XP-SLI /usr/lib/gdm3/gdm-x-session[2002]: (--) NVIDIA(GPU-0):
+Oct  3 07:45:29 nate-Z170XP-SLI /usr/lib/gdm3/gdm-x-session[2002]: (--) NVIDIA(GPU-0): DFP-0: disconnected
+Oct  3 07:45:29 nate-Z170XP-SLI /usr/lib/gdm3/gdm-x-session[2002]: (--) NVIDIA(GPU-0): DFP-0: Internal TMDS
+Oct  3 07:45:29 nate-Z170XP-SLI /usr/lib/gdm3/gdm-x-session[2002]: (--) NVIDIA(GPU-0): DFP-0: 330.0 MHz maximum pixel clock
+Oct  3 07:45:29 nate-Z170XP-SLI /usr/lib/gdm3/gdm-x-session[2002]: (--) NVIDIA(GPU-0):
+Oct  3 07:45:29 nate-Z170XP-SLI /usr/lib/gdm3/gdm-x-session[2002]: (--) NVIDIA(GPU-0): DFP-1: disconnected
+Oct  3 07:45:29 nate-Z170XP-SLI /usr/lib/gdm3/gdm-x-session[2002]: (--) NVIDIA(GPU-0): DFP-1: Internal TMDS
+Oct  3 07:45:29 nate-Z170XP-SLI /usr/lib/gdm3/gdm-x-session[2002]: (--) NVIDIA(GPU-0): DFP-1: 165.0 MHz maximum pixel clock
+Oct  3 07:45:29 nate-Z170XP-SLI /usr/lib/gdm3/gdm-x-session[2002]: (--) NVIDIA(GPU-0):
+Oct  3 07:45:29 nate-Z170XP-SLI /usr/lib/gdm3/gdm-x-session[2002]: (--) NVIDIA(GPU-0): DFP-2: disconnected
+Oct  3 07:45:29 nate-Z170XP-SLI /usr/lib/gdm3/gdm-x-session[2002]: (--) NVIDIA(GPU-0): DFP-2: Internal DisplayPort
+Oct  3 07:45:29 nate-Z170XP-SLI /usr/lib/gdm3/gdm-x-session[2002]: (--) NVIDIA(GPU-0): DFP-2: 1440.0 MHz maximum pixel clock
+Oct  3 07:45:29 nate-Z170XP-SLI /usr/lib/gdm3/gdm-x-session[2002]: (--) NVIDIA(GPU-0):
+Oct  3 07:45:29 nate-Z170XP-SLI /usr/lib/gdm3/gdm-x-session[2002]: (--) NVIDIA(GPU-0): DFP-3: disconnected
+Oct  3 07:45:29 nate-Z170XP-SLI /usr/lib/gdm3/gdm-x-session[2002]: (--) NVIDIA(GPU-0): DFP-3: Internal TMDS
+Oct  3 07:45:29 nate-Z170XP-SLI /usr/lib/gdm3/gdm-x-session[2002]: (--) NVIDIA(GPU-0): DFP-3: 165.0 MHz maximum pixel clock
+Oct  3 07:45:29 nate-Z170XP-SLI /usr/lib/gdm3/gdm-x-session[2002]: (--) NVIDIA(GPU-0):
+Oct  3 07:45:29 nate-Z170XP-SLI /usr/lib/gdm3/gdm-x-session[2002]: (--) NVIDIA(GPU-0): DFP-4: disconnected
+Oct  3 07:45:29 nate-Z170XP-SLI /usr/lib/gdm3/gdm-x-session[2002]: (--) NVIDIA(GPU-0): DFP-4: Internal DisplayPort
+Oct  3 07:45:29 nate-Z170XP-SLI /usr/lib/gdm3/gdm-x-session[2002]: (--) NVIDIA(GPU-0): DFP-4: 1440.0 MHz maximum pixel clock
+Oct  3 07:45:29 nate-Z170XP-SLI /usr/lib/gdm3/gdm-x-session[2002]: (--) NVIDIA(GPU-0):
+Oct  3 07:45:29 nate-Z170XP-SLI /usr/lib/gdm3/gdm-x-session[2002]: (--) NVIDIA(GPU-0): DFP-5: disconnected
+Oct  3 07:45:29 nate-Z170XP-SLI /usr/lib/gdm3/gdm-x-session[2002]: (--) NVIDIA(GPU-0): DFP-5: Internal TMDS
+Oct  3 07:45:29 nate-Z170XP-SLI /usr/lib/gdm3/gdm-x-session[2002]: (--) NVIDIA(GPU-0): DFP-5: 165.0 MHz maximum pixel clock
+Oct  3 07:45:29 nate-Z170XP-SLI /usr/lib/gdm3/gdm-x-session[2002]: (--) NVIDIA(GPU-0):
+Oct  3 07:45:29 nate-Z170XP-SLI /usr/lib/gdm3/gdm-x-session[2002]: (--) NVIDIA(GPU-0): DFP-6: disconnected
+Oct  3 07:45:29 nate-Z170XP-SLI /usr/lib/gdm3/gdm-x-session[2002]: (--) NVIDIA(GPU-0): DFP-6: Internal DisplayPort
+Oct  3 07:45:29 nate-Z170XP-SLI /usr/lib/gdm3/gdm-x-session[2002]: (--) NVIDIA(GPU-0): DFP-6: 1440.0 MHz maximum pixel clock
+Oct  3 07:45:29 nate-Z170XP-SLI /usr/lib/gdm3/gdm-x-session[2002]: (--) NVIDIA(GPU-0):
+Oct  3 07:45:29 nate-Z170XP-SLI /usr/lib/gdm3/gdm-x-session[2002]: (--) NVIDIA(GPU-0): DFP-7: disconnected
+Oct  3 07:45:29 nate-Z170XP-SLI /usr/lib/gdm3/gdm-x-session[2002]: (--) NVIDIA(GPU-0): DFP-7: Internal TMDS
+Oct  3 07:45:29 nate-Z170XP-SLI /usr/lib/gdm3/gdm-x-session[2002]: (--) NVIDIA(GPU-0): DFP-7: 165.0 MHz maximum pixel clock
+Oct  3 07:45:29 nate-Z170XP-SLI /usr/lib/gdm3/gdm-x-session[2002]: (--) NVIDIA(GPU-0):
+Oct  3 07:45:29 nate-Z170XP-SLI /usr/lib/gdm3/gdm-x-session[2002]: (--) NVIDIA(GPU-0): DFP-0: disconnected
+Oct  3 07:45:29 nate-Z170XP-SLI /usr/lib/gdm3/gdm-x-session[2002]: (--) NVIDIA(GPU-0): DFP-0: Internal TMDS
+Oct  3 07:45:29 nate-Z170XP-SLI /usr/lib/gdm3/gdm-x-session[2002]: (--) NVIDIA(GPU-0): DFP-0: 330.0 MHz maximum pixel clock
+Oct  3 07:45:29 nate-Z170XP-SLI /usr/lib/gdm3/gdm-x-session[2002]: (--) NVIDIA(GPU-0):
+Oct  3 07:45:29 nate-Z170XP-SLI /usr/lib/gdm3/gdm-x-session[2002]: (--) NVIDIA(GPU-0): DFP-1: disconnected
+Oct  3 07:45:29 nate-Z170XP-SLI /usr/lib/gdm3/gdm-x-session[2002]: (--) NVIDIA(GPU-0): DFP-1: Internal TMDS
+Oct  3 07:45:29 nate-Z170XP-SLI /usr/lib/gdm3/gdm-x-session[2002]: (--) NVIDIA(GPU-0): DFP-1: 165.0 MHz maximum pixel clock
+Oct  3 07:45:29 nate-Z170XP-SLI /usr/lib/gdm3/gdm-x-session[2002]: (--) NVIDIA(GPU-0):
+Oct  3 07:45:29 nate-Z170XP-SLI /usr/lib/gdm3/gdm-x-session[2002]: (--) NVIDIA(GPU-0): DFP-2: disconnected
+Oct  3 07:45:29 nate-Z170XP-SLI /usr/lib/gdm3/gdm-x-session[2002]: (--) NVIDIA(GPU-0): DFP-2: Internal DisplayPort
+Oct  3 07:45:29 nate-Z170XP-SLI /usr/lib/gdm3/gdm-x-session[2002]: (--) NVIDIA(GPU-0): DFP-2: 1440.0 MHz maximum pixel clock
+Oct  3 07:45:29 nate-Z170XP-SLI /usr/lib/gdm3/gdm-x-session[2002]: (--) NVIDIA(GPU-0):
+Oct  3 07:45:29 nate-Z170XP-SLI /usr/lib/gdm3/gdm-x-session[2002]: (--) NVIDIA(GPU-0): DFP-3: disconnected
+Oct  3 07:45:29 nate-Z170XP-SLI /usr/lib/gdm3/gdm-x-session[2002]: (--) NVIDIA(GPU-0): DFP-3: Internal TMDS
+Oct  3 07:45:29 nate-Z170XP-SLI /usr/lib/gdm3/gdm-x-session[2002]: (--) NVIDIA(GPU-0): DFP-3: 165.0 MHz maximum pixel clock
+Oct  3 07:45:29 nate-Z170XP-SLI /usr/lib/gdm3/gdm-x-session[2002]: (--) NVIDIA(GPU-0):
+Oct  3 07:45:29 nate-Z170XP-SLI /usr/lib/gdm3/gdm-x-session[2002]: (--) NVIDIA(GPU-0): DFP-4: disconnected
+Oct  3 07:45:29 nate-Z170XP-SLI /usr/lib/gdm3/gdm-x-session[2002]: (--) NVIDIA(GPU-0): DFP-4: Internal DisplayPort
+Oct  3 07:45:29 nate-Z170XP-SLI /usr/lib/gdm3/gdm-x-session[2002]: (--) NVIDIA(GPU-0): DFP-4: 1440.0 MHz maximum pixel clock
+Oct  3 07:45:29 nate-Z170XP-SLI /usr/lib/gdm3/gdm-x-session[2002]: (--) NVIDIA(GPU-0):
+Oct  3 07:45:29 nate-Z170XP-SLI /usr/lib/gdm3/gdm-x-session[2002]: (--) NVIDIA(GPU-0): DFP-5: disconnected
+Oct  3 07:45:29 nate-Z170XP-SLI /usr/lib/gdm3/gdm-x-session[2002]: (--) NVIDIA(GPU-0): DFP-5: Internal TMDS
+Oct  3 07:45:29 nate-Z170XP-SLI /usr/lib/gdm3/gdm-x-session[2002]: (--) NVIDIA(GPU-0): DFP-5: 165.0 MHz maximum pixel clock
+Oct  3 07:45:29 nate-Z170XP-SLI /usr/lib/gdm3/gdm-x-session[2002]: (--) NVIDIA(GPU-0):
+Oct  3 07:45:29 nate-Z170XP-SLI /usr/lib/gdm3/gdm-x-session[2002]: (--) NVIDIA(GPU-0): DFP-6: disconnected
+Oct  3 07:45:29 nate-Z170XP-SLI /usr/lib/gdm3/gdm-x-session[2002]: (--) NVIDIA(GPU-0): DFP-6: Internal DisplayPort
+Oct  3 07:45:29 nate-Z170XP-SLI /usr/lib/gdm3/gdm-x-session[2002]: (--) NVIDIA(GPU-0): DFP-6: 1440.0 MHz maximum pixel clock
+Oct  3 07:45:29 nate-Z170XP-SLI /usr/lib/gdm3/gdm-x-session[2002]: (--) NVIDIA(GPU-0):
+Oct  3 07:45:29 nate-Z170XP-SLI /usr/lib/gdm3/gdm-x-session[2002]: (--) NVIDIA(GPU-0): DFP-7: disconnected
+Oct  3 07:45:29 nate-Z170XP-SLI /usr/lib/gdm3/gdm-x-session[2002]: (--) NVIDIA(GPU-0): DFP-7: Internal TMDS
+Oct  3 07:45:29 nate-Z170XP-SLI /usr/lib/gdm3/gdm-x-session[2002]: (--) NVIDIA(GPU-0): DFP-7: 165.0 MHz maximum pixel clock
+Oct  3 07:45:29 nate-Z170XP-SLI /usr/lib/gdm3/gdm-x-session[2002]: (--) NVIDIA(GPU-0):
+Oct  3 07:45:30 nate-Z170XP-SLI /usr/lib/gdm3/gdm-x-session[2002]: (II) event9  - SteelSeries SteelSeries Rival 600: SYN_DROPPED event - some input events have been lost.
+Oct  3 07:45:30 nate-Z170XP-SLI /usr/lib/gdm3/gdm-x-session[2002]: (--) NVIDIA(GPU-0): Ancor Communications Inc ROG PG279Q (DFP-6): connected
+Oct  3 07:45:30 nate-Z170XP-SLI /usr/lib/gdm3/gdm-x-session[2002]: (--) NVIDIA(GPU-0): Ancor Communications Inc ROG PG279Q (DFP-6): Internal DisplayPort
+Oct  3 07:45:30 nate-Z170XP-SLI /usr/lib/gdm3/gdm-x-session[2002]: (--) NVIDIA(GPU-0): Ancor Communications Inc ROG PG279Q (DFP-6): 1440.0 MHz maximum pixel clock
+Oct  3 07:45:30 nate-Z170XP-SLI /usr/lib/gdm3/gdm-x-session[2002]: (--) NVIDIA(GPU-0):
+Oct  3 07:45:30 nate-Z170XP-SLI /usr/lib/gdm3/gdm-x-session[2002]: (--) NVIDIA(GPU-0): DFP-0: disconnected
+Oct  3 07:45:30 nate-Z170XP-SLI /usr/lib/gdm3/gdm-x-session[2002]: (--) NVIDIA(GPU-0): DFP-0: Internal TMDS
+Oct  3 07:45:30 nate-Z170XP-SLI /usr/lib/gdm3/gdm-x-session[2002]: (--) NVIDIA(GPU-0): DFP-0: 330.0 MHz maximum pixel clock
+Oct  3 07:45:30 nate-Z170XP-SLI /usr/lib/gdm3/gdm-x-session[2002]: (--) NVIDIA(GPU-0):
+Oct  3 07:45:30 nate-Z170XP-SLI /usr/lib/gdm3/gdm-x-session[2002]: (--) NVIDIA(GPU-0): DFP-1: disconnected
+Oct  3 07:45:30 nate-Z170XP-SLI /usr/lib/gdm3/gdm-x-session[2002]: (--) NVIDIA(GPU-0): DFP-1: Internal TMDS
+Oct  3 07:45:30 nate-Z170XP-SLI /usr/lib/gdm3/gdm-x-session[2002]: (--) NVIDIA(GPU-0): DFP-1: 165.0 MHz maximum pixel clock
+Oct  3 07:45:30 nate-Z170XP-SLI /usr/lib/gdm3/gdm-x-session[2002]: (--) NVIDIA(GPU-0):
+Oct  3 07:45:30 nate-Z170XP-SLI /usr/lib/gdm3/gdm-x-session[2002]: (--) NVIDIA(GPU-0): DFP-2: disconnected
+Oct  3 07:45:30 nate-Z170XP-SLI /usr/lib/gdm3/gdm-x-session[2002]: (--) NVIDIA(GPU-0): DFP-2: Internal DisplayPort
+Oct  3 07:45:30 nate-Z170XP-SLI /usr/lib/gdm3/gdm-x-session[2002]: (--) NVIDIA(GPU-0): DFP-2: 1440.0 MHz maximum pixel clock
+Oct  3 07:45:30 nate-Z170XP-SLI /usr/lib/gdm3/gdm-x-session[2002]: (--) NVIDIA(GPU-0):
+Oct  3 07:45:30 nate-Z170XP-SLI /usr/lib/gdm3/gdm-x-session[2002]: (--) NVIDIA(GPU-0): DFP-3: disconnected
+Oct  3 07:45:30 nate-Z170XP-SLI /usr/lib/gdm3/gdm-x-session[2002]: (--) NVIDIA(GPU-0): DFP-3: Internal TMDS
+Oct  3 07:45:30 nate-Z170XP-SLI /usr/lib/gdm3/gdm-x-session[2002]: (--) NVIDIA(GPU-0): DFP-3: 165.0 MHz maximum pixel clock
+Oct  3 07:45:30 nate-Z170XP-SLI /usr/lib/gdm3/gdm-x-session[2002]: (--) NVIDIA(GPU-0):
+Oct  3 07:45:30 nate-Z170XP-SLI /usr/lib/gdm3/gdm-x-session[2002]: (--) NVIDIA(GPU-0): DFP-4: disconnected
+Oct  3 07:45:30 nate-Z170XP-SLI /usr/lib/gdm3/gdm-x-session[2002]: (--) NVIDIA(GPU-0): DFP-4: Internal DisplayPort
+Oct  3 07:45:30 nate-Z170XP-SLI /usr/lib/gdm3/gdm-x-session[2002]: (--) NVIDIA(GPU-0): DFP-4: 1440.0 MHz maximum pixel clock
+Oct  3 07:45:30 nate-Z170XP-SLI /usr/lib/gdm3/gdm-x-session[2002]: (--) NVIDIA(GPU-0):
+Oct  3 07:45:30 nate-Z170XP-SLI /usr/lib/gdm3/gdm-x-session[2002]: (--) NVIDIA(GPU-0): DFP-5: disconnected
+Oct  3 07:45:30 nate-Z170XP-SLI /usr/lib/gdm3/gdm-x-session[2002]: (--) NVIDIA(GPU-0): DFP-5: Internal TMDS
+Oct  3 07:45:30 nate-Z170XP-SLI /usr/lib/gdm3/gdm-x-session[2002]: (--) NVIDIA(GPU-0): DFP-5: 165.0 MHz maximum pixel clock
+Oct  3 07:45:30 nate-Z170XP-SLI /usr/lib/gdm3/gdm-x-session[2002]: (--) NVIDIA(GPU-0):
+Oct  3 07:45:30 nate-Z170XP-SLI /usr/lib/gdm3/gdm-x-session[2002]: (--) NVIDIA(GPU-0): Ancor Communications Inc ROG PG279Q (DFP-6): connected
+Oct  3 07:45:30 nate-Z170XP-SLI /usr/lib/gdm3/gdm-x-session[2002]: (--) NVIDIA(GPU-0): Ancor Communications Inc ROG PG279Q (DFP-6): Internal DisplayPort
+Oct  3 07:45:30 nate-Z170XP-SLI /usr/lib/gdm3/gdm-x-session[2002]: (--) NVIDIA(GPU-0): Ancor Communications Inc ROG PG279Q (DFP-6): 1440.0 MHz maximum pixel clock
+Oct  3 07:45:30 nate-Z170XP-SLI /usr/lib/gdm3/gdm-x-session[2002]: (--) NVIDIA(GPU-0):
+Oct  3 07:45:30 nate-Z170XP-SLI /usr/lib/gdm3/gdm-x-session[2002]: (--) NVIDIA(GPU-0): DFP-7: disconnected
+Oct  3 07:45:30 nate-Z170XP-SLI /usr/lib/gdm3/gdm-x-session[2002]: (--) NVIDIA(GPU-0): DFP-7: Internal TMDS
+Oct  3 07:45:30 nate-Z170XP-SLI /usr/lib/gdm3/gdm-x-session[2002]: (--) NVIDIA(GPU-0): DFP-7: 165.0 MHz maximum pixel clock
+Oct  3 07:45:30 nate-Z170XP-SLI /usr/lib/gdm3/gdm-x-session[2002]: (--) NVIDIA(GPU-0):
+Oct  3 07:45:30 nate-Z170XP-SLI /usr/lib/gdm3/gdm-x-session[2002]: (--) NVIDIA(GPU-0): DFP-0: disconnected
+Oct  3 07:45:30 nate-Z170XP-SLI /usr/lib/gdm3/gdm-x-session[2002]: (--) NVIDIA(GPU-0): DFP-0: Internal TMDS
+Oct  3 07:45:30 nate-Z170XP-SLI /usr/lib/gdm3/gdm-x-session[2002]: (--) NVIDIA(GPU-0): DFP-0: 330.0 MHz maximum pixel clock
+Oct  3 07:45:30 nate-Z170XP-SLI /usr/lib/gdm3/gdm-x-session[2002]: (--) NVIDIA(GPU-0):
+Oct  3 07:45:30 nate-Z170XP-SLI /usr/lib/gdm3/gdm-x-session[2002]: (--) NVIDIA(GPU-0): DFP-1: disconnected
+Oct  3 07:45:30 nate-Z170XP-SLI /usr/lib/gdm3/gdm-x-session[2002]: (--) NVIDIA(GPU-0): DFP-1: Internal TMDS
+Oct  3 07:45:30 nate-Z170XP-SLI /usr/lib/gdm3/gdm-x-session[2002]: (--) NVIDIA(GPU-0): DFP-1: 165.0 MHz maximum pixel clock
+Oct  3 07:45:30 nate-Z170XP-SLI /usr/lib/gdm3/gdm-x-session[2002]: (--) NVIDIA(GPU-0):
+Oct  3 07:45:30 nate-Z170XP-SLI /usr/lib/gdm3/gdm-x-session[2002]: (--) NVIDIA(GPU-0): DFP-2: disconnected
+Oct  3 07:45:30 nate-Z170XP-SLI /usr/lib/gdm3/gdm-x-session[2002]: (--) NVIDIA(GPU-0): DFP-2: Internal DisplayPort
+Oct  3 07:45:30 nate-Z170XP-SLI /usr/lib/gdm3/gdm-x-session[2002]: (--) NVIDIA(GPU-0): DFP-2: 1440.0 MHz maximum pixel clock
+Oct  3 07:45:30 nate-Z170XP-SLI /usr/lib/gdm3/gdm-x-session[2002]: (--) NVIDIA(GPU-0):
+Oct  3 07:45:30 nate-Z170XP-SLI /usr/lib/gdm3/gdm-x-session[2002]: (--) NVIDIA(GPU-0): DFP-3: disconnected
+Oct  3 07:45:30 nate-Z170XP-SLI /usr/lib/gdm3/gdm-x-session[2002]: (--) NVIDIA(GPU-0): DFP-3: Internal TMDS
+Oct  3 07:45:30 nate-Z170XP-SLI /usr/lib/gdm3/gdm-x-session[2002]: (--) NVIDIA(GPU-0): DFP-3: 165.0 MHz maximum pixel clock
+Oct  3 07:45:30 nate-Z170XP-SLI /usr/lib/gdm3/gdm-x-session[2002]: (--) NVIDIA(GPU-0):
+Oct  3 07:45:30 nate-Z170XP-SLI /usr/lib/gdm3/gdm-x-session[2002]: (--) NVIDIA(GPU-0): DFP-4: disconnected
+Oct  3 07:45:30 nate-Z170XP-SLI /usr/lib/gdm3/gdm-x-session[2002]: (--) NVIDIA(GPU-0): DFP-4: Internal DisplayPort
+Oct  3 07:45:30 nate-Z170XP-SLI /usr/lib/gdm3/gdm-x-session[2002]: (--) NVIDIA(GPU-0): DFP-4: 1440.0 MHz maximum pixel clock
+Oct  3 07:45:30 nate-Z170XP-SLI /usr/lib/gdm3/gdm-x-session[2002]: (--) NVIDIA(GPU-0):
+Oct  3 07:45:30 nate-Z170XP-SLI /usr/lib/gdm3/gdm-x-session[2002]: (--) NVIDIA(GPU-0): DFP-5: disconnected
+Oct  3 07:45:30 nate-Z170XP-SLI /usr/lib/gdm3/gdm-x-session[2002]: (--) NVIDIA(GPU-0): DFP-5: Internal TMDS
+Oct  3 07:45:30 nate-Z170XP-SLI /usr/lib/gdm3/gdm-x-session[2002]: (--) NVIDIA(GPU-0): DFP-5: 165.0 MHz maximum pixel clock
+Oct  3 07:45:30 nate-Z170XP-SLI /usr/lib/gdm3/gdm-x-session[2002]: (--) NVIDIA(GPU-0):
+Oct  3 07:45:30 nate-Z170XP-SLI /usr/lib/gdm3/gdm-x-session[2002]: (--) NVIDIA(GPU-0): Ancor Communications Inc ROG PG279Q (DFP-6): connected
+Oct  3 07:45:30 nate-Z170XP-SLI /usr/lib/gdm3/gdm-x-session[2002]: (--) NVIDIA(GPU-0): Ancor Communications Inc ROG PG279Q (DFP-6): Internal DisplayPort
+Oct  3 07:45:30 nate-Z170XP-SLI /usr/lib/gdm3/gdm-x-session[2002]: (--) NVIDIA(GPU-0): Ancor Communications Inc ROG PG279Q (DFP-6): 1440.0 MHz maximum pixel clock
+Oct  3 07:45:30 nate-Z170XP-SLI /usr/lib/gdm3/gdm-x-session[2002]: (--) NVIDIA(GPU-0):
+Oct  3 07:45:30 nate-Z170XP-SLI /usr/lib/gdm3/gdm-x-session[2002]: (--) NVIDIA(GPU-0): DFP-7: disconnected
+Oct  3 07:45:30 nate-Z170XP-SLI /usr/lib/gdm3/gdm-x-session[2002]: (--) NVIDIA(GPU-0): DFP-7: Internal TMDS
+Oct  3 07:45:30 nate-Z170XP-SLI /usr/lib/gdm3/gdm-x-session[2002]: (--) NVIDIA(GPU-0): DFP-7: 165.0 MHz maximum pixel clock
+Oct  3 07:45:30 nate-Z170XP-SLI /usr/lib/gdm3/gdm-x-session[2002]: (--) NVIDIA(GPU-0):
+Oct  3 07:45:30 nate-Z170XP-SLI colord[1485]: failed to get session [pid 2260]: No data available
+Oct  3 07:45:30 nate-Z170XP-SLI rtkit-daemon[1069]: Supervising 14 threads of 6 processes of 2 users.
+Oct  3 07:45:30 nate-Z170XP-SLI rtkit-daemon[1069]: Successfully made thread 55349 of process 1906 owned by '1000' RT at priority 5.
+Oct  3 07:45:30 nate-Z170XP-SLI rtkit-daemon[1069]: Supervising 15 threads of 6 processes of 2 users.
+Oct  3 07:45:34 nate-Z170XP-SLI dbus-daemon[864]: [system] Activating via systemd: service name='net.reactivated.Fprint' unit='fprintd.service' requested by ':1.92' (uid=1000 pid=2136 comm="/usr/bin/gnome-shell " label="unconfined")
+Oct  3 07:45:34 nate-Z170XP-SLI systemd[1]: Starting Fingerprint Authentication Daemon...
+Oct  3 07:45:34 nate-Z170XP-SLI dbus-daemon[864]: [system] Successfully activated service 'net.reactivated.Fprint'
+Oct  3 07:45:34 nate-Z170XP-SLI systemd[1]: Started Fingerprint Authentication Daemon.
+Oct  3 07:45:34 nate-Z170XP-SLI gdm-session-worker[55375]: Error: can't open /lib/modules/5.4.0-48-generic/updates/dkms
+Oct  3 07:45:34 nate-Z170XP-SLI gdm-session-worker[55375]: Error: can't open /lib/modules/5.4.0-48-generic/updates/dkms
+Oct  3 07:45:36 nate-Z170XP-SLI NetworkManager[866]: <info>  [1601725536.2342] agent-manager: agent[662c608c861f31ae,:1.92/org.gnome.Shell.NetworkAgent/1000]: agent registered
+Oct  3 07:45:36 nate-Z170XP-SLI dbus-daemon[1911]: [session uid=1000 pid=1911] Activating service name='org.freedesktop.FileManager1' requested by ':1.38' (uid=1000 pid=2136 comm="/usr/bin/gnome-shell " label="unconfined")
+Oct  3 07:45:36 nate-Z170XP-SLI dbus-daemon[1911]: [session uid=1000 pid=1911] Activating service name='org.gnome.Nautilus' requested by ':1.38' (uid=1000 pid=2136 comm="/usr/bin/gnome-shell " label="unconfined")
+Oct  3 07:45:36 nate-Z170XP-SLI dbus-daemon[1911]: [session uid=1000 pid=1911] Successfully activated service 'org.gnome.Nautilus'
+Oct  3 07:45:36 nate-Z170XP-SLI org.gnome.Nautilus[55412]: Failed to register: Unable to acquire bus name 'org.gnome.Nautilus'
+Oct  3 07:45:36 nate-Z170XP-SLI dbus-daemon[1911]: [session uid=1000 pid=1911] Successfully activated service 'org.freedesktop.FileManager1'
+Oct  3 07:45:36 nate-Z170XP-SLI gnome-shell[2136]: Window manager warning: Overwriting existing binding of keysym 31 with keysym 31 (keycode a).
+Oct  3 07:45:36 nate-Z170XP-SLI gnome-shell[2136]: Window manager warning: Overwriting existing binding of keysym 33 with keysym 33 (keycode c).
+Oct  3 07:45:36 nate-Z170XP-SLI gnome-shell[2136]: Window manager warning: Overwriting existing binding of keysym 32 with keysym 32 (keycode b).
+Oct  3 07:45:36 nate-Z170XP-SLI gnome-shell[2136]: Window manager warning: Overwriting existing binding of keysym 34 with keysym 34 (keycode d).
+Oct  3 07:45:36 nate-Z170XP-SLI gnome-shell[2136]: Window manager warning: Overwriting existing binding of keysym 35 with keysym 35 (keycode e).
+Oct  3 07:45:36 nate-Z170XP-SLI gnome-shell[2136]: Window manager warning: Overwriting existing binding of keysym 38 with keysym 38 (keycode 11).
+Oct  3 07:45:36 nate-Z170XP-SLI gnome-shell[2136]: Window manager warning: Overwriting existing binding of keysym 39 with keysym 39 (keycode 12).
+Oct  3 07:45:36 nate-Z170XP-SLI gnome-shell[2136]: Window manager warning: Overwriting existing binding of keysym 36 with keysym 36 (keycode f).
+Oct  3 07:45:36 nate-Z170XP-SLI gnome-shell[2136]: Window manager warning: Overwriting existing binding of keysym 37 with keysym 37 (keycode 10).
+Oct  3 07:45:50 nate-Z170XP-SLI gdm-session-worker[55457]: Error: can't open /lib/modules/5.4.0-48-generic/updates/dkms
+Oct  3 07:45:50 nate-Z170XP-SLI gdm-session-worker[55457]: Error: can't open /lib/modules/5.4.0-48-generic/updates/dkms
+Oct  3 07:46:04 nate-Z170XP-SLI systemd[1]: fprintd.service: Succeeded.
+Oct  3 07:46:24 nate-Z170XP-SLI gnome-shell[2136]: Window manager warning: WM_TRANSIENT_FOR window 0x360204d for 0x3602058 window override-redirect is an override-redirect window and this is not correct according to the standard, so we'll fallback to the first non-override-redirect window 0x360007d.
+Oct  3 07:46:58 nate-Z170XP-SLI gnome-shell[2136]: Could not create selection source for X11: Format TARGETS not supported
+Oct  3 07:46:59 nate-Z170XP-SLI gnome-shell[2136]: message repeated 2 times: [ Could not create selection source for X11: Format TARGETS not supported]
+Oct  3 07:49:15 nate-Z170XP-SLI gnome-shell[2136]: ../clutter/clutter/clutter-actor.c:10556: The clutter_actor_set_allocation() function can only be called from within the implementation of the ClutterActor::allocate() virtual function.
+Oct  3 07:49:36 nate-Z170XP-SLI gnome-shell[2136]: message repeated 2 times: [ ../clutter/clutter/clutter-actor.c:10556: The clutter_actor_set_allocation() function can only be called from within the implementation of the ClutterActor::allocate() virtual function.]
+Oct  3 07:50:18 nate-Z170XP-SLI gnome-shell[2136]: Window manager warning: WM_TRANSIENT_FOR window 0x360228e for 0x360229d window override-redirect is an override-redirect window and this is not correct according to the standard, so we'll fallback to the first non-override-redirect window 0x360007d.
+Oct  3 07:51:13 nate-Z170XP-SLI gnome-shell[2136]: Window manager warning: WM_TRANSIENT_FOR window 0x3602304 for 0x3602313 window override-redirect is an override-redirect window and this is not correct according to the standard, so we'll fallback to the first non-override-redirect window 0x360007d.
