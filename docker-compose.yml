@@ -22,6 +22,7 @@ services:
       - "./docker/fluentd/conf/fluent.conf:/fluentd/etc/fluent.conf:rw"
 #      - "./docker/fluentd/sample_data/syslog:/tmp/syslog:ro"
       - "/var/log/syslog:/tmp/syslog:ro"
+      - "./docker/fluentd/sample_data/nginx_access_log_json:/tmp/nginx_access_log_json:ro"
     links:
       - "elasticsearch"
     ports:

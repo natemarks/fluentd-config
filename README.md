@@ -2,6 +2,8 @@
 
 The purpose of this project is to test various iterations of docker/fluentd/conf/fluent.conf. The docker/fluentd/conf directory contains  some experimental configs and a README that describes what each config does and how to use it.
 
+Fun Fact: When I enabled parsing of the nginx access logs in json format, elasticsearch jsut automagically picked up the fields
+
 docker-compose starts 4 hosts:
 
  - web (localhost:80)
